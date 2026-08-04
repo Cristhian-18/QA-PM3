@@ -1,0 +1,2 @@
+<?php
+PMFDerivateCase(@@APPLICATION, @%INDEX);

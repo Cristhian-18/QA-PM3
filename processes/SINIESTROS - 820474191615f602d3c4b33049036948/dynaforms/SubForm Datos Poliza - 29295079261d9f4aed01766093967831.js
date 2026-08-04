@@ -1,0 +1,1 @@
+$("#frm_cobertura_seleccionada").hide();

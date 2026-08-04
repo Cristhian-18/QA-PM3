@@ -1,0 +1,2561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">1.1.276</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1784320058</meta>
+    <meta key="export_datetime"><![CDATA[2026-07-17T15:27:38-05:00]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">80328</meta>
+    <meta key="export_version">1</meta>
+    <meta key="workspace">certificacion</meta>
+    <meta key="name">Pruebas</meta>
+    <meta key="uid">53500527169a05ae90da8a3092650369</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>36718777269a9912b9a5421068139020</act_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <pro_uid>56163835369a05ae918c6e2041097788</pro_uid>
+        <act_name>Tarea 1</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>72695693069a9912b9aeb31048547577</bou_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <element_uid>36718777269a9912b9a5421068139020</element_uid>
+        <bou_element>6621824656a3d6904796159032968869</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>569</bou_x>
+        <bou_y>164</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <act_uid>75057336369a05b124553b0050294595</act_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <pro_uid>56163835369a05ae918c6e2041097788</pro_uid>
+        <act_name>test</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>20271386669a05b1245ef76077846182</bou_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <element_uid>75057336369a05b124553b0050294595</element_uid>
+        <bou_element>6621824656a3d6904796159032968869</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>309</bou_x>
+        <bou_y>98</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>20271386669a05b1245ef76077846182</bou_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <element_uid>75057336369a05b124553b0050294595</element_uid>
+        <bou_element>6621824656a3d6904796159032968869</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>309</bou_x>
+        <bou_y>98</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>4052786256a038dd48d7c28063772288</bou_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <element_uid>5810880706a038dd48c3a62067401842</element_uid>
+        <bou_element>6621824656a3d6904796159032968869</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>867</bou_x>
+        <bou_y>174</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>72695693069a9912b9aeb31048547577</bou_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <element_uid>36718777269a9912b9a5421068139020</element_uid>
+        <bou_element>6621824656a3d6904796159032968869</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>569</bou_x>
+        <bou_y>164</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>7358866916a3d69047a17c1015232187</bou_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <element_uid>6621824656a3d6904796159032968869</element_uid>
+        <bou_element>66054111969deb0814c6b01039702914</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>1159</bou_width>
+        <bou_height>470</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>81975166569deb0814d0da3031552739</bou_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <element_uid>66054111969deb0814c6b01039702914</element_uid>
+        <bou_element>91386224069a05ae9178da1043738350</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>155</bou_x>
+        <bou_y>173</bou_y>
+        <bou_width>1200</bou_width>
+        <bou_height>470</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>9721198606a5944d0960b05052354429</bou_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <element_uid>2823049576a5944d0954176066502790</element_uid>
+        <bou_element>6621824656a3d6904796159032968869</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>175</bou_x>
+        <bou_y>135</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <dia_name>Pruebas</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>2823049576a5944d0954176066502790</evn_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <pro_uid>56163835369a05ae918c6e2041097788</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>9721198606a5944d0960b05052354429</bou_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <element_uid>2823049576a5944d0954176066502790</element_uid>
+        <bou_element>6621824656a3d6904796159032968869</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>175</bou_x>
+        <bou_y>135</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <evn_uid>5810880706a038dd48c3a62067401842</evn_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <pro_uid>56163835369a05ae918c6e2041097788</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>TERMINATETHROW</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>4052786256a038dd48d7c28063772288</bou_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <element_uid>5810880706a038dd48c3a62067401842</element_uid>
+        <bou_element>6621824656a3d6904796159032968869</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>867</bou_x>
+        <bou_y>174</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>4877390826a07460c9ae0d1034288561</flo_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>75057336369a05b124553b0050294595</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>36718777269a9912b9a5421068139020</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>657</flo_x1>
+        <flo_y1>311</flo_y1>
+        <flo_x2>766</flo_x2>
+        <flo_y2>377</flo_y2>
+        <flo_state><![CDATA[[{"x":657,"y":311},{"x":711,"y":311},{"x":711,"y":377},{"x":766,"y":377}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>6240648236a5944d0bd1eb7002733203</flo_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>2823049576a5944d0954176066502790</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>75057336369a05b124553b0050294595</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>405</flo_x1>
+        <flo_y1>327</flo_y1>
+        <flo_x2>506</flo_x2>
+        <flo_y2>311</flo_y2>
+        <flo_state><![CDATA[[{"x":405,"y":327},{"x":455,"y":327},{"x":455,"y":311},{"x":506,"y":311}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>6851549076a038dd498fb27070378021</flo_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>36718777269a9912b9a5421068139020</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>5810880706a038dd48c3a62067401842</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>917</flo_x1>
+        <flo_y1>377</flo_y1>
+        <flo_x2>1081</flo_x2>
+        <flo_y2>349</flo_y2>
+        <flo_state><![CDATA[[{"x":917,"y":377},{"x":999,"y":377},{"x":999,"y":329},{"x":1081,"y":329},{"x":1081,"y":349}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY"/>
+    <table name="LANE">
+      <record>
+        <lan_uid>6621824656a3d6904796159032968869</lan_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <lns_uid>66054111969deb0814c6b01039702914</lns_uid>
+        <lan_name>Pruebas</lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>7358866916a3d69047a17c1015232187</bou_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <element_uid>6621824656a3d6904796159032968869</element_uid>
+        <bou_element>66054111969deb0814c6b01039702914</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>1159</bou_width>
+        <bou_height>470</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+    </table>
+    <table name="LANESET">
+      <record>
+        <lns_uid>66054111969deb0814c6b01039702914</lns_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <pro_uid>56163835369a05ae918c6e2041097788</pro_uid>
+        <lns_name>Contenedor 1</lns_name>
+        <lns_parent_lane></lns_parent_lane>
+        <lns_is_horizontal>1</lns_is_horizontal>
+        <lns_state></lns_state>
+        <bou_uid>81975166569deb0814d0da3031552739</bou_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <element_uid>66054111969deb0814c6b01039702914</element_uid>
+        <bou_element>91386224069a05ae9178da1043738350</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>155</bou_x>
+        <bou_y>173</bou_y>
+        <bou_width>1200</bou_width>
+        <bou_height>470</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>56163835369a05ae918c6e2041097788</pro_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <dia_uid>91386224069a05ae9178da1043738350</dia_uid>
+        <pro_name>Pruebas</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <prj_name>Pruebas</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2026-02-26 09:38:33]]></prj_create_date>
+        <prj_update_date><![CDATA[2026-07-16 15:53:36]]></prj_update_date>
+        <prj_author>4686706736952ff5585bf30060276881</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <pro_title>Pruebas</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>53500527169a05ae90da8a3092650369</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_status_id>1</pro_status_id>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2026-07-16 15:53:36]]></pro_update_date>
+        <pro_create_date><![CDATA[2026-02-26 09:38:33]]></pro_create_date>
+        <pro_create_user>4686706736952ff5585bf30060276881</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms><![CDATA[a:1:{s:7:"PROCESS";s:0:"";}]]></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost><![CDATA[$]]></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <category_id></category_id>
+        <pro_category_label>No Category</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <pro_id>0</pro_id>
+        <tas_uid>36718777269a9912b9a5421068139020</tas_uid>
+        <tas_title>Tarea 1</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>MANUAL</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>8761850996952feff1b5687072894366</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>569</tas_posx>
+        <tas_posy>164</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+        <tas_average>0</tas_average>
+        <tas_sdv>0</tas_sdv>
+      </record>
+      <record>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <pro_id>0</pro_id>
+        <tas_uid>75057336369a05b124553b0050294595</tas_uid>
+        <tas_title>test</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>4686706736952ff5585bf30060276881</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>309</tas_posx>
+        <tas_posy>98</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+        <tas_average>0</tas_average>
+        <tas_sdv>0</tas_sdv>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>5883392506a5944d0c94fc6024977153</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <tas_uid>75057336369a05b124553b0050294595</tas_uid>
+        <rou_next_task>36718777269a9912b9a5421068139020</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>6850639866a5944d0c76270082924863</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <tas_uid>36718777269a9912b9a5421068139020</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs">
+      <record>
+        <inp_doc_uid>60837400669ab2477d88271047167844</inp_doc_uid>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <inp_doc_title>documentos</inp_doc_title>
+        <inp_doc_description></inp_doc_description>
+        <inp_doc_form_needed>VREAL</inp_doc_form_needed>
+        <inp_doc_original>ORIGINAL</inp_doc_original>
+        <inp_doc_published>PRIVATE</inp_doc_published>
+        <inp_doc_versioning>1</inp_doc_versioning>
+        <inp_doc_destination_path></inp_doc_destination_path>
+        <inp_doc_tags>INPUT</inp_doc_tags>
+        <inp_doc_type_file><![CDATA[.*]]></inp_doc_type_file>
+        <inp_doc_max_filesize>0</inp_doc_max_filesize>
+        <inp_doc_max_filesize_unit>MB</inp_doc_max_filesize_unit>
+      </record>
+    </table>
+    <table name="outputs">
+      <record>
+        <out_doc_uid>47998471269a2dd600c8d38055199623</out_doc_uid>
+        <out_doc_title>docprueba</out_doc_title>
+        <out_doc_description></out_doc_description>
+        <out_doc_filename>docprueba</out_doc_filename>
+        <out_doc_template><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+  <style type="text/css">
+    .table-spacing{
+      padding: 0px 0px 0px 18px;
+    }
+
+    .footer{
+      width: 100%;
+      position: relative;
+      bottom: 0;
+      padding: 5px;
+    }
+
+    .dimension{
+      position: relative;
+    }
+
+    .text-html{
+      line-height: 1.5 !important;
+    }
+
+    @media print {
+      .footer{
+        position: absolute;
+      }
+
+      @media (max-height: 360mm){
+        .dimension {
+          height: 330mm !important; 
+          position: relative;
+        }
+      }
+      
+      @media (max-height: 300mm){
+        .dimension {
+          height: 273mm !important; 
+          position: relative;
+        }
+
+        p{
+          margin: 10px 0;
+        }
+      }
+    }
+  </style>
+  </head>
+
+  <body style="font-family: Arial, Helvetica, sans-serif; font-size: x-small;">
+<p></p>
+<!--INICIO PAGINA-->
+<table cellpadding="0" cellspacing="0" border="0" style="width: 100%; page-break-after: always;" class="dimension">
+<tbody>
+<tr>
+<td height="260mm" valign="top"><!--INICIO HEADER-->
+<table border="0" cellspacing="0" cellpadding="8" style="background-color: #00493c; width: 100%;">
+<tbody>
+<tr>
+<td align="left" valign="middle" style="line-height: 12px;"><img style="padding: 20px;" width="120" src="data:image/png;base64,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" alt="" /></td>
+<td align="right" style="color: #ffffff; font-size: small; padding: 15px 32px 15px 0px; line-height: 24px;"><b> AUTORIZACI&Oacute;N DE D&Eacute;BITO </b></td>
+</tr>
+</tbody>
+</table>
+<!--FIN HEADER-->
+<table border="0" cellspacing="0" cellpadding="2" style="padding: 20px 0px 0px; width: 100%;">
+<tbody><!--INICIO TABLA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" style="width: 100%;"><!--INICIO FILA-->
+<tbody>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Yo,</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">con C&eacute;dula de identidad N&deg;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_cedula_pagador</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_cedula_pagador</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Autorizo a EQUISUIZA SEGUROS S.A. a debitar de m&iacute;.-</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">M&eacute;todo de pago</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">Tipo de Tarjeta o Cuenta</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_medio_pago_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=tri_tipo_tarjeta</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">N&uacute;mero de cuenta o tarjeta</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">Fecha Caducidad</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_numero_tarjeta</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=tri_fecha_caducidad_tarjeta</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Entidad Financiera</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=tri_fecha_caducidad_tarjeta</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Valor inicial por descontar USD</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">Valor en letras</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_monto</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_monto_letras</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Frecuencia de Pago</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 50%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_frecuencia_pago</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Concepto de pago</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">#P&oacute;liza /# de Pr&eacute;stamo</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_concepto_debito</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_concepto_pago_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td style="padding: 8px 0px 4px 0px;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; font-weight: bold; font-size: x-small; color: #02493c; vertical-align: top;">(Solo para pagos de terceros)</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">P&oacute;liza a nombre de</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">Parentesco con el titular de la p&oacute;liza</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=tri_polizaanombrede</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=tri_parentesco</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%; font-weight: normal; line-height: 12px; color: #001815; font-size: x-small; vertical-align: top;"><span style="line-height: 8px; text-align: justify;" class="text-html">Entiendo la importancia de la p&oacute;liza contratada y conozco que el objetivo primordial de EQUISUIZA SEGUROS S.A., es brindar bienestar y protecci&oacute;n a sus asegurados y familiares. Acepto y reconozco que es mi responsabilidad mantener los fondos disponibles para que se efect&uacute;en los respectivos cobros. En el caso de no tener los fondos suficientes para que se ejecute el cobro pactado, autorizo a EQUISUIZA SEGUROS S.A. realizar intentos consecutivos durante el mes. De igual manera, autorizo de manera expresa a EQUISUIZA SEGUROS S.A. a realizar un ajuste en el monto a cobrar y, a debitar de la precitada cuenta o tarjeta, por los valores que me correspondan cancelar a futuro por: cambios o exclusiones en las coberturas, modificaciones en las tasas de impuestos y contribuciones, incremento de las primas relativas a la p&oacute;liza actualmente contratada, as&iacute; como los intereses a tasa legal correspondientes al financiamiento por el uso de diferidos, entre otros cargos, sin que sea necesario suscribir una nueva autorizaci&oacute;n de d&eacute;bito. Aclaro conocer y aceptar que es mi responsabilidad revisar en el estado de cuenta de mi tarjeta de cr&eacute;dito o d&eacute;bito y cuenta bancaria, seg&uacute;n corresponda, que se ejecuten los cobros de las primas del seguro contratado con EQUISUIZA SEGUROS S.A.. En caso de no realizarse los cobros, notificar&eacute; a EQUISUIZA SEGUROS S.A. con el fin de evitar la p&eacute;rdida de la cobertura. Entiendo que todo cobro de primas, est&aacute; sujeto a las pol&iacute;ticas propias de cada entidad financiera, respecto a saldo m&iacute;nimo en cuentas de d&eacute;bito, l&iacute;mites de movimientos o compras diarias, cupos asignados, entre otros, por lo que, me comprometo a precautelar el cumplimiento de dichas pol&iacute;ticas, para evitar que la prima quede impaga. Esta autorizaci&oacute;n se mantendr&aacute; en vigor mientras est&eacute; vigente el contrato. Me comprometo a comunicar de manera escrita con 45 d&iacute;as de anticipaci&oacute;n, en el caso de revocatoria de la misma. En el caso de robo, p&eacute;rdida, hurto o cualquier cambio en el n&uacute;mero de la tarjeta de cr&eacute;dito o cuenta bancaria descrita en este documento, me comprometo a entregar una nueva autorizaci&oacute;n de d&eacute;bito firmada, para garantizar el pago de la p&oacute;liza y evitar la p&eacute;rdida de beneficios o, la cancelaci&oacute;n de la misma.</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Ciudad</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">Fecha</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_sucursal_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_fecha_solictud</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Identificaci&oacute;n del Cliente</td>
+<td style="width: 33%; padding: 0px 4px; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">N&uacute;mero Celular</td>
+<td style="width: 33%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">E-mail</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_cedula_pagador</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%; padding: 0px 4px;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_celular_debito</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_correo_electronico_debito</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--></tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td><b> DATOS DEL EJECUTIVO </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" style="width: 100%;"><!--INICIO FILA-->
+<tbody>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Nombre del Ejecutivo</td>
+<td style="width: 33%; padding: 0px 4px; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">N&uacute;mero Celular</td>
+<td style="width: 33%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">E-mail</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">NO APLICA -------------------------</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%; padding: 0px 4px;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">NO APLICA -------------------------</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">NO APLICA -------------------------</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--INICIO FOOTER-->
+<tr>
+<td valign="bottom" class="footer">
+<table border="0" cellspacing="0" cellpadding="2" style="background-color: #00493c; color: #ffffff; font-size: small; line-height: 16px; width: 100%;" class="footer">
+<tbody>
+<tr>
+<td align="right" style="width: 50%; text-align: right;"><b> equisuiza.com </b></td>
+<td height="5" style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="border-left: 1px solid #ffffff;">
+<tbody>
+<tr>
+<td align="center" style="width: 6%; padding: 3px 2px;"><img width="10" height="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBBAMAAAB82dR2AAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAwO9wnB/2V8883Ifnr191EiIAAAEASURBVEjH7dQ9agJRFIbhr1AmkiBJkXaQu4Ah4ULKMKRMEWYF04V0Q1YgrkAENyBYugc3YS/+gD8gdw16RmQs5p4PLFTQt7rFU1zOgYNdwftLeaMO8irO2yIWUMucv1kCIHVavwAiVWzkF3pveCKihzoREzSp+LyYGHRkGYp4RV7bK/6wL/SJRcLEGkw8UwEmVgdQzTxiDqlm7YfziImAQF6qSDXREDGkIrwJMTOmJeLLGBOVin8UBWViiuPGVIRUtKmIqMiocCeJzTF4LBOub20+tK61dnzV27+LM4mUijoRDTwQEaNKRAL8qGIOoKKKGLuGilgi79sUFRdGGgDYAhXQ3oaQvRwSAAAAAElFTkSuQmCC" alt="" /></td>
+<td align="center" style="width: 6%; padding: 3px 2px;"><img width="10" height="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBBAMAAAB82dR2AAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAwO9wHzzc9oecV8+v5/cLTngAAAJWSURBVEjHfZS/a1NxEMCv5rU2VkPfoDiFWvDHFARxDdFBcSkPOrlIBwdxyFIdBAkVxLEExEmQ/gUhg9CtdCh0K6VTp5C2aZOm7f0NvXf5ft/l++7Sz/Bevnmf3Pd77y4HnukXAS8hx+wm5uh/CoRXaHBUE6GIaCqZEFXQ5qs3WjiJDWDu4ESGwHzgxVUc8GA8SAOJz5BjeguJHhBTSDwGRdRBxDO/yQUY3EXiOX2o030bLP7RkwXaLz0lKGbjHZjjbDhWTxsUOYHRQW7TramEKd5gna4AS3StKaOEiKd83YAqRZIMfxwsPvrpjBOY4/h7iOdeKHQw5ZD25hgFus5DOZVdgXyNV905IrrujxkUztOmXPp0OvbEmMGM41ohboIy6ih8obUy6ODCmWVUkfiewHs+73ZgDP0KB5yzbwwxuq7WfHziLfe5MkpSwaiRVkIZ69wu0rlNZWxxAlLZfWVUst4fdVVXGf5LcHpPGbzw0JYnljGfGeUJRts07F3qgWGdtMELne3g5mzpfgwgvbSijHTMrDmjyp9zBnf3UDZBUEYRs9K17OpDhQekH51dw2hxf/5e/oUczTCKepSK4QeKsGIYEkSmlvS6vAbHWmDI/zYqO+Hj2Ntvp3/nS/DKLgv3s2HGTVMNBt1yHD9MwDPDG5ZkSpmzKoFb0n7mQB3leGoLEefNt75t3HM/LvMrtKi7J0s8lQzhDRKJSxoHWihwBWV+fUtywjseRQtuoDCLAU8RZeTQQLGRmr5GCwnBCdv8B5CBbrE6nlnHEJ6FJfibD/Pkj3t0DeBpgUYBTZkiAAAAAElFTkSuQmCC" alt="" /></td>
+<td style="width: 88%;"><b> 1800 787878 </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FINAL FOOTER--></tbody>
+</table>
+<!--FINAL PAGINA-->
+<p></p>
+<!--INICIO PAGINA-->
+<table cellpadding="0" cellspacing="0" border="0" style="width: 100%;" class="dimension">
+<tbody>
+<tr>
+<td height="260mm" valign="top"><!--INICIO HEADER-->
+<table border="0" cellspacing="0" cellpadding="8" style="background-color: #00493c; width: 100%;">
+<tbody>
+<tr>
+<td align="left" valign="middle" style="line-height: 12px;"><img style="padding: 20px;" width="120" src="data:image/png;base64,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" alt="" /></td>
+<td align="right" style="color: #ffffff; font-size: small; padding: 15px 32px 15px 0px; line-height: 24px;"><b> AUTORIZACI&Oacute;N DE D&Eacute;BITO </b></td>
+</tr>
+</tbody>
+</table>
+<!--FIN HEADER-->
+<table border="0" cellspacing="0" cellpadding="2" style="padding: 20px 0px 0px; width: 100%;">
+<tbody><!--INICIO TABLA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" style="width: 100%;"><!--INICIO FILA-->
+<tbody>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Yo,</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">con C&eacute;dula de identidad N&deg;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_cedula_pagador</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_cedula_pagador</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Autorizo a EQUISUIZA SEGUROS S.A. a debitar de m&iacute;.-</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">M&eacute;todo de pago</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">Tipo de Tarjeta o Cuenta</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_medio_pago_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=tri_tipo_tarjeta</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">N&uacute;mero de cuenta o tarjeta</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">Fecha Caducidad</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_numero_tarjeta</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=tri_fecha_caducidad_tarjeta</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Entidad Financiera</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=tri_fecha_caducidad_tarjeta</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Valor inicial por descontar USD</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">Valor en letras</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_monto</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_monto_letras</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Frecuencia de Pago</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 50%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_frecuencia_pago</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Concepto de pago</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">#P&oacute;liza /# de Pr&eacute;stamo</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_concepto_debito</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_concepto_pago_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td style="padding: 8px 0px 4px 0px;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; font-weight: bold; font-size: x-small; color: #02493c; vertical-align: top;">(Solo para pagos de terceros)</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">P&oacute;liza a nombre de</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">Parentesco con el titular de la p&oacute;liza</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=tri_polizaanombrede</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=tri_parentesco</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%; font-weight: normal; line-height: 12px; color: #001815; font-size: x-small; vertical-align: top;"><span style="line-height: 8px; text-align: justify;" class="text-html">Entiendo la importancia de la p&oacute;liza contratada y conozco que el objetivo primordial de EQUISUIZA SEGUROS S.A., es brindar bienestar y protecci&oacute;n a sus asegurados y familiares. Acepto y reconozco que es mi responsabilidad mantener los fondos disponibles para que se efect&uacute;en los respectivos cobros. En el caso de no tener los fondos suficientes para que se ejecute el cobro pactado, autorizo a EQUISUIZA SEGUROS S.A. realizar intentos consecutivos durante el mes. De igual manera, autorizo de manera expresa a EQUISUIZA SEGUROS S.A. a realizar un ajuste en el monto a cobrar y, a debitar de la precitada cuenta o tarjeta, por los valores que me correspondan cancelar a futuro por: cambios o exclusiones en las coberturas, modificaciones en las tasas de impuestos y contribuciones, incremento de las primas relativas a la p&oacute;liza actualmente contratada, as&iacute; como los intereses a tasa legal correspondientes al financiamiento por el uso de diferidos, entre otros cargos, sin que sea necesario suscribir una nueva autorizaci&oacute;n de d&eacute;bito. Aclaro conocer y aceptar que es mi responsabilidad revisar en el estado de cuenta de mi tarjeta de cr&eacute;dito o d&eacute;bito y cuenta bancaria, seg&uacute;n corresponda, que se ejecuten los cobros de las primas del seguro contratado con EQUISUIZA SEGUROS S.A.. En caso de no realizarse los cobros, notificar&eacute; a EQUISUIZA SEGUROS S.A. con el fin de evitar la p&eacute;rdida de la cobertura. Entiendo que todo cobro de primas, est&aacute; sujeto a las pol&iacute;ticas propias de cada entidad financiera, respecto a saldo m&iacute;nimo en cuentas de d&eacute;bito, l&iacute;mites de movimientos o compras diarias, cupos asignados, entre otros, por lo que, me comprometo a precautelar el cumplimiento de dichas pol&iacute;ticas, para evitar que la prima quede impaga. Esta autorizaci&oacute;n se mantendr&aacute; en vigor mientras est&eacute; vigente el contrato. Me comprometo a comunicar de manera escrita con 45 d&iacute;as de anticipaci&oacute;n, en el caso de revocatoria de la misma. En el caso de robo, p&eacute;rdida, hurto o cualquier cambio en el n&uacute;mero de la tarjeta de cr&eacute;dito o cuenta bancaria descrita en este documento, me comprometo a entregar una nueva autorizaci&oacute;n de d&eacute;bito firmada, para garantizar el pago de la p&oacute;liza y evitar la p&eacute;rdida de beneficios o, la cancelaci&oacute;n de la misma.</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Ciudad</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">Fecha</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_sucursal_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_fecha_solictud</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Identificaci&oacute;n del Cliente</td>
+<td style="width: 33%; padding: 0px 4px; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">N&uacute;mero Celular</td>
+<td style="width: 33%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">E-mail</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_cedula_pagador</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%; padding: 0px 4px;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_celular_debito</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@=frm_correo_electronico_debito</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--></tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td><b> DATOS DEL EJECUTIVO </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" style="width: 100%;"><!--INICIO FILA-->
+<tbody>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Nombre del Ejecutivo</td>
+<td style="width: 33%; padding: 0px 4px; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">N&uacute;mero Celular</td>
+<td style="width: 33%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">E-mail</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">NO APLICA -------------------------</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%; padding: 0px 4px;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">NO APLICA -------------------------</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">NO APLICA -------------------------</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--INICIO FOOTER-->
+<tr>
+<td valign="bottom" class="footer">
+<table border="0" cellspacing="0" cellpadding="2" style="background-color: #00493c; color: #ffffff; font-size: small; line-height: 16px; width: 100%;" class="footer">
+<tbody>
+<tr>
+<td align="right" style="width: 50%; text-align: right;"><b> equisuiza.com </b></td>
+<td height="5" style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="border-left: 1px solid #ffffff;">
+<tbody>
+<tr>
+<td align="center" style="width: 6%; padding: 3px 2px;"><img width="10" height="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBBAMAAAB82dR2AAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAwO9wnB/2V8883Ifnr191EiIAAAEASURBVEjH7dQ9agJRFIbhr1AmkiBJkXaQu4Ah4ULKMKRMEWYF04V0Q1YgrkAENyBYugc3YS/+gD8gdw16RmQs5p4PLFTQt7rFU1zOgYNdwftLeaMO8irO2yIWUMucv1kCIHVavwAiVWzkF3pveCKihzoREzSp+LyYGHRkGYp4RV7bK/6wL/SJRcLEGkw8UwEmVgdQzTxiDqlm7YfziImAQF6qSDXREDGkIrwJMTOmJeLLGBOVin8UBWViiuPGVIRUtKmIqMiocCeJzTF4LBOub20+tK61dnzV27+LM4mUijoRDTwQEaNKRAL8qGIOoKKKGLuGilgi79sUFRdGGgDYAhXQ3oaQvRwSAAAAAElFTkSuQmCC" alt="" /></td>
+<td align="center" style="width: 6%; padding: 3px 2px;"><img width="10" height="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBBAMAAAB82dR2AAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAwO9wHzzc9oecV8+v5/cLTngAAAJWSURBVEjHfZS/a1NxEMCv5rU2VkPfoDiFWvDHFARxDdFBcSkPOrlIBwdxyFIdBAkVxLEExEmQ/gUhg9CtdCh0K6VTp5C2aZOm7f0NvXf5ft/l++7Sz/Bevnmf3Pd77y4HnukXAS8hx+wm5uh/CoRXaHBUE6GIaCqZEFXQ5qs3WjiJDWDu4ESGwHzgxVUc8GA8SAOJz5BjeguJHhBTSDwGRdRBxDO/yQUY3EXiOX2o030bLP7RkwXaLz0lKGbjHZjjbDhWTxsUOYHRQW7TramEKd5gna4AS3StKaOEiKd83YAqRZIMfxwsPvrpjBOY4/h7iOdeKHQw5ZD25hgFus5DOZVdgXyNV905IrrujxkUztOmXPp0OvbEmMGM41ohboIy6ih8obUy6ODCmWVUkfiewHs+73ZgDP0KB5yzbwwxuq7WfHziLfe5MkpSwaiRVkIZ69wu0rlNZWxxAlLZfWVUst4fdVVXGf5LcHpPGbzw0JYnljGfGeUJRts07F3qgWGdtMELne3g5mzpfgwgvbSijHTMrDmjyp9zBnf3UDZBUEYRs9K17OpDhQekH51dw2hxf/5e/oUczTCKepSK4QeKsGIYEkSmlvS6vAbHWmDI/zYqO+Hj2Ntvp3/nS/DKLgv3s2HGTVMNBt1yHD9MwDPDG5ZkSpmzKoFb0n7mQB3leGoLEefNt75t3HM/LvMrtKi7J0s8lQzhDRKJSxoHWihwBWV+fUtywjseRQtuoDCLAU8RZeTQQLGRmr5GCwnBCdv8B5CBbrE6nlnHEJ6FJfibD/Pkj3t0DeBpgUYBTZkiAAAAAElFTkSuQmCC" alt="" /></td>
+<td style="width: 88%;"><b> 1800 787878 </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FINAL FOOTER--></tbody>
+</table>
+<!--FINAL PAGINA-->
+<p></p>
+</body>
+</html>]]></out_doc_template>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <out_doc_report_generator>HTML2PDF</out_doc_report_generator>
+        <out_doc_landscape>0</out_doc_landscape>
+        <out_doc_media>A4</out_doc_media>
+        <out_doc_left_margin>0</out_doc_left_margin>
+        <out_doc_right_margin>0</out_doc_right_margin>
+        <out_doc_top_margin>0</out_doc_top_margin>
+        <out_doc_bottom_margin>0</out_doc_bottom_margin>
+        <out_doc_generate>BOTH</out_doc_generate>
+        <out_doc_type>HTML</out_doc_type>
+        <out_doc_current_revision>0</out_doc_current_revision>
+        <out_doc_field_mapping></out_doc_field_mapping>
+        <out_doc_versioning>1</out_doc_versioning>
+        <out_doc_destination_path>Pruebas</out_doc_destination_path>
+        <out_doc_tags></out_doc_tags>
+        <out_doc_pdf_security_enabled>0</out_doc_pdf_security_enabled>
+        <out_doc_pdf_security_open_password></out_doc_pdf_security_open_password>
+        <out_doc_pdf_security_owner_password></out_doc_pdf_security_owner_password>
+        <out_doc_pdf_security_permissions></out_doc_pdf_security_permissions>
+        <out_doc_open_type>0</out_doc_open_type>
+        <out_doc_header></out_doc_header>
+        <out_doc_footer></out_doc_footer>
+      </record>
+      <record>
+        <out_doc_uid>8958061246a3bfb94963d86082269459</out_doc_uid>
+        <out_doc_title>prueba</out_doc_title>
+        <out_doc_description>prueba</out_doc_description>
+        <out_doc_filename>prueba</out_doc_filename>
+        <out_doc_template><![CDATA[<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+  <style type="text/css">
+    .table-spacing {
+      padding: 0px 0px 0px 18px;
+    }
+
+    .footer {
+      width: 100%;
+      position: relative;
+      bottom: 0;
+      padding: 5px;
+    }
+
+    .dimension {
+      position: relative;
+    }
+
+    @media print {
+      .footer {
+        position: absolute;
+      }
+
+      @media (max-height: 360mm) {
+        .dimension {
+          height: 330mm !important;
+          position: relative;
+        }
+      }
+
+      @media (max-height: 300mm) {
+        .dimension {
+          height: 273mm !important;
+          position: relative;
+        }
+
+        p {
+          margin: 10px 0;
+        }
+      }
+    }
+  </style>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif; font-size: small;">
+<p></p>
+<!--INICIO PAGINA-->
+<table cellpadding="0" cellspacing="0" border="0" style="width: 100%;" class="dimension">
+<tbody>
+<tr>
+<td height="250mm" valign="top"><!--INICIO HEADER-->
+<table border="0" cellspacing="0" cellpadding="8" style="background-color: #00493c; width: 100%;">
+<tbody>
+<tr>
+<td align="left" valign="middle" style="line-height: 12px;"><img style="padding: 20px;" width="120" src="data:image/png;base64,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" alt="" /></td>
+<td align="right" style="color: #ffffff; font-size: small; padding: 15px 32px 15px 0px; line-height: 24px;"><b> &nbsp; </b></td>
+</tr>
+</tbody>
+</table>
+<!--FIN HEADER-->
+<table border="0" cellspacing="0" cellpadding="2" style="padding: 20px 0px 0px; width: 100%;">
+<tbody><!--INICIO TABLA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" style="width: 100%;"><!--INICIO FILA-->
+<tbody>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top;"><br /><br /> <b> EQUISUIZA SEGUROS S.A. </b> <br /> RUC: 1791273486001 <br /> Direcci&oacute;n: De las Hiedras N41-130 y Av. De los Granados, Quito. <br /> Tel&eacute;fono: 1800787878 <br /> Contacto: @#frm_ordencompra_responsable <br /><br /> Proveedor: @#frm_proveedor_nombre</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: normal; vertical-align: top;">RUC: @#frm_proveedor_ruc <br /> Direcci&oacute;n: <br /> Tel&eacute;fono: <br /> Contacto: @#frm_contacto_compra <br /> Fecha de emisi&oacute;n:16 enero de 2019</td>
+<td align="center" style="width: 50%; color: #001815; font-size: small; font-weight: normal; vertical-align: top;">ORDEN DE PAGO: No. @#APP_NUMBER</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="4" style="text-transform: uppercase; vertical-align: middle; text-align: center; color: #000000; line-height: 30px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: medium; font-weight: bolder;">DETALLE DE PRODUCTOS</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="2" cellpadding="2" style="border-color: #001815; width: 100%; margin: auto; border: 1px solid #001815;">
+<tbody>
+<tr align="center" bgcolor="#c4f99b">
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top; border: 1px solid #001815;">Producto</td>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top; border: 1px solid #001815;">Detalle</td>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top; border: 1px solid #001815;">Cantidad</td>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top; border: 1px solid #001815;">Unidad</td>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top; border: 1px solid #001815;">Precio</td>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top; border: 1px solid #001815;">IVA</td>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top; border: 1px solid #001815;">Subtotal</td>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top; border: 1px solid #001815;">Total</td>
+</tr>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; border: 1px solid #001815;">@#frm_producto_nombre</td>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; border: 1px solid #001815;">@#frm_producto_detalle</td>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; border: 1px solid #001815;">@#frm_producto_cantidad</td>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; border: 1px solid #001815;">@#frm_producto_unidad_label</td>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; border: 1px solid #001815;">@#frm_producto_precio_negociado</td>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; border: 1px solid #001815;">@#frm_producto_iva</td>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; border: 1px solid #001815;">@#frm_producto_total</td>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; border: 1px solid #001815;">@#frm_producto_total</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO ESPACIADO-->
+<tr>
+<td height="8mm">&nbsp;</td>
+</tr>
+<!--FIN ESPACIADO--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: normal; vertical-align: top;"><b> Condiciones de compra: </b> <br /> Plazo de entrega: @#frm_plazo <br /> D&iacute;as Cr&eacute;dito: @#frm_dias_credito <br /> Forma de Pago: @#frm_forma_pago <br /> Anticipo: @#frm_anticipo <br /> Contrato: @#frm_datos_contrato <br /> P&oacute;lizas: @#frm_poliza</td>
+<td align="center" style="width: 50%; color: #001815; font-size: small; font-weight: normal; vertical-align: top;">Aprobado por: @#frm_pda_nombre <br /> Cargo del Aprobador PDA</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--INICIO FOOTER-->
+<tr>
+<td valign="bottom" class="footer">
+<table style="width: 100%; margin: auto;">
+<tbody>
+<tr>
+<td style="text-align: center; padding: 8px 0px 8px 0px; font-size: x-small;"><b>Quito:</b> De Las Hiedras N41-130 y Av. De Los Granados.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom" class="footer">
+<table border="0" cellspacing="0" cellpadding="2" style="background-color: #00493c; color: #ffffff; font-size: small; line-height: 16px; width: 100%;" class="footer">
+<tbody>
+<tr>
+<td align="right" style="width: 50%; text-align: right;"><b> equisuiza.com </b></td>
+<td height="5" style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="border-left: 1px solid #ffffff;">
+<tbody>
+<tr>
+<td align="center" style="width: 6%; padding: 3px 2px;"><img width="10" height="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBBAMAAAB82dR2AAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAwO9wnB/2V8883Ifnr191EiIAAAEASURBVEjH7dQ9agJRFIbhr1AmkiBJkXaQu4Ah4ULKMKRMEWYF04V0Q1YgrkAENyBYugc3YS/+gD8gdw16RmQs5p4PLFTQt7rFU1zOgYNdwftLeaMO8irO2yIWUMucv1kCIHVavwAiVWzkF3pveCKihzoREzSp+LyYGHRkGYp4RV7bK/6wL/SJRcLEGkw8UwEmVgdQzTxiDqlm7YfziImAQF6qSDXREDGkIrwJMTOmJeLLGBOVin8UBWViiuPGVIRUtKmIqMiocCeJzTF4LBOub20+tK61dnzV27+LM4mUijoRDTwQEaNKRAL8qGIOoKKKGLuGilgi79sUFRdGGgDYAhXQ3oaQvRwSAAAAAElFTkSuQmCC" alt="" /></td>
+<td align="center" style="width: 6%; padding: 3px 2px;"><img width="10" height="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBBAMAAAB82dR2AAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAwO9wHzzc9oecV8+v5/cLTngAAAJWSURBVEjHfZS/a1NxEMCv5rU2VkPfoDiFWvDHFARxDdFBcSkPOrlIBwdxyFIdBAkVxLEExEmQ/gUhg9CtdCh0K6VTp5C2aZOm7f0NvXf5ft/l++7Sz/Bevnmf3Pd77y4HnukXAS8hx+wm5uh/CoRXaHBUE6GIaCqZEFXQ5qs3WjiJDWDu4ESGwHzgxVUc8GA8SAOJz5BjeguJHhBTSDwGRdRBxDO/yQUY3EXiOX2o030bLP7RkwXaLz0lKGbjHZjjbDhWTxsUOYHRQW7TramEKd5gna4AS3StKaOEiKd83YAqRZIMfxwsPvrpjBOY4/h7iOdeKHQw5ZD25hgFus5DOZVdgXyNV905IrrujxkUztOmXPp0OvbEmMGM41ohboIy6ih8obUy6ODCmWVUkfiewHs+73ZgDP0KB5yzbwwxuq7WfHziLfe5MkpSwaiRVkIZ69wu0rlNZWxxAlLZfWVUst4fdVVXGf5LcHpPGbzw0JYnljGfGeUJRts07F3qgWGdtMELne3g5mzpfgwgvbSijHTMrDmjyp9zBnf3UDZBUEYRs9K17OpDhQekH51dw2hxf/5e/oUczTCKepSK4QeKsGIYEkSmlvS6vAbHWmDI/zYqO+Hj2Ntvp3/nS/DKLgv3s2HGTVMNBt1yHD9MwDPDG5ZkSpmzKoFb0n7mQB3leGoLEefNt75t3HM/LvMrtKi7J0s8lQzhDRKJSxoHWihwBWV+fUtywjseRQtuoDCLAU8RZeTQQLGRmr5GCwnBCdv8B5CBbrE6nlnHEJ6FJfibD/Pkj3t0DeBpgUYBTZkiAAAAAElFTkSuQmCC" alt="" /></td>
+<td style="width: 88%;"><b> 1800 787878 </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FINAL FOOTER--></tbody>
+</table>
+<!--FINAL PAGINA-->
+<p></p>
+</body>
+
+</html>]]></out_doc_template>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <out_doc_report_generator>TCPDF</out_doc_report_generator>
+        <out_doc_landscape>0</out_doc_landscape>
+        <out_doc_media>A4</out_doc_media>
+        <out_doc_left_margin>3</out_doc_left_margin>
+        <out_doc_right_margin>3</out_doc_right_margin>
+        <out_doc_top_margin>0</out_doc_top_margin>
+        <out_doc_bottom_margin>0</out_doc_bottom_margin>
+        <out_doc_generate>BOTH</out_doc_generate>
+        <out_doc_type>HTML</out_doc_type>
+        <out_doc_current_revision></out_doc_current_revision>
+        <out_doc_field_mapping></out_doc_field_mapping>
+        <out_doc_versioning>1</out_doc_versioning>
+        <out_doc_destination_path></out_doc_destination_path>
+        <out_doc_tags></out_doc_tags>
+        <out_doc_pdf_security_enabled>0</out_doc_pdf_security_enabled>
+        <out_doc_pdf_security_open_password></out_doc_pdf_security_open_password>
+        <out_doc_pdf_security_owner_password></out_doc_pdf_security_owner_password>
+        <out_doc_pdf_security_permissions></out_doc_pdf_security_permissions>
+        <out_doc_open_type>1</out_doc_open_type>
+        <out_doc_header><![CDATA[{"logo":"","logoWidth":"0","logoPositionX":"0","logoPositionY":"0","title":"","titleFontSize":"8","titleFontPositionX":"0","titleFontPositionY":"0","pageNumber":false,"pageNumberTitle":"","pageNumberTotal":false,"pageNumberPositionX":"0","pageNumberPositionY":"0","enableHeader":false}]]></out_doc_header>
+        <out_doc_footer><![CDATA[{"logo":"","logoWidth":"0","logoPositionX":"0","logoPositionY":"0","title":"","titleFontSize":"8","titleFontPositionX":"0","titleFontPositionY":"0","pageNumber":false,"pageNumberTitle":"","pageNumberTotal":false,"pageNumberPositionX":"0","pageNumberPositionY":"0","enableFooter":false}]]></out_doc_footer>
+      </record>
+    </table>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>32096837769de96db395c54063958953</dyn_uid>
+        <dyn_title>demo1</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[53500527169a05ae90da8a3092650369/32096837769de96db395c54063958953]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"demo1","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"32096837769de96db395c54063958953","name":"demo1","description":"","mode":"edit","script":{"type":"js","code":"var taller = 'M322UNDO323232 MOTRIZ UIO 2'; \n\nif(taller.includes(\"MUNDO MOTRIZ\")){\n  console.log('entro');\n}else{\n   console.log('no entro');\n  \n}"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"text","variable":"textVar005","var_uid":"34210685969deb27f7427e1013435343","dataType":"string","protectedValue":false,"id":"textVar005","name":"textVar005","label":"Text Var 005","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","dependsOn":"","loadDropdownOptions":"","externalApi":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"textVar005","colSpan":12}],[{"type":"text","variable":"textVar001","var_uid":"22367474769de96ebee7a02048792535","dataType":"string","protectedValue":false,"id":"textVar001","name":"textVar001","label":"Text Var 001","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","dependsOn":"","loadDropdownOptions":"","externalApi":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"textVar001","colSpan":6},{"type":"text","variable":"textVar002","var_uid":"69998471469de96ffb898a7003808918","dataType":"string","protectedValue":false,"id":"textVar002","name":"textVar002","label":"Text Var 002","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","dependsOn":"","loadDropdownOptions":"","externalApi":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"textVar002","colSpan":6}],[{"type":"form","variable":"","var_uid":"","dataType":"","id":"45755528869de974f893742083118480","name":"demo2subform","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"text","variable":"textVar003","var_uid":"31247877869de975486cc68028769138","dataType":"string","protectedValue":false,"id":"textVar003","name":"textVar003","label":"Text Var 003","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","dependsOn":"","loadDropdownOptions":"","externalApi":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"textVar003","colSpan":12}],[{"type":"text","variable":"textVar004","var_uid":"96769100469de975a3379c1050505119","dataType":"string","protectedValue":false,"id":"textVar004","name":"textVar004","label":"Text Var 004","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","dependsOn":"","loadDropdownOptions":"","externalApi":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"textVar004","colSpan":12}],[{"type":"checkbox","variable":"checkboxVar001","var_uid":"76103892269de975eafdd30030311791","dataType":"boolean","protectedValue":false,"id":"checkboxVar001","name":"checkboxVar001","label":"Checkbox Var 001","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":false,"requiredFieldErrorMessage":"","mode":"parent","options":[{"value":"1","label":"true"},{"value":"0","label":"false"}],"var_name":"checkboxVar001","colSpan":12}],[{"type":"subtitle","id":"subtitle0000000001","label":"subtitle_1","ariaLabel":"","colSpan":12}]],"variables":[{"var_uid":"31247877869de975486cc68028769138","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"textVar003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"96769100469de975a3379c1050505119","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"textVar004","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"76103892269de975eafdd30030311791","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"checkboxVar001","var_field_type":"boolean","var_field_size":10,"var_label":"boolean","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"1\",\"label\":\"true\"},{\"value\":\"0\",\"label\":\"false\"}]","inp_doc_uid":""}],"colSpan":12}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"submit_1","tabIndex":"","ariaLabel":"","colSpan":12}]],"variables":[{"var_uid":"34210685969deb27f7427e1013435343","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"textVar005","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"22367474769de96ebee7a02048792535","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"textVar001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"69998471469de96ffb898a7003808918","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"textVar002","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2026-07-16 16:00:25]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>45755528869de974f893742083118480</dyn_uid>
+        <dyn_title>demo2subform</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[53500527169a05ae90da8a3092650369/45755528869de974f893742083118480]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"demo2subform","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"45755528869de974f893742083118480","name":"demo2subform","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"text","variable":"textVar003","var_uid":"31247877869de975486cc68028769138","dataType":"string","protectedValue":false,"id":"textVar003","name":"textVar003","label":"Text Var 003","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","dependsOn":"","loadDropdownOptions":"","externalApi":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"textVar003","colSpan":12}],[{"type":"text","variable":"textVar004","var_uid":"96769100469de975a3379c1050505119","dataType":"string","protectedValue":false,"id":"textVar004","name":"textVar004","label":"Text Var 004","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","dependsOn":"","loadDropdownOptions":"","externalApi":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"textVar004","colSpan":12}],[{"type":"checkbox","variable":"checkboxVar001","var_uid":"76103892269de975eafdd30030311791","dataType":"boolean","protectedValue":false,"id":"checkboxVar001","name":"checkboxVar001","label":"Checkbox Var 001","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":false,"requiredFieldErrorMessage":"","mode":"parent","options":[{"value":"1","label":"true"},{"value":"0","label":"false"}],"var_name":"checkboxVar001","colSpan":12}],[{"type":"subtitle","id":"subtitle0000000001","label":"subtitle_1","ariaLabel":"","colSpan":12}]],"variables":[{"var_uid":"31247877869de975486cc68028769138","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"textVar003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"96769100469de975a3379c1050505119","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"textVar004","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"76103892269de975eafdd30030311791","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"checkboxVar001","var_field_type":"boolean","var_field_size":10,"var_label":"boolean","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"1\",\"label\":\"true\"},{\"value\":\"0\",\"label\":\"false\"}]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2026-04-14 14:37:07]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>64982185369ab03a7bba6e3091845336</dyn_uid>
+        <dyn_title>test</dyn_title>
+        <dyn_description>test</dyn_description>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[53500527169a05ae90da8a3092650369/64982185369ab03a7bba6e3091845336]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"test","description":"test","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"64982185369ab03a7bba6e3091845336","name":"test","description":"test","mode":"edit","script":{"type":"js","code":"fetch(\"https://jsonplaceholder.typicode.com/todos/1\")\n  .then(response => response.json())\n  .then(data => {\n    console.log(\"Respuesta:\", data);\n  })\n  .catch(error => {\n    console.error(\"Error:\", error);\n  });"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"button","id":"button0000000001","name":"button0000000001","label":"Ejecutar","tabIndex":"","ariaLabel":"","colSpan":12}]],"variables":[]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2026-04-20 20:55:49]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>96468031769deb4573e2681066683264</dyn_uid>
+        <dyn_title>demoaurotiza</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[53500527169a05ae90da8a3092650369/96468031769deb4573e2681066683264]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"demoaurotiza","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"96468031769deb4573e2681066683264","name":"demoaurotiza","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"form","variable":"","var_uid":"","dataType":"","id":"45755528869de974f893742083118480","name":"demo2subform","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"text","variable":"textVar003","var_uid":"31247877869de975486cc68028769138","dataType":"string","protectedValue":false,"id":"textVar003","name":"textVar003","label":"Text Var 003","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","dependsOn":"","loadDropdownOptions":"","externalApi":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"textVar003","colSpan":12}],[{"type":"text","variable":"textVar004","var_uid":"96769100469de975a3379c1050505119","dataType":"string","protectedValue":false,"id":"textVar004","name":"textVar004","label":"Text Var 004","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","dependsOn":"","loadDropdownOptions":"","externalApi":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"textVar004","colSpan":12}],[{"type":"checkbox","variable":"checkboxVar001","var_uid":"76103892269de975eafdd30030311791","dataType":"boolean","protectedValue":false,"id":"checkboxVar001","name":"checkboxVar001","label":"Checkbox Var 001","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":false,"requiredFieldErrorMessage":"","mode":"parent","options":[{"value":"1","label":"true"},{"value":"0","label":"false"}],"var_name":"checkboxVar001","colSpan":12}],[{"type":"subtitle","id":"subtitle0000000001","label":"subtitle_1","ariaLabel":"","colSpan":12}]],"variables":[{"var_uid":"31247877869de975486cc68028769138","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"textVar003","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"96769100469de975a3379c1050505119","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"textVar004","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"76103892269de975eafdd30030311791","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"checkboxVar001","var_field_type":"boolean","var_field_size":10,"var_label":"boolean","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"1\",\"label\":\"true\"},{\"value\":\"0\",\"label\":\"false\"}]","inp_doc_uid":""}],"colSpan":12}],[{"type":"textarea","variable":"textareaVar001","var_uid":"52846336669deb46d17cfb4026380694","dataType":"string","protectedValue":false,"id":"textareaVar001","name":"textareaVar001","label":"Textarea Var 001","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","validate":"","validateMessage":"","mode":"parent","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"rows":"5","var_name":"textareaVar001","colSpan":12}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"submit_1","tabIndex":"","ariaLabel":"","colSpan":12}]],"variables":[{"var_uid":"52846336669deb46d17cfb4026380694","prj_uid":"53500527169a05ae90da8a3092650369","var_name":"textareaVar001","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2026-04-14 16:41:06]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>48190219869ab2366c66a23078481716</step_uid>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <tas_uid>36718777269a9912b9a5421068139020</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>64982185369ab03a7bba6e3091845336</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>7683403666a59460b2eb491092196843</step_uid>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <tas_uid>75057336369a05b124553b0050294595</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>32096837769de96db395c54063958953</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>11629436169a5ca4b8c9355082522704</tri_uid>
+        <tri_title>alertas</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$g = new G();
+
+$g->SendMessageText("Proceso completado", "SUCCESS");
+
+$g->SendMessageText("Faltan datos obligatorios", "WARNING");
+
+$g->SendMessageText("Ocurrió un error", "ERROR");
+
+ ]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>2902266056a3d3acab7c2e7006696640</tri_uid>
+        <tri_title>datosPrueba</tri_title>
+        <tri_description>datosPrueba</tri_description>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[ $mundo = 'MUNDO MOTRIZ UIO 2';
+	 
+if(stripos($mundo , "MUNDO MOTRIZ") !== false){
+	echo 'entro';
+	die();
+}
+
+	die('no entro');]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>61256928769a59a96712cc8085058248</tri_uid>
+        <tri_title>textos</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[ 
+ 
+$texto = 'COBERTURAS: SUMA ASEGURADA: - Pérdida parcial por robo Hasta el valor del casco - Pérdida parcial por daño Hasta el valor del casco - Pérdida total por robo Hasta el valor del casco - Pérdida total por daño Hasta el valor del casco - Choque, vuelco - Incendio y/O rayo - Explosión. - Autoignición - Motín y huelga - Actos maliciosos y vandalismo - Eventos de la naturaleza - Derrumbe, deslave, alud - Caida e impacto de objetos COBERTURAS ADICIONALES - Responsabilidad civil hasta: USD. 35.000 como LUC por evento**. - Muerte conductor y/o ayudante: USD. 5.000 por cada ocupante* - Gastos médicos hasta: USD. 3.000 por cada ocupante* - Servicio exequial * Se tomará como límite máximo indicado en la matricula ** Dentro del Territorio Ecuatoriano CLAUSULAS ADICIONALES: - Adhesión - Aviso de siniestro, 10 días hábiles - Salvamento - Amparo patrimonial vehículos livianos para el asegurado y conductores autorizados. - Cancelación de la póliza, 30 días - Cláusula de aceptación - Cláusula de cobertura según los años de fabricación del vehículo asegurado - Cláusula de exclusión cuando carezca de licencia o documentos que habiliten dentro del territorio. - Cláusulas de inexistencia de partes y piezas en el mercado - Cláusula de exclusión por deterioro, averías, o daños en el momento de la inspección de riesgo - Cláusula de limitación y exclusión de sanciones - Paso de puentes y gabarras - Claúsula de Caminos Vecinales VALORES AGREGADOS - Cobertura en países de la CAN (Excepto Venezuela), excluye Responsabilidad civil. - Cobertura 100% en air-bag en caso de un siniestro amparado en la póliza. - No se aplica depreciación en partes y piezas BENEFICIOS ADICIONALES - Asistencia Equinoccial 24 horas - Auto Sustituto, solo para vehículos livianos hasta 15 años de fabricación, de acuerdo con los rangos de suma asegurado detallado líneas abajo, excluye motos, taxis y pesados. DEDUCIBLE POR EVENTO: (aplica el mayor) NOTAS ACLARATORIAS: DEDUCIBLE POR EVENTO: (aplica el mayor) Pérdida parcial por daños parcial por daños y/o robo: -Taller de convenio multimarca: 10% del valor del siniestro; 1% del valor asegurado; mínimo $200. -Taller Concesionario de convenio de la marca hasta 2 años de fabricación: 10% del valor del siniestro; 1% del valor asegurado; mínimo $350. - Taller Concesionario de convenio de la marca más de 2 años de fabricación: 15% del valor del siniestro; 1.5% del valor asegurado; mínimo $400 -Taller sin convenio: 10% del valor del siniestro; 1% del valor asegurado; mínimo $400. Pérdida total por daño *10% del valor asegurado *Vehículos eléctricos 20% del valor asegurado Pérdida Total por Robo (con dispositivo de vehículos menores a US$ 30.000) 10% del valor asegurado. Pérdida Total por Robo (sin dispositivo de vehículos menores a US$ 30.000) 10% del valor asegurado Pérdida Total por Robo (con dispositivo vehículos mayores a US$ 30.000) 10% del valor asegurado Pérdida Total por Robo (Sin dispositivo vehículos mayores a US$ 30.000) 20% del valor asegurado - Se excluye la cobertura de pérdida parcial por robo para los radios pull-out. - Los radios face-out se cubrirán en robo parcial siempre y cuando el asegurado entregue la mascarilla desmontable. - En caso de que el(los) vehículo(s) asegurado(s) posean accesorios extras (diferentes a los originales del vehículo), cuyo valor no supere el 20% del valor del casco, el asegurado deberá notificar por escrito su decisión de asegurarlos, previo la inspección y el pago de prima adicional; caso contrario los mencionados accesorios no tendrán cobertura. - Excluye cualquier daño que ocurra por combustible que no sea el apropiado o estipulado por el fabricante, o por la alteración del mismo que pueda causar cualquier daño al vehículo asegurado. - En caso de asegurarse furgones, termokines, tanques, las coberturas inherentes a rotura de maquinaria y transporte están excluidas - Cubertura para radios originales: hasta el 100% de su valor no superior a us$1.500 - En caso de que Seguros Equinoccial hubiere pagado una indemnización por el valor total de los bienes asegurados, adquiere los derechos de dichos bienes, pudiendo renunciar a estos unilateralmente en cualquier momento. - "En caso de que el Asegurado y/o solicitante no sea el que comparece, el seguro será tomado en calidad de tercero" POLITICAS DE PROTECCION VEHICULAR: Los automóviles, camionetas, 4x4 y 4X2 con valor asegurado superior o igual a US$ 30.000, tendrán cobertura de pérdida total por robo, siempre y cuando cuenten con el dispositivo de rastreo satelital con compañías legalmente constituidas; bajo la legislación y sujetas a control de autoridad ecuatoriana ;Que cuenten con sistema GPS y bloqueo, el cual deberá estar en perfecto estado de funcionamiento durante toda vigencia, para cuyo efecto la certificación del proveedor que gestione el asegurado para constatar el cumplimiento de la garantía será habilitante para la atención del reclamo. La Compañía mantendrá la cobertura de robo total durante los 15 primeros días de inicio vigencia de la póliza, con la finalidad que el Asegurado instale el dispositivo de rastreo El incumplimiento de esta garantía en caso de siniestro por pérdida total por robo se aplicara el deducible del 20% del valor asegurado GARANTIAS DE POLIZA: - Los vehículos de hasta 15 años de fabricación, tendrán cobertura de todo riesgo siempre y cuando sea aceptado en la inspección de nuevo riesgo. - Para efectos de esta póliza, en caso de responsabilidad civil, no se consideran terceros al cónyuge, parientes del asegurado hasta el tercer grado de consanguinidad o afinidad, así como los socios, gerentes o empleados subalternos del asegurado. - El asegurado autoriza expresamente a la aseguradora para que, de manera directa o a través de sus peritos, en cualquier momento solicite la información que considere pertinente a la empresa de rastreo satelital que le presta sus servicios. - Para Seguros Equinoccial es muy importante contar con su información actualizada para lo cual constantemente realizamos la confirmación de sus datos, además con la firma en su póliza nos autoriza a enviar la información relacionada con su seguro y factura además de recolectar, digitalizar, mantener, enviar y recibir información comercial y promocional por canales ordinarios, digitales y telefónicos. - Para Seguros Equinoccial es muy importante contar con su información actualizada para lo cual constantemente realizamos la confirmación de sus datos, además con la firma en su póliza nos autoriza a enviar la información relacionada con su seguro y factura además de recolectar, digitalizar, mantener, enviar y recibir información comercial y promocional por canales ordinarios, digitales y telefónicos.';
+
+// Buscar el bloque del taller de convenio multimarca
+// Patrón: desde "Taller de convenio multimarca:" hasta el siguiente "-Taller" o fin de sección
+preg_match(
+    '/-Taller de convenio multimarca:\s*([^-]+)/i',
+    $texto,
+    $bloqueMatch
+);
+
+if (!empty($bloqueMatch[1])) {
+    $bloque = $bloqueMatch[1];
+
+    // Extraer porcentaje del siniestro (ej: "10% del valor del siniestro")
+    preg_match('/(\d+(?:\.\d+)?)\s*%\s*del valor del siniestro/i', $bloque, $mSiniestro);
+    @@frm_deducible_PorcentajeSiniestro = isset($mSiniestro[1]) ? (float)$mSiniestro[1] : '';
+
+    // Extraer porcentaje del valor asegurado (ej: "1% del valor asegurado")
+    preg_match('/(\d+(?:\.\d+)?)\s*%\s*del valor asegurado/i', $bloque, $mAsegurado);
+    @@frm_deducible_PorcentajeAsegurado = isset($mAsegurado[1]) ? (float)$mAsegurado[1] : '';
+
+    // Extraer valor mínimo - robusto ante variaciones de tilde
+    preg_match('/m[^\s]*nimo\s*\$\s*(\d+(?:\.\d+)?)/i', $bloque, $mMinimo);
+    @@frm_deducible_ValorMinimo = isset($mMinimo[1]) ? (float)$mMinimo[1] : '';
+
+    // Fallback manual si el regex de mínimo no capturó nada
+    if (@@frm_deducible_ValorMinimo === '') {
+        $pos = stripos($bloque, 'nimo $');
+        if ($pos !== false) {
+            preg_match('/\$\s*(\d+(?:\.\d+)?)/', substr($bloque, $pos), $mMinFb);
+            @@frm_deducible_ValorMinimo = isset($mMinFb[1]) ? (float)$mMinFb[1] : '';
+        }
+    }
+
+} else {
+    @@frm_deducible_PorcentajeSiniestro = '';
+    @@frm_deducible_PorcentajeAsegurado = '';
+    @@frm_deducible_ValorMinimo         = '';
+}
+
+
+// Valor asegurado del casco
+@@frm_sumaAseguradaCasco = 300;
+@@frm_deducible_ValorAsegurado = @@frm_sumaAseguradaCasco;
+
+echo @@frm_deducible_PorcentajeSiniestro;
+echo '<br>';
+echo @@frm_deducible_PorcentajeAsegurado;
+echo '<br>';
+echo @@frm_deducible_ValorMinimo;
+echo '<br>';
+echo @@frm_deducible_ValorAsegurado ;
+die();]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>6186572346a22e0e8f02cc7097710459</tri_uid>
+        <tri_title>datosTaller</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>83199455669cbfb6cdb6fb2028913888</tri_uid>
+        <tri_title>test_dump</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$imp_valor_estimado = 3000;
+$nro_stro = 400;
+$cod_suc = 4;
+$aaaa_ejercicio = 2026;
+$cod_ind_cob=21;
+
+$json_param = array(
+    "codigoScript"     => "ACTUALIZACION_RESERVA_GENERALES",
+    "codigoAplicacion" => "BPM_PPROCCES_GENERALES",
+    "parametros"       => array(
+		"nro_stro"           => intval($nro_stro),
+        "cod_suc"            => intval($cod_suc),
+        "cod_ramo"           => intval($cod_ramo),
+        "aaaa_ejercicio"     => intval($aaaa_ejercicio),
+        "cod_ind_cob"        => intval($cod_ind_cob),
+        "imp_valor_estimado" => floatval($imp_valor_estimado),
+    )
+);
+
+$json = json_encode($json_param, JSON_PRESERVE_ZERO_FRACTION);
+
+
+print_r($json);
+
+die();]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>8482391136a3205ee8d9eb1017778702</tri_uid>
+        <tri_title>deco</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$script = 'YzNiODNmYzQtZWViOS00OGMwLTk1ZDQtYTIwOWRhM2ExNjJl';
+$var = base64_decode($script);
+echo $var;
+die();]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers">
+      <record>
+        <step_uid>-1</step_uid>
+        <tas_uid>75057336369a05b124553b0050294595</tas_uid>
+        <tri_uid>2902266056a3d3acab7c2e7006696640</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>48190219869ab2366c66a23078481716</step_uid>
+        <tas_uid>36718777269a9912b9a5421068139020</tas_uid>
+        <tri_uid>2902266056a3d3acab7c2e7006696640</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>76103892269de975eafdd30030311791</var_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <var_name>checkboxVar001</var_name>
+        <var_field_type>boolean</var_field_type>
+        <var_field_type_id>4</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>boolean</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"1","label":"true"},{"value":"0","label":"false"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>55612156369ab1d6b95f288081180403</var_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <var_name>gridDocumentos</var_name>
+        <var_field_type>grid</var_field_type>
+        <var_field_type_id>6</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>grid</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>79960795969ab03b1178829015711463</var_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <var_name>multipleFileVar001</var_name>
+        <var_field_type>multiplefile</var_field_type>
+        <var_field_type_id>9</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>multiplefile</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>52846336669deb46d17cfb4026380694</var_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <var_name>textareaVar001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>22367474769de96ebee7a02048792535</var_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <var_name>textVar001</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>69998471469de96ffb898a7003808918</var_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <var_name>textVar002</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>31247877869de975486cc68028769138</var_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <var_name>textVar003</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>96769100469de975a3379c1050505119</var_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <var_name>textVar004</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>34210685969deb27f7427e1013435343</var_uid>
+        <prj_uid>53500527169a05ae90da8a3092650369</prj_uid>
+        <var_name>textVar005</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager">
+      <record>
+        <prf_uid>15574638369a98eae332c96024696640</prf_uid>
+        <pro_uid>53500527169a05ae90da8a3092650369</pro_uid>
+        <usr_uid>4686706736952ff5585bf30060276881</usr_uid>
+        <prf_update_usr_uid></prf_update_usr_uid>
+        <prf_path><![CDATA[/code/shared/sites/certificacion/mailTemplates/53500527169a05ae90da8a3092650369/luranaLinkAction.html]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>1</prf_editable>
+        <prf_create_date><![CDATA[2026-03-05 09:09:50]]></prf_create_date>
+        <prf_update_date></prf_update_date>
+      </record>
+    </table>
+    <table name="linkAction"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>demo1</file_name>
+      <file_path><![CDATA[53500527169a05ae90da8a3092650369/32096837769de96db395c54063958953.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjUzNTAwNTI3MTY5YTA1YWU5MGRhOGEzMDkyNjUwMzY5LzMyMDk2ODM3NzY5ZGU5NmRiMzk1YzU0MDYzOTU4OTUzIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>demo2subform</file_name>
+      <file_path><![CDATA[53500527169a05ae90da8a3092650369/45755528869de974f893742083118480.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjUzNTAwNTI3MTY5YTA1YWU5MGRhOGEzMDkyNjUwMzY5LzQ1NzU1NTI4ODY5ZGU5NzRmODkzNzQyMDgzMTE4NDgwIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>test</file_name>
+      <file_path><![CDATA[53500527169a05ae90da8a3092650369/64982185369ab03a7bba6e3091845336.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjUzNTAwNTI3MTY5YTA1YWU5MGRhOGEzMDkyNjUwMzY5LzY0OTgyMTg1MzY5YWIwM2E3YmJhNmUzMDkxODQ1MzM2IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>demoaurotiza</file_name>
+      <file_path><![CDATA[53500527169a05ae90da8a3092650369/96468031769deb4573e2681066683264.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjUzNTAwNTI3MTY5YTA1YWU5MGRhOGEzMDkyNjUwMzY5Lzk2NDY4MDMxNzY5ZGViNDU3M2UyNjgxMDY2NjgzMjY0IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="templates">
+      <file_name>luranaLinkAction.html</file_name>
+      <file_path><![CDATA[53500527169a05ae90da8a3092650369/luranaLinkAction.html]]></file_path>
+      <file_content><![CDATA[PCFkb2N0eXBlIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KCjxoZWFkPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgogICAgPG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9VVRGLTgiPgogICAgPHRpdGxlPkx1cmFuYSBMaW5rIEFjdGlvbjwvdGl0bGU+CiAgICA8c3R5bGUgbWVkaWE9ImFsbCIgdHlwZT0idGV4dC9jc3MiPgogICAgICAgIGJvZHkgewogICAgICAgICAgICBmb250LWZhbWlseTogSGVsdmV0aWNhLCBzYW5zLXNlcmlmOwogICAgICAgICAgICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDsKICAgICAgICAgICAgZm9udC1zaXplOiAxNnB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMS4zOwogICAgICAgICAgICAtbXMtdGV4dC1zaXplLWFkanVzdDogMTAwJTsKICAgICAgICAgICAgLXdlYmtpdC10ZXh0LXNpemUtYWRqdXN0OiAxMDAlOwogICAgICAgIH0KCiAgICAgICAgdGFibGUgewogICAgICAgICAgICBib3JkZXItY29sbGFwc2U6IHNlcGFyYXRlOwogICAgICAgICAgICBtc28tdGFibGUtbHNwYWNlOiAwcHQ7CiAgICAgICAgICAgIG1zby10YWJsZS1yc3BhY2U6IDBwdDsKICAgICAgICAgICAgd2lkdGg6IDEwMCU7CiAgICAgICAgfQoKICAgICAgICB0YWJsZSB0ZCB7CiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDsKICAgICAgICAgICAgdmVydGljYWwtYWxpZ246IHRvcDsKICAgICAgICB9CgogICAgICAgIGJvZHkgewogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjRmNWY2OwogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQoKICAgICAgICAuYm9keSB7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmNGY1ZjY7CiAgICAgICAgICAgIHdpZHRoOiAxMDAlOwogICAgICAgIH0KCiAgICAgICAgLmNvbnRhaW5lciB7CiAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIG1heC13aWR0aDogNjAwcHg7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgICAgIHBhZGRpbmctdG9wOiAyNHB4OwogICAgICAgICAgICB3aWR0aDogNjAwcHg7CiAgICAgICAgfQoKICAgICAgICAuY29udGVudCB7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgICAgICBtYXJnaW46IDAgYXV0bzsKICAgICAgICAgICAgbWF4LXdpZHRoOiA2MDBweDsKICAgICAgICAgICAgcGFkZGluZzogMDsKICAgICAgICB9CgogICAgICAgIC5tYWluIHsKICAgICAgICAgICAgYmFja2dyb3VuZDogI2ZmZmZmZjsKICAgICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgI2VhZWJlZDsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMTZweDsKICAgICAgICAgICAgd2lkdGg6IDEwMCU7CiAgICAgICAgfQoKICAgICAgICAud3JhcHBlciB7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIHBhZGRpbmc6IDI0cHg7CiAgICAgICAgfQoKICAgICAgICAuZm9vdGVyIHsKICAgICAgICAgICAgY2xlYXI6IGJvdGg7CiAgICAgICAgICAgIHBhZGRpbmctdG9wOiAyNHB4OwogICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgICAgICAgICAgIHdpZHRoOiAxMDAlOwogICAgICAgIH0KCiAgICAgICAgLmZvb3RlciB0ZCwKICAgICAgICAuZm9vdGVyIHAsCiAgICAgICAgLmZvb3RlciBzcGFuLAogICAgICAgIC5mb290ZXIgYSB7CiAgICAgICAgICAgIGNvbG9yOiAjOWE5ZWE2OwogICAgICAgICAgICBmb250LXNpemU6IDE2cHg7CiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICAgICAgICB9CgogICAgICAgIHAgewogICAgICAgICAgICBmb250LWZhbWlseTogSGVsdmV0aWNhLCBzYW5zLXNlcmlmOwogICAgICAgICAgICBmb250LXNpemU6IDE2cHg7CiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7CiAgICAgICAgICAgIG1hcmdpbjogMDsKICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMTZweDsKICAgICAgICB9CgogICAgICAgIGEgewogICAgICAgICAgICBjb2xvcjogIzA4NjdlYzsKICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7CiAgICAgICAgfQoKICAgICAgICAuYnRuIHsKICAgICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDsKICAgICAgICAgICAgbWluLXdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIHdpZHRoOiAxMDAlOwogICAgICAgIH0KCiAgICAgICAgLmJ0bj50Ym9keT50cj50ZCB7CiAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiAxNnB4OwogICAgICAgIH0KCiAgICAgICAgLmJ0biB0YWJsZSB7CiAgICAgICAgICAgIHdpZHRoOiBhdXRvOwogICAgICAgIH0KCiAgICAgICAgLmJ0biB0YWJsZSB0ZCB7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7CiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDsKICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgICAgIH0KCiAgICAgICAgLmJ0biBhIHsKICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4OwogICAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94OwogICAgICAgICAgICBjb2xvcjogIzA4NjdlYzsKICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyOwogICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDsKICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7CiAgICAgICAgICAgIG1hcmdpbjogMDsKICAgICAgICAgICAgcGFkZGluZzogMTJweCAyNHB4OwogICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7CiAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiBjYXBpdGFsaXplOwogICAgICAgIH0KCiAgICAgICAgLmJ0bi1wcmltYXJ5IGEgewogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDg2N2VjOwogICAgICAgICAgICBib3JkZXItY29sb3I6ICMwODY3ZWM7CiAgICAgICAgICAgIGNvbG9yOiAjZmZmZmZmOwogICAgICAgIH0KCiAgICAgICAgQG1lZGlhIGFsbCB7CiAgICAgICAgICAgIC5idG4tcHJpbWFyeSBhOmhvdmVyIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDMwNDYgIWltcG9ydGFudDsKICAgICAgICAgICAgICAgIGJvcmRlci1jb2xvcjogIzAwMzA0NiAhaW1wb3J0YW50OwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAubGFzdCB7CiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDA7CiAgICAgICAgfQoKICAgICAgICAuZmlyc3QgewogICAgICAgICAgICBtYXJnaW4tdG9wOiAwOwogICAgICAgIH0KCiAgICAgICAgLmFsaWduLWNlbnRlciB7CiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICAgICAgICB9CgogICAgICAgIC5hbGlnbi1yaWdodCB7CiAgICAgICAgICAgIHRleHQtYWxpZ246IHJpZ2h0OwogICAgICAgIH0KCiAgICAgICAgLmFsaWduLWxlZnQgewogICAgICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0OwogICAgICAgIH0KCiAgICAgICAgLnRleHQtbGluayB7CiAgICAgICAgICAgIGNvbG9yOiAjMDg2N2VjICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lICFpbXBvcnRhbnQ7CiAgICAgICAgfQoKICAgICAgICAuY2xlYXIgewogICAgICAgICAgICBjbGVhcjogYm90aDsKICAgICAgICB9CgogICAgICAgIC5tdDAgewogICAgICAgICAgICBtYXJnaW4tdG9wOiAwOwogICAgICAgIH0KCiAgICAgICAgLm1iMCB7CiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDA7CiAgICAgICAgfQoKICAgICAgICAucHJlaGVhZGVyIHsKICAgICAgICAgICAgY29sb3I6IHRyYW5zcGFyZW50OwogICAgICAgICAgICBkaXNwbGF5OiBub25lOwogICAgICAgICAgICBoZWlnaHQ6IDA7CiAgICAgICAgICAgIG1heC1oZWlnaHQ6IDA7CiAgICAgICAgICAgIG1heC13aWR0aDogMDsKICAgICAgICAgICAgb3BhY2l0eTogMDsKICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjsKICAgICAgICAgICAgbXNvLWhpZGU6IGFsbDsKICAgICAgICAgICAgdmlzaWJpbGl0eTogaGlkZGVuOwogICAgICAgICAgICB3aWR0aDogMDsKICAgICAgICB9CgogICAgICAgIC5wb3dlcmVkLWJ5IGEgewogICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7CiAgICAgICAgfQoKICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDY0MHB4KSB7CgogICAgICAgICAgICAubWFpbiBwLAogICAgICAgICAgICAubWFpbiB0ZCwKICAgICAgICAgICAgLm1haW4gc3BhbiB7CiAgICAgICAgICAgICAgICBmb250LXNpemU6IDE2cHggIWltcG9ydGFudDsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLndyYXBwZXIgewogICAgICAgICAgICAgICAgcGFkZGluZzogOHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC5jb250ZW50IHsKICAgICAgICAgICAgICAgIHBhZGRpbmc6IDAgIWltcG9ydGFudDsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLmNvbnRhaW5lciB7CiAgICAgICAgICAgICAgICBwYWRkaW5nOiAwICFpbXBvcnRhbnQ7CiAgICAgICAgICAgICAgICBwYWRkaW5nLXRvcDogOHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgICAgICAgICB3aWR0aDogMTAwJSAhaW1wb3J0YW50OwogICAgICAgICAgICB9CgogICAgICAgICAgICAubWFpbiB7CiAgICAgICAgICAgICAgICBib3JkZXItbGVmdC13aWR0aDogMCAhaW1wb3J0YW50OwogICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMCAhaW1wb3J0YW50OwogICAgICAgICAgICAgICAgYm9yZGVyLXJpZ2h0LXdpZHRoOiAwICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC5idG4gdGFibGUgewogICAgICAgICAgICAgICAgbWF4LXdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7CiAgICAgICAgICAgICAgICB3aWR0aDogMTAwJSAhaW1wb3J0YW50OwogICAgICAgICAgICB9CgogICAgICAgICAgICAuYnRuIGEgewogICAgICAgICAgICAgICAgZm9udC1zaXplOiAxNnB4ICFpbXBvcnRhbnQ7CiAgICAgICAgICAgICAgICBtYXgtd2lkdGg6IDEwMCUgIWltcG9ydGFudDsKICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBtZWRpYSBhbGwgewogICAgICAgICAgICAuRXh0ZXJuYWxDbGFzcyB7CiAgICAgICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLkV4dGVybmFsQ2xhc3MsCiAgICAgICAgICAgIC5FeHRlcm5hbENsYXNzIHAsCiAgICAgICAgICAgIC5FeHRlcm5hbENsYXNzIHNwYW4sCiAgICAgICAgICAgIC5FeHRlcm5hbENsYXNzIGZvbnQsCiAgICAgICAgICAgIC5FeHRlcm5hbENsYXNzIHRkLAogICAgICAgICAgICAuRXh0ZXJuYWxDbGFzcyBkaXYgewogICAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDEwMCU7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC5hcHBsZS1saW5rIGEgewogICAgICAgICAgICAgICAgY29sb3I6IGluaGVyaXQgIWltcG9ydGFudDsKICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBpbmhlcml0ICFpbXBvcnRhbnQ7CiAgICAgICAgICAgICAgICBmb250LXNpemU6IGluaGVyaXQgIWltcG9ydGFudDsKICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiBpbmhlcml0ICFpbXBvcnRhbnQ7CiAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogaW5oZXJpdCAhaW1wb3J0YW50OwogICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgICNNZXNzYWdlVmlld0JvZHkgYSB7CiAgICAgICAgICAgICAgICBjb2xvcjogaW5oZXJpdDsKICAgICAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTsKICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogaW5oZXJpdDsKICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBpbmhlcml0OwogICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGluaGVyaXQ7CiAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogaW5oZXJpdDsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIDwvc3R5bGU+CjwvaGVhZD4KCjxib2R5PgogICAgPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiBjbGFzcz0iYm9keSI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQgd2lkdGg9IjgwJSIgYWxpZ249ImNlbnRlciIgY2xhc3M9ImNvbnRhaW5lciI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJjb250ZW50Ij4KICAgICAgICAgICAgICAgICAgICA8IS0tIFNUQVJUIENFTlRFUkVEIFdISVRFIENPTlRBSU5FUiAtLT4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0icHJlaGVhZGVyIj5UaGlzIGlzIGEgTHVyYW5hIExpbmsgQWN0aW9uIGVtYWlsPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDx0YWJsZSBjbGFzcz0ibWFpbiIgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiPgogICAgICAgICAgICAgICAgICAgICAgICA8IS0tIFNUQVJUIE1BSU4gQ09OVEVOVCBBUkVBIC0tPgogICAgICAgICAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3M9IndyYXBwZXIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlcjsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9ImZvbnQtZmFtaWx5OiBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMjRweDsgZm9udC13ZWlnaHQ6IG5vcm1hbDsgbWFyZ2luOiAwOyBtYXJnaW4tYm90dG9tOiAxNnB4OyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8Yj5MdXJhbmEgTGluayBBY3Rpb248L2I+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGFibGUgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiIGNsYXNzPSJidG4gYnRuLXByaW1hcnkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGJvZHk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGFsaWduPSJsZWZ0Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQCNfX0xVUkFOQV9MSU5LX0FDVElPTgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3Rib2R5PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgICAgICAgICA8IS0tIEVORCBNQUlOIENPTlRFTlQgQVJFQSAtLT4KICAgICAgICAgICAgICAgICAgICA8L3RhYmxlPgogICAgICAgICAgICAgICAgICAgIDwhLS0gU1RBUlQgRk9PVEVSIC0tPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZvb3RlciI+CiAgICAgICAgICAgICAgICAgICAgICAgIDx0YWJsZSBib3JkZXI9IjAiIGNlbGxwYWRkaW5nPSIwIiBjZWxsc3BhY2luZz0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJjb250ZW50LWJsb2NrIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImFwcGxlLWxpbmsiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT0iY29sb3I6ICMwMDdEQTY7IGZvbnQtc2l6ZTogMTJweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUaGlzIEJ1c2luZXNzIFByb2Nlc3MgaXMgcG93ZXJlZCBieTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3M9ImNvbnRlbnQtYmxvY2sgYWxpZ24tY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vc25lYWtwZWVrLmx1cmFuYXNvZnQuY29tL2ltYWdlcy9sdXJhbmEubG9nby5wbmciIGFsdD0iTHVyYW5hIExvZ28iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aD0iMjAwIiBib3JkZXI9IjAiIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlcjsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzcz0iY29udGVudC1ibG9jayBwb3dlcmVkLWJ5Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cDovL3d3dy5sdXJhbmFzb2Z0LmNvbSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPSJmb250LXNpemU6IDEycHg7IGNvbG9yOiNmOGE0MDQ7Ij53d3cubHVyYW5hc29mdC5jb208L2E+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPCEtLSBFTkQgRk9PVEVSIC0tPgogICAgICAgICAgICAgICAgICAgIDwhLS0gRU5EIENFTlRFUkVEIFdISVRFIENPTlRBSU5FUiAtLT4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L3RkPgogICAgICAgIDwvdHI+CiAgICA8L3RhYmxlPgo8L2JvZHk+Cgo8L2h0bWw+]]></file_content>
+    </file>
+    <file target="public">
+      <file_name>86721848369a05b1250c826047483605Info.php</file_name>
+      <file_path><![CDATA[53500527169a05ae90da8a3092650369/86721848369a05b1250c826047483605Info.php]]></file_path>
+      <file_content><![CDATA[PD9waHAKCiRHX1BVQkxJU0ggPSBuZXcgUHVibGlzaGVyKCk7CiRzaG93ID0gImxvZ2luL3Nob3dNZXNzYWdlIjsKJG1lc3NhZ2UgPSAiIjsKaWYgKGlzc2V0KCRfU0VTU0lPTlsiX193ZWJFbnRyeVN1Y2Nlc3NfXyJdKSkgewogICAgJHNob3cgPSAibG9naW4vc2hvd0luZm8iOwogICAgJG1lc3NhZ2UgPSAkX1NFU1NJT05bIl9fd2ViRW50cnlTdWNjZXNzX18iXTsKfSBlbHNlIHsKICAgICRzaG93ID0gImxvZ2luL3Nob3dNZXNzYWdlIjsKICAgICRtZXNzYWdlID0gJF9TRVNTSU9OWyJfX3dlYkVudHJ5RXJyb3JfXyJdOwp9CiRHX1BVQkxJU0gtPkFkZENvbnRlbnQoInhtbGZvcm0iLCAieG1sZm9ybSIsICRzaG93LCAiIiwgJG1lc3NhZ2UpOwpHOjpSZW5kZXJQYWdlKCJwdWJsaXNoIiwgImJsYW5rIik7Cgo=]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>

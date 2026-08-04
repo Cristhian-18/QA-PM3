@@ -1,0 +1,2445 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+  <style type="text/css">
+    .table-spacing {
+      padding: 0px 0px 0px 18px;
+    }
+
+    .footer {
+      width: 100%;
+      position: relative;
+      bottom: 0;
+      padding: 5px;
+    }
+
+    .dimension {
+      position: relative;
+    }
+
+    @media print {
+      .footer {
+        position: absolute;
+      }
+
+      @media (max-height: 360mm) {
+        .dimension {
+          height: 330mm !important;
+          position: relative;
+        }
+      }
+
+      @media (max-height: 300mm) {
+        .dimension {
+          height: 273mm !important;
+          position: relative;
+        }
+
+        p {
+          margin: 10px 0;
+        }
+      }
+    }
+  </style>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif; font-size: small;">
+<p></p>
+<!--INICIO PAGINA-->
+<table cellpadding="0" cellspacing="0" border="0" style="width: 100%; page-break-after: always;" class="dimension">
+<tbody>
+<tr>
+<td height="250mm" valign="top"><!--INICIO HEADER-->
+<table border="0" cellspacing="0" cellpadding="8" style="background-color: #00493c; width: 100%;">
+<tbody>
+<tr>
+<td align="left" valign="middle" style="line-height: 12px;"><img style="padding: 20px;" width="120" src="data:image/png;base64,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" alt="" /></td>
+<td align="right" style="color: #ffffff; font-size: small;"><strong> SEGURO DE VIDA INDIVIDUAL <br /> SOLICITUD VIRTUAL CANDIDATO ASEGURADO </strong></td>
+</tr>
+</tbody>
+</table>
+<!--FIN HEADER-->
+<table border="0" cellspacing="0" cellpadding="2" style="padding: 20px 0px 0px; width: 100%;">
+<tbody><!--INICIO TABLA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" style="width: 100%;"><!--INICIO FILA-->
+<tbody>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 83%; color: #001815; font-size: x-small; font-weight: normal; vertical-align: top;">Por favor llenar los campos y marcar con una X, no dejar espacios en blanco en este formulario, en los casos que no aplique, indique N/A. Este formulario tiene tiempo de validez de un a&ntilde;o. La informaci&oacute;n aqu&iacute; descrita ser&aacute; considerada confidencial.</td>
+<td style="width: 17%;" class="table-spacing">
+<table cellspacing="0" cellpadding="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#tri_solicitud_label_fv</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="4" style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b> 1. DATOS DEL CANDIDATO A ASEGURADO </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO ESPACIADO-->
+<tr>
+<td height="1px" style="line-height: 5px;">&nbsp;</td>
+</tr>
+<!--FIN ESPACIADO--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="4" style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b> 1.1 DATOS PERSONALES </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Apellidos:</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Nombres:</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 25%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_apellido_paterno</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_apellido_materno</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_primer_nombre</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_segundo_nombre</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Paterno</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Materno</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Primero</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;" class="table-spacing">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Segundo</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Tipo de identificaci&oacute;n:</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">N&uacute;mero de identificaci&oacute;n:</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_tipo_identificacion_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_numero_identificacion</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#html_pasaporte</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Pa&iacute;s de nacimiento:</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Nacionalidad:</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Lugar de nacimiento</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_pais_nacimiento_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_nacionalidad_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#tri_ciudad_nacimiento_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Fecha de nacimiento</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Edad:</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_fecha_nacimiento_format</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_cliente_edad_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#html_pasaporte</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Sexo</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Estado Civil Actual</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">N&uacute;mero de hijos</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_sexo_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_estado_civil_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_numero_hijos</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Direcci&oacute;n del domicilio</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 25%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_pais_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_provincia_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_canton_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_barrio</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Pa&iacute;s</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Provincia</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Cant&oacute;n o Ciudad</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;" class="table-spacing">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Barrio o Sector</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Calle Principal:</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Nro.:</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Calle Transversal:</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_calle_principal</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_numero</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_calle_transversal</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Tel&eacute;fono</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Correo para firma y facturaci&oacute;n electr&oacute;nica</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_celular</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_correo_electronico_personal</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Tipo de empleo (Actividad Econ&oacute;mica)</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_ocupacion_tipo_empleo_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top; padding: 0; margin: 0; text-align: left;">
+<div style="margin: 0; padding: 0;">@#html_direccion_empleo</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr style="padding: 0; margin: 0; height: 0; line-height: 0;">
+<td style="padding: 0; margin: 0; height: 0; line-height: 0;">
+<table cellspacing="0" cellpadding="4" style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b>1.2 PERSONA EXPUESTA POL&Iacute;TICAMENTE</b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: justify;">Persona Expuesta Pol&iacute;ticamente es quien desempe&ntilde;a o ha desempe&ntilde;ado funciones p&uacute;blicas destacadas en el pa&iacute;s o en el exterior; o tenga hasta el segundo grado de consanguinidad, primero de afinidad o que sea colaborador cercano de una Persona Expuesta Pol&iacute;ticamente.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 68%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">&iquest;Usted es una Persona Expuesta Pol&iacute;ticamente (PEP)?</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 32%;" class=" table-spacing">
+<table>
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; font-size: x-small; vertical-align: top; font-weight: normal;">@#frm_trabajo_expuesta_politicamente_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#html_pep</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 68%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">&iquest;Tiene alg&uacute;n familiar o es colaborador cercano de una Persona Expuesta Pol&iacute;ticamente (PEP)?</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 32%;" class=" table-spacing">
+<table>
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; font-size: x-small; vertical-align: top; font-weight: normal;">@#frm_trabajo_expuesta_politicamente_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#html_pep_familiar</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="4" style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b> 2. INFORMACI&Oacute;N FINANCIERA </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 25%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_financiera_actividad_principal</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_tiene_otra_actividad_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_financiera_otros_ingresos</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_origen_otros_ingresos_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Ingresos mensuales USD $</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Posee otros ingresos</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Valor otros ingresos USD $</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;" class="table-spacing">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Fuente otros ingresos</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 25%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_ingresos_familiares</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_financiera_total_egresos</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Ingresos Familiares USD $</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Egresos Mensuales USD $</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 25%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_financiera_total_activos</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_financiera_total_pasivos</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_financiera_total_patrimonio</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Total Activos USD $ <br /> (Bienes que tenga a la fecha de llenado de este formulario)</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Total Pasivos USD $ <br /> (Valores que adeuda a la fecha de llenado de este formulario)</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Total Patrimonio USD $ <br /> (Corresponde a la resta de Activos - Pasivos)</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--INICIO FOOTER--> <!--FINAL FOOTER--></tbody>
+</table>
+<table cellpadding="0" cellspacing="0" border="0" style="width: 100%; page-break-after: always;" class="dimension">
+<tbody>
+<tr><!--FIN HEADER--></tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" style="width: 100%;"><!--INICIO FILA-->
+<tbody>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="4" style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b> 3. PLAN DE SEGURO: CARACTER&Iacute;STICAS DEL SEGURO CONTRATADO </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 68%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">&iquest;Su p&oacute;liza tiene un Solicitante diferente del Candidato a Asegurado?</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 32%;" class=" table-spacing">
+<table>
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; font-size: x-small; vertical-align: top; font-weight: normal;">@#frm_plan_diferente_asegurado_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Tipo de identificaci&oacute;n:</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">N&uacute;mero de identificaci&oacute;n:</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_plan_tipo_identificacion_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_plan_numero_identificacion</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 25%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Nombre</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 22%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Correo</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Relaci&oacute;n</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 28%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Detalle</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 25%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_plan_nombre</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 22%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_plan_mail</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 25%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_plan_relacion_poliza_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 28%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_plan_relacion_poliza_otro_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 68%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">&iquest;Su p&oacute;liza paga otra persona?</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 32%;" class=" table-spacing">
+<table>
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; font-size: x-small; vertical-align: top; font-weight: normal;">@#frm_pago_terceros_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Tipo de identificaci&oacute;n:</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">N&uacute;mero de identificaci&oacute;n:</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_tipo_identificacion_pagador_label_temp</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_cedula_pagador_temp</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 34%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Nombre</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Correo</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;" class="table-spacing">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Relaci&oacute;n</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 34%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_nombre_pagador_temp @#frm_apellidos_pagador_temp</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_correo_electronico_debito_temp</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_parentesco_label_temp</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Motivo del Seguro</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_motivo_seguro_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Beneficiarios en caso de muerte</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr></tr>
+<tr>
+<td>@#frm_beneficiarios_bloque</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Beneficiarios Contingentes (En caso de no vivir los anteriores)</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>@#frm_beneficiarios_contingentes_bloque</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Dependientes Plan Dental</td>
+</tr>
+</tbody>
+</table>
+<span style="font-size: x-small;">Favor llenar la informaci&oacute;n de sus dependientes en caso de haber tomado estos planes:</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>@#frm_dental_bloque</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Dependientes Plan Exequial</td>
+</tr>
+</tbody>
+</table>
+<span style="font-size: x-small;">Favor llenar la informaci&oacute;n de sus dependientes en caso de haber tomado estos planes:</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>@#frm_exequial_bloque</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Opci&oacute;n de liquidaci&oacute;n del valor asegurado</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_opcion_liquidacion_valor_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_plazo_cuotas_liquidacion_temp</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 32%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_pago_unico_porcentaje_temp</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 32%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_pago_cuota_porcentaje_temp</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 36%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_plazo_cuotas_liquidacion_combinada_temp</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 32%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">% Pago &Uacute;nico</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 32%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">% Pago en Cuotas</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 36%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;"># de A&ntilde;os</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Datos sobre otros seguros personales vigentes</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="width: 33%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Ramo / Plan</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Compa&ntilde;&iacute;a</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Valor Asegurado</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_ramooplan_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_compania</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_valor_asegurado_otros</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<!--NUEVO 2-->
+<tbody><!--INICIO TABLA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" style="width: 100%;"><!--INICIO FILA-->
+<tbody>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="4" style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b> 4. DECLARACI&Oacute;N DE ASEGURABILIDAD </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: justify;">Adjunto como Anexo 1 <br /> @#html_vitality</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="4" style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b> 6. DOCUMENTOS REQUERIDOS </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: justify;">Favor adjuntar los siguientes documentos: <br /> 1. Copia legible de la c&eacute;dula de identidad o pasaporte del Candidato a Asegurado. <br /> 2. Cotizaci&oacute;n firmada o aceptaci&oacute;n por escrito del Solicitante o Candidato a Asegurado. <br /> 3. Requisitos de asegurabilidad que correspondan.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="4" style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b> LEA ESTE TEXTO ANTES DE FIRMAR </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO ESPACIADO-->
+<tr>
+<td height="1px" style="line-height: 5px;">&nbsp;</td>
+</tr>
+<!--FIN ESPACIADO--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="4" style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b> 7. DECLARACIONES Y AUTORIZACIONES </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: justify;">Declaro expresa e irrevocablemente que los datos consignados en esta Solicitud son correctos y fidedignos. Autorizo a EQUISUIZA SEGUROS S.A. para que proceda con la comprobaci&oacute;n de esta declaraci&oacute;n. Para el efecto, la EQUISUIZA SEGUROS S.A. podr&aacute; efectuar todas las indagaciones necesarias, por los medios legales que considere convenientes. <br /><br /> Autorizo de manera expl&iacute;cita a cualquier hospital, centro asistencial, m&eacute;dico, empleado de hospital o cualquier persona que me haya atendido, o haya sido consultada por m&iacute;, para que suministre a EQUISUIZA SEGUROS S.A., toda la informaci&oacute;n que sea necesaria para continuar con el proceso de asegurabilidad. <br /><br /> Acepto libre y voluntariamente que he sido informado y, por ende, entiendo y acepto expresamente que: <br /><br /> 1. Este documento es una solicitud de seguro y no representa aceptaci&oacute;n de cobertura ni garant&iacute;a alguna de que la misma ser&aacute; admitida por EQUISUIZA SEGUROS S.A., ni que en caso de aceptarse, la aceptaci&oacute;n concuerde totalmente con los t&eacute;rminos de la solicitud. La cobertura se perfeccionar&aacute; &uacute;nicamente a partir del momento en que EQUISUIZA SEGUROS S.A. manifieste su aceptaci&oacute;n expresa a esta solicitud, bajo los t&eacute;rminos y condiciones que considere adecuados, seg&uacute;n la evaluaci&oacute;n de riesgo que lleve a cabo. <br /><br /> 2. Cualquier valor que pudiera entregar a EQUISUIZA SEGUROS S.A. previo a la emisi&oacute;n de una p&oacute;liza, constituye un dep&oacute;sito provisional, por ende, el mismo no representa un pago de prima de seguro y/o aceptaci&oacute;n de cobertura por parte de EQUISUIZA SEGUROS S.A. y/o tampoco garantiza la aceptaci&oacute;n de la solicitud de seguro que he firmado. <br /><br /> 3. Ning&uacute;n colaborador de EQUISUIZA SEGUROS S.A. podr&aacute; recibir valores en efectivo, todo deposito provisional o posterior pago de primas debe ser realizado a trav&eacute;s de dep&oacute;sitos o transferencias a cuentas de EQUISUIZA SEGUROS S.A., o por los medios de pago que EQUISUIZA SEGUROS S.A. disponga. <br /><br /> 4. EQUISUIZA SEGUROS S.A. puede solicitar informaci&oacute;n y/o ex&aacute;menes adicionales en el proceso de revisi&oacute;n de la solicitud de seguro, previo a su decisi&oacute;n final de conceder o no cobertura. <br /><br /> 5. Si la solicitud de seguro que he firmado no fuese aceptada, fuese aplazada o que no se concrete la revisi&oacute;n de la misma por necesidad de informaci&oacute;n o ex&aacute;menes adicionales, acepto que el dep&oacute;sito provisional que he entregado sea devuelto a la siguiente cuenta:</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Banco</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Tipo de Cuenta</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">N&uacute;mero de Cuenta</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_devolucion_banco_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_devolucion_tipo_cuenta_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_devolucion_numero_cuenta</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Nombre del titular:</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;">
+<table style="background-color: #c4f99b; width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">N&uacute;mero de identificaci&oacute;n del titular con el que apertur&oacute; la cuenta:</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_devolucion_titular @#frm_devolucion_titular_apellidos</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_devolucion_identificacion</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: justify;">Si la transferencia no pudiese ser realizada a los datos consignados en este formulario, EQUISUIZA SEGUROS S.A. me notificar&aacute; tal particular al correo abajo detallado, y se emitir&aacute; un cheque a mi favor, el mismo que podr&aacute; ser retirado en las oficinas de EQUISUIZA SEGUROS S.A., conforme se detalle en la notificaci&oacute;n que me env&iacute;en al precitado correo electr&oacute;nico. <br /><br /> 6. Absolutamente todas las comunicaciones que EQUISUIZA SEGUROS S.A. deba hacerme de aqu&iacute; en adelante, sean enviadas &uacute;nica y exclusivamente al correo electr&oacute;nico: @#correo_preferido , por lo que, todas las comunicaciones y/o notificaciones enviadas al referido correo electr&oacute;nico, se entender&aacute;n como debidamente recibidas por mi persona. Cualquier cambio en la direcci&oacute;n de correo electr&oacute;nico arriba citada, ser&aacute; debidamente notificada a EQUISUIZA SEGUROS S.A., mediante comunicaci&oacute;n escrita, en la que deber&aacute; constar la respectiva fe de recepci&oacute;n de EQUISUIZA SEGUROS S.A. <br /><br /> 7. He recibido toda la explicaci&oacute;n del producto, de sus beneficios y exclusiones, as&iacute; como la forma de utilizar sus coberturas y servicios, por tanto, comprendo y estoy conforme con el producto contratado. <br /><br /> 8. Conforme a la normativa vigente, el Solicitante del seguro est&aacute; obligado a declarar objetivamente el estado del riesgo, previo al perfeccionamiento del contrato de seguro, seg&uacute;n el cuestionario que le sea propuesto por el asegurador, y de conformidad con la ley. La reticencia o falsedad acerca de la declaraci&oacute;n del solicitante vician de nulidad relativa el contrato de seguro, con la salvedad prevista para el seguro de vida en el caso de inexactitud en la declaraci&oacute;n de la edad del asegurado. <br /><br /> Firmo el presente documento en se&ntilde;al de comprensi&oacute;n, aceptaci&oacute;n y conformidad de su contenido. La informaci&oacute;n proporcionada en este documento ser&aacute; de estricta confidencialidad. <br /><br /> Declaro que, por aplicaci&oacute;n del principio de uso exclusivo, aplicable a la firma electr&oacute;nica, de conformidad con las disposiciones de la Ley de Comercio Electr&oacute;nico, Firmas Electr&oacute;nicas y Mensajes de Datos, en virtud de la vinculaci&oacute;n de la cuenta o direcci&oacute;n de correo electr&oacute;nico, la informaci&oacute;n aqu&iacute; contenida es fidedigna y se ha consignado bajo mi absoluta responsabilidad.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody>
+<tr><!--FIN HEADER--></tr>
+</tbody>
+<tbody><!--INICIO TABLA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" style="width: 100%;"><!--INICIO FILA-->
+<tbody>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#tri_vendedor_ciudad_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#tri_fecha_informe</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">Firma Electr&oacute;nica</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Ciudad</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Fecha</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Firma</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="4" style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b> 8. DEP&Oacute;SITO PROVISIONAL </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: justify;"><b>8.1 DEP&Oacute;SITO PROVISIONAL</b> <br /><br /> Declaro libre y voluntariamente que he sido informado y, por ende, entiendo y acepto expresamente que cualquier valor entregado a la EQUISUIZA SEGUROS S.A. constituye un dep&oacute;sito provisional, dado con relaci&oacute;n a la Solicitud de Seguro de Vida Individual, que he presentado a EQUISUIZA SEGUROS S.A. Si EQUISUIZA SEGUROS S.A. acepta la presente solicitud, dicho dep&oacute;sito provisional se aplicar&aacute; al pago de primas, de no aceptarse, su valor ser&aacute; devuelto sin que se reconozcan intereses sobre el mismo. <br /><br /> En caso de que el solicitante desistiera de la contrataci&oacute;n del seguro, ser&aacute; descontado del dep&oacute;sito provisional entregado, el valor de los ex&aacute;menes realizados seg&uacute;n la tabla de valores por escala de ex&aacute;menes requeridos, hasta por un m&aacute;ximo del valor del dep&oacute;sito provisional. <br /><br /> <b>8.2. COBERTURA PROVISIONAL</b> <br /><br /> A partir de la fecha en que el dep&oacute;sito provisional haya sido efectivamente recibido por EQUISUIZA SEGUROS S.A., se otorga cobertura provisional por un valor equivalente al cincuenta por ciento (50%) del monto asegurado solicitado a favor del Candidato a Asegurado, exclusivamente en caso de que su fallecimiento sea por muerte accidental. En ning&uacute;n caso el cincuenta por ciento (50%) mencionado podr&aacute; exceder la suma de cien mil d&oacute;lares (US$ 100.000 d&oacute;lares). <br /><br /> Esta cobertura provisional quedar&aacute; sin efecto al momento de la aceptaci&oacute;n de la solicitud o del rechazo de esta por cualquier medio jur&iacute;dico v&aacute;lido, por no convenir a los intereses de EQUISUIZA SEGUROS S.A. y, tendr&aacute; una duraci&oacute;n m&aacute;xima de quince (15) d&iacute;as calendario desde la fecha de efectivizaci&oacute;n del dep&oacute;sito provisional, lo que ocurra primero. <br /><br /> Esta cobertura provisional no es susceptible de extenderse en su plazo o de modificarse en modo alguno con relaci&oacute;n a lo aqu&iacute; indicado.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td valign="bottom">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table valign="bottom" cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td height="43">&nbsp;</td>
+</tr>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#tri_vendedor_ciudad_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td height="43">&nbsp;</td>
+</tr>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#tri_fecha_informe</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border-bottom: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;"><img width="150px" src="data:image/png;base64,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" alt="" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Ciudad</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Fecha</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;">
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">Firma</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO ESPACIADO-->
+<tr>
+<td height="1px" style="line-height: 18px; border-top: 1px solid #1C3761;">&nbsp;</td>
+</tr>
+<!--FIN ESPACIADO--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;">El Solicitante y/o Asegurado podr&aacute; requerir a la Superintendencia de Compa&ntilde;&iacute;as, Valores y Seguros la verificaci&oacute;n de este texto.</td>
+</tr>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="1" style="width: 100%; padding-top: 15px;"></table>
+</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td style="text-align: center; padding: 8px 0px 8px 0px; font-size: x-small;"><b> Quito:</b> De Las Hiedras N41-130 y Av. De Los Granados.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom" class="footer">
+<table border="0" cellspacing="0" cellpadding="2" style="background-color: #00493c; color: #ffffff; font-size: small; line-height: 16px; width: 100%;" class="footer">
+<tbody>
+<tr>
+<td align="right" style="width: 50%; text-align: right;"><b> equisuiza.com </b></td>
+<td height="5" style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="border-left: 1px solid #ffffff;">
+<tbody>
+<tr>
+<td align="center" style="width: 6%; padding: 3px 2px;"><img width="10" height="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBBAMAAAB82dR2AAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAwO9wnB/2V8883Ifnr191EiIAAAEASURBVEjH7dQ9agJRFIbhr1AmkiBJkXaQu4Ah4ULKMKRMEWYF04V0Q1YgrkAENyBYugc3YS/+gD8gdw16RmQs5p4PLFTQt7rFU1zOgYNdwftLeaMO8irO2yIWUMucv1kCIHVavwAiVWzkF3pveCKihzoREzSp+LyYGHRkGYp4RV7bK/6wL/SJRcLEGkw8UwEmVgdQzTxiDqlm7YfziImAQF6qSDXREDGkIrwJMTOmJeLLGBOVin8UBWViiuPGVIRUtKmIqMiocCeJzTF4LBOub20+tK61dnzV27+LM4mUijoRDTwQEaNKRAL8qGIOoKKKGLuGilgi79sUFRdGGgDYAhXQ3oaQvRwSAAAAAElFTkSuQmCC" alt="" /></td>
+<td align="center" style="width: 6%; padding: 3px 2px;"><img width="10" height="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBBAMAAAB82dR2AAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAwO9wHzzc9oecV8+v5/cLTngAAAJWSURBVEjHfZS/a1NxEMCv5rU2VkPfoDiFWvDHFARxDdFBcSkPOrlIBwdxyFIdBAkVxLEExEmQ/gUhg9CtdCh0K6VTp5C2aZOm7f0NvXf5ft/l++7Sz/Bevnmf3Pd77y4HnukXAS8hx+wm5uh/CoRXaHBUE6GIaCqZEFXQ5qs3WjiJDWDu4ESGwHzgxVUc8GA8SAOJz5BjeguJHhBTSDwGRdRBxDO/yQUY3EXiOX2o030bLP7RkwXaLz0lKGbjHZjjbDhWTxsUOYHRQW7TramEKd5gna4AS3StKaOEiKd83YAqRZIMfxwsPvrpjBOY4/h7iOdeKHQw5ZD25hgFus5DOZVdgXyNV905IrrujxkUztOmXPp0OvbEmMGM41ohboIy6ih8obUy6ODCmWVUkfiewHs+73ZgDP0KB5yzbwwxuq7WfHziLfe5MkpSwaiRVkIZ69wu0rlNZWxxAlLZfWVUst4fdVVXGf5LcHpPGbzw0JYnljGfGeUJRts07F3qgWGdtMELne3g5mzpfgwgvbSijHTMrDmjyp9zBnf3UDZBUEYRs9K17OpDhQekH51dw2hxf/5e/oUczTCKepSK4QeKsGIYEkSmlvS6vAbHWmDI/zYqO+Hj2Ntvp3/nS/DKLgv3s2HGTVMNBt1yHD9MwDPDG5ZkSpmzKoFb0n7mQB3leGoLEefNt75t3HM/LvMrtKi7J0s8lQzhDRKJSxoHWihwBWV+fUtywjseRQtuoDCLAU8RZeTQQLGRmr5GCwnBCdv8B5CBbrE6nlnHEJ6FJfibD/Pkj3t0DeBpgUYBTZkiAAAAAElFTkSuQmCC" alt="" /></td>
+<td style="width: 68%;"><b> 1800 787878 </b></td>
+<td style="width: 20%; text-align: right;">V.12.23</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FINAL FOOTER--></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+
+</html>

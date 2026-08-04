@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+</head>
+<body>
+<p style="font-family: Arial, Helvetica, sans-serif;">Estimado/a:</p>
+<p style="font-family: Arial, Helvetica, sans-serif;">@#frm_solicitante_label</p>
+<p></p>
+<p style="font-family: Arial, Helvetica, sans-serif;">En referencia a su solicitud n&uacute;mero&nbsp;@@APP_NUMBER, de fecha @#frm_fecha_solicitud. Se notifica que ha decidido @#frm_accion_label</p>
+<p></p>
+<p align="center"><font face="arial black,sans-serif" size="3"><b>DETALLE DE PRODUCTOS</b></font></p>
+<p align="center"><font face="arial black,sans-serif" size="3"><b>&nbsp;</b></font></p>
+<p></p>
+<table align="center" border="1" style="width: 95%; font-family: arial ">
+<tbody>
+<tr bgcolor="#c4f99b"><th>Producto</th><th>Detalle</th><th>Cantidad</th><th>Unidad</th><th>Precio</th><th>Subtotal</th><th>IVA</th><th>Total</th></tr>
+<!--@>grd_detalle-->
+<tr>
+<td>@#frm_producto_label</td>
+<td>@#frm_producto_detalle</td>
+<td>@#frm_producto_cantidad</td>
+<td>@#frm_producto_unidad_label</td>
+<td>@#frm_producto_precio</td>
+<td>@#frm_producto_subtotal</td>
+<td>@#frm_producto_iva</td>
+<td>@#frm_producto_total</td>
+</tr>
+<!--@<grd_detalle--></tbody>
+</table>
+<p></p>
+<p></p>
+<p style="font-family: Arial, Helvetica, sans-serif;">Atentamente</p>
+<p style="font-family: Arial, Helvetica, sans-serif;">@#pda</p>
+<p style="font-family: Arial, Helvetica, sans-serif;">APROBADOR PDA</p>
+<p></p>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+  "prj_uid": "31599724069fe9ff8da6c69020225749",
+  "generated_at": "2026-08-03T19:44:08.443Z",
+  "dynaforms": [
+    {
+      "dyn_uid": "67110509769fea197af7c57057849751",
+      "dyn_title": "test Routing",
+      "form_id": "67110509769fea197af7c57057849751",
+      "variables": [
+        {
+          "variable": "names",
+          "labels": [
+            "Names",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "names",
+              "label": "Names",
+              "control_id": "names",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "67110509769fea197af7c57057849751",
+              "origin_dyn_title": "test Routing",
+              "origin_form_id": "67110509769fea197af7c57057849751",
+              "depth": 0
+            },
+            {
+              "variable": "names",
+              "label": "string",
+              "control_id": "names",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "67110509769fea197af7c57057849751",
+              "origin_dyn_title": "test Routing",
+              "origin_form_id": "67110509769fea197af7c57057849751",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

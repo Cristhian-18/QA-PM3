@@ -1,0 +1,1 @@
+$(".btn-uploadfile").text("Seleccionar archivo");

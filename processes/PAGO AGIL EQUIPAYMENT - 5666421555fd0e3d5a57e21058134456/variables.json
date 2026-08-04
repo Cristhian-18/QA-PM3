@@ -1,0 +1,2844 @@
+{
+  "prj_uid": "5666421555fd0e3d5a57e21058134456",
+  "generated_at": "2026-08-03T19:44:03.838Z",
+  "dynaforms": [
+    {
+      "dyn_uid": "6367521845fd7a0593eb719006280520",
+      "dyn_title": "Form Definicion de pago",
+      "form_id": "6367521845fd7a0593eb719006280520",
+      "variables": [
+        {
+          "variable": "expresion_regular_1",
+          "labels": [
+            "expresion_regular_1",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "expresion_regular_1",
+              "label": "expresion_regular_1",
+              "control_id": "expresion_regular_1",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_1",
+              "label": "string",
+              "control_id": "expresion_regular_1",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_1",
+              "label": "expresion_regular_1",
+              "control_id": "expresion_regular_1",
+              "control_type": "hidden",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            },
+            {
+              "variable": "expresion_regular_1",
+              "label": "string",
+              "control_id": "expresion_regular_1",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "expresion_regular_2",
+          "labels": [
+            "expresion_regular_2",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "expresion_regular_2",
+              "label": "expresion_regular_2",
+              "control_id": "expresion_regular_2",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_2",
+              "label": "string",
+              "control_id": "expresion_regular_2",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_2",
+              "label": "expresion_regular_2",
+              "control_id": "expresion_regular_2",
+              "control_type": "hidden",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            },
+            {
+              "variable": "expresion_regular_2",
+              "label": "string",
+              "control_id": "expresion_regular_2",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "expresion_regular_3",
+          "labels": [
+            "expresion_regular_3",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "expresion_regular_3",
+              "label": "expresion_regular_3",
+              "control_id": "expresion_regular_3",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_3",
+              "label": "string",
+              "control_id": "expresion_regular_3",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_3",
+              "label": "expresion_regular_3",
+              "control_id": "expresion_regular_3",
+              "control_type": "hidden",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            },
+            {
+              "variable": "expresion_regular_3",
+              "label": "string",
+              "control_id": "expresion_regular_3",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "expresion_regular_4",
+          "labels": [
+            "expresion_regular_4",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "expresion_regular_4",
+              "label": "expresion_regular_4",
+              "control_id": "expresion_regular_4",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_4",
+              "label": "string",
+              "control_id": "expresion_regular_4",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_4",
+              "label": "expresion_regular_4",
+              "control_id": "expresion_regular_4",
+              "control_type": "hidden",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            },
+            {
+              "variable": "expresion_regular_4",
+              "label": "string",
+              "control_id": "expresion_regular_4",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_accion",
+          "labels": [
+            "Acción",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_accion",
+              "label": "Acción",
+              "control_id": "frm_accion",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_accion",
+              "label": "string",
+              "control_id": "frm_accion",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_accion",
+              "label": "Acción",
+              "control_id": "frm_accion",
+              "control_type": "dropdown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_accion",
+              "label": "string",
+              "control_id": "frm_accion",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_apellidoMaterno",
+          "labels": [
+            "Apellido Materno",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_apellidoMaterno",
+              "label": "Apellido Materno",
+              "control_id": "frm_cliente_apellidoMaterno",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_apellidoMaterno",
+              "label": "string",
+              "control_id": "frm_cliente_apellidoMaterno",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_apellidoMaterno",
+              "label": "Apellido Materno",
+              "control_id": "frm_cliente_apellidoMaterno",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_apellidoMaterno",
+              "label": "string",
+              "control_id": "frm_cliente_apellidoMaterno",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_apellidoPaterno",
+          "labels": [
+            "Apellido Paterno",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_apellidoPaterno",
+              "label": "Apellido Paterno",
+              "control_id": "frm_cliente_apellidoPaterno",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_apellidoPaterno",
+              "label": "string",
+              "control_id": "frm_cliente_apellidoPaterno",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_apellidoPaterno",
+              "label": "Apellido Paterno",
+              "control_id": "frm_cliente_apellidoPaterno",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_apellidoPaterno",
+              "label": "string",
+              "control_id": "frm_cliente_apellidoPaterno",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_cedula",
+          "labels": [
+            "Cedula / Pasaporte",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_cedula",
+              "label": "Cedula / Pasaporte",
+              "control_id": "frm_cliente_cedula",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_cedula",
+              "label": "string",
+              "control_id": "frm_cliente_cedula",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_cedula",
+              "label": "Cedula / Pasaporte",
+              "control_id": "frm_cliente_cedula",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_cedula",
+              "label": "string",
+              "control_id": "frm_cliente_cedula",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_celular",
+          "labels": [
+            "Celular",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_celular",
+              "label": "Celular",
+              "control_id": "frm_cliente_celular",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_celular",
+              "label": "string",
+              "control_id": "frm_cliente_celular",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_celular",
+              "label": "Celular",
+              "control_id": "frm_cliente_celular",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_celular",
+              "label": "string",
+              "control_id": "frm_cliente_celular",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_direccion",
+          "labels": [
+            "Dirección",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_direccion",
+              "label": "Dirección",
+              "control_id": "frm_cliente_direccion",
+              "control_type": "textarea",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_direccion",
+              "label": "string",
+              "control_id": "frm_cliente_direccion",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_direccion",
+              "label": "Dirección",
+              "control_id": "frm_cliente_direccion",
+              "control_type": "textarea",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_direccion",
+              "label": "string",
+              "control_id": "frm_cliente_direccion",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_email",
+          "labels": [
+            "Email",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_email",
+              "label": "Email",
+              "control_id": "frm_cliente_email",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_email",
+              "label": "string",
+              "control_id": "frm_cliente_email",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_email",
+              "label": "Email",
+              "control_id": "frm_cliente_email",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_email",
+              "label": "string",
+              "control_id": "frm_cliente_email",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_nombre",
+          "labels": [
+            "Primer nombre",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_nombre",
+              "label": "Primer nombre",
+              "control_id": "frm_cliente_nombre",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_nombre",
+              "label": "string",
+              "control_id": "frm_cliente_nombre",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_nombre",
+              "label": "Primer nombre",
+              "control_id": "frm_cliente_nombre",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_nombre",
+              "label": "string",
+              "control_id": "frm_cliente_nombre",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_segundo_nombre",
+          "labels": [
+            "Segundo nombre",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_segundo_nombre",
+              "label": "Segundo nombre",
+              "control_id": "frm_cliente_segundo_nombre",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_segundo_nombre",
+              "label": "string",
+              "control_id": "frm_cliente_segundo_nombre",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_segundo_nombre",
+              "label": "Segundo nombre",
+              "control_id": "frm_cliente_segundo_nombre",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_segundo_nombre",
+              "label": "string",
+              "control_id": "frm_cliente_segundo_nombre",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_tipo_identificacion",
+          "labels": [
+            "string",
+            "Tipo de identificacion"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_tipo_identificacion",
+              "label": "Tipo de identificacion",
+              "control_id": "frm_cliente_tipo_identificacion",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_tipo_identificacion",
+              "label": "string",
+              "control_id": "frm_cliente_tipo_identificacion",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_tipo_identificacion",
+              "label": "Tipo de identificacion",
+              "control_id": "frm_cliente_tipo_identificacion",
+              "control_type": "dropdown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_tipo_identificacion",
+              "label": "string",
+              "control_id": "frm_cliente_tipo_identificacion",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_comentario",
+          "labels": [
+            "Observacion",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_comentario",
+              "label": "Observacion",
+              "control_id": "frm_comentario",
+              "control_type": "textarea",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_comentario",
+              "label": "string",
+              "control_id": "frm_comentario",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_comentario",
+              "label": "Observacion",
+              "control_id": "frm_comentario",
+              "control_type": "textarea",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_comentario",
+              "label": "string",
+              "control_id": "frm_comentario",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_concepto",
+          "labels": [
+            "Concepto de pago",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_concepto",
+              "label": "Concepto de pago",
+              "control_id": "frm_concepto",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_concepto",
+              "label": "string",
+              "control_id": "frm_concepto",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_concepto",
+              "label": "Concepto de pago",
+              "control_id": "frm_concepto",
+              "control_type": "dropdown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_concepto",
+              "label": "string",
+              "control_id": "frm_concepto",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_pago_medios_estado",
+          "labels": [
+            "frm_pago_medios_estado",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_pago_medios_estado",
+              "label": "frm_pago_medios_estado",
+              "control_id": "frm_pago_medios_estado",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_pago_medios_estado",
+              "label": "string",
+              "control_id": "frm_pago_medios_estado",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_primera_cuota_descuento",
+          "labels": [
+            "Descuento",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_primera_cuota_descuento",
+              "label": "Descuento",
+              "control_id": "frm_primera_cuota_descuento",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_descuento",
+              "label": "string",
+              "control_id": "frm_primera_cuota_descuento",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_descuento",
+              "label": "Descuento",
+              "control_id": "frm_primera_cuota_descuento",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_primera_cuota_descuento",
+              "label": "string",
+              "control_id": "frm_primera_cuota_descuento",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_primera_cuota_total_pagar",
+          "labels": [
+            "string",
+            "Total a pagar"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_primera_cuota_total_pagar",
+              "label": "Total a pagar",
+              "control_id": "frm_primera_cuota_total_pagar",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_total_pagar",
+              "label": "string",
+              "control_id": "frm_primera_cuota_total_pagar",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_total_pagar",
+              "label": "Total a pagar",
+              "control_id": "frm_primera_cuota_total_pagar",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_primera_cuota_total_pagar",
+              "label": "string",
+              "control_id": "frm_primera_cuota_total_pagar",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_primera_cuota_total_primer_pago",
+          "labels": [
+            "string",
+            "Total primer pago"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_primera_cuota_total_primer_pago",
+              "label": "Total primer pago",
+              "control_id": "frm_primera_cuota_total_primer_pago",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_total_primer_pago",
+              "label": "string",
+              "control_id": "frm_primera_cuota_total_primer_pago",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_total_primer_pago",
+              "label": "Total primer pago",
+              "control_id": "frm_primera_cuota_total_primer_pago",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_primera_cuota_total_primer_pago",
+              "label": "string",
+              "control_id": "frm_primera_cuota_total_primer_pago",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_proceso",
+          "labels": [
+            "Proceso:",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_proceso",
+              "label": "Proceso:",
+              "control_id": "frm_proceso",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_proceso",
+              "label": "string",
+              "control_id": "frm_proceso",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "frm_proceso",
+              "label": "Proceso:",
+              "control_id": "frm_proceso",
+              "control_type": "dropdown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_proceso",
+              "label": "string",
+              "control_id": "frm_proceso",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "tri_bandera_pago",
+          "labels": [
+            "string",
+            "tri_bandera_pago"
+          ],
+          "occurrences": [
+            {
+              "variable": "tri_bandera_pago",
+              "label": "tri_bandera_pago",
+              "control_id": "tri_bandera_pago",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            },
+            {
+              "variable": "tri_bandera_pago",
+              "label": "string",
+              "control_id": "tri_bandera_pago",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6367521845fd7a0593eb719006280520",
+              "origin_dyn_title": "Form Definicion de pago",
+              "origin_form_id": "6367521845fd7a0593eb719006280520",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "6260355156348362102ab40000249476",
+      "dyn_title": "Seguimiento de casos",
+      "form_id": "6260355156348362102ab40000249476",
+      "variables": [
+        {
+          "variable": "expresion_regular_1",
+          "labels": [
+            "expresion_regular_1",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "expresion_regular_1",
+              "label": "expresion_regular_1",
+              "control_id": "expresion_regular_1",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_1",
+              "label": "string",
+              "control_id": "expresion_regular_1",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_1",
+              "label": "expresion_regular_1",
+              "control_id": "expresion_regular_1",
+              "control_type": "hidden",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            },
+            {
+              "variable": "expresion_regular_1",
+              "label": "string",
+              "control_id": "expresion_regular_1",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "expresion_regular_2",
+          "labels": [
+            "expresion_regular_2",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "expresion_regular_2",
+              "label": "expresion_regular_2",
+              "control_id": "expresion_regular_2",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_2",
+              "label": "string",
+              "control_id": "expresion_regular_2",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_2",
+              "label": "expresion_regular_2",
+              "control_id": "expresion_regular_2",
+              "control_type": "hidden",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            },
+            {
+              "variable": "expresion_regular_2",
+              "label": "string",
+              "control_id": "expresion_regular_2",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "expresion_regular_3",
+          "labels": [
+            "expresion_regular_3",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "expresion_regular_3",
+              "label": "expresion_regular_3",
+              "control_id": "expresion_regular_3",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_3",
+              "label": "string",
+              "control_id": "expresion_regular_3",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_3",
+              "label": "expresion_regular_3",
+              "control_id": "expresion_regular_3",
+              "control_type": "hidden",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            },
+            {
+              "variable": "expresion_regular_3",
+              "label": "string",
+              "control_id": "expresion_regular_3",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "expresion_regular_4",
+          "labels": [
+            "expresion_regular_4",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "expresion_regular_4",
+              "label": "expresion_regular_4",
+              "control_id": "expresion_regular_4",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_4",
+              "label": "string",
+              "control_id": "expresion_regular_4",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_4",
+              "label": "expresion_regular_4",
+              "control_id": "expresion_regular_4",
+              "control_type": "hidden",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            },
+            {
+              "variable": "expresion_regular_4",
+              "label": "string",
+              "control_id": "expresion_regular_4",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_accion",
+          "labels": [
+            "Acción",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_accion",
+              "label": "Acción",
+              "control_id": "frm_accion",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_accion",
+              "label": "string",
+              "control_id": "frm_accion",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_accion",
+              "label": "Acción",
+              "control_id": "frm_accion",
+              "control_type": "dropdown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_accion",
+              "label": "string",
+              "control_id": "frm_accion",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_apellidoMaterno",
+          "labels": [
+            "Apellido Materno",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_apellidoMaterno",
+              "label": "Apellido Materno",
+              "control_id": "frm_cliente_apellidoMaterno",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_apellidoMaterno",
+              "label": "string",
+              "control_id": "frm_cliente_apellidoMaterno",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_apellidoMaterno",
+              "label": "Apellido Materno",
+              "control_id": "frm_cliente_apellidoMaterno",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_apellidoMaterno",
+              "label": "string",
+              "control_id": "frm_cliente_apellidoMaterno",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_apellidoPaterno",
+          "labels": [
+            "Apellido Paterno",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_apellidoPaterno",
+              "label": "Apellido Paterno",
+              "control_id": "frm_cliente_apellidoPaterno",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_apellidoPaterno",
+              "label": "string",
+              "control_id": "frm_cliente_apellidoPaterno",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_apellidoPaterno",
+              "label": "Apellido Paterno",
+              "control_id": "frm_cliente_apellidoPaterno",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_apellidoPaterno",
+              "label": "string",
+              "control_id": "frm_cliente_apellidoPaterno",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_cedula",
+          "labels": [
+            "Cedula / Pasaporte",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_cedula",
+              "label": "Cedula / Pasaporte",
+              "control_id": "frm_cliente_cedula",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_cedula",
+              "label": "string",
+              "control_id": "frm_cliente_cedula",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_cedula",
+              "label": "Cedula / Pasaporte",
+              "control_id": "frm_cliente_cedula",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_cedula",
+              "label": "string",
+              "control_id": "frm_cliente_cedula",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_celular",
+          "labels": [
+            "Celular",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_celular",
+              "label": "Celular",
+              "control_id": "frm_cliente_celular",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_celular",
+              "label": "string",
+              "control_id": "frm_cliente_celular",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_celular",
+              "label": "Celular",
+              "control_id": "frm_cliente_celular",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_celular",
+              "label": "string",
+              "control_id": "frm_cliente_celular",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_direccion",
+          "labels": [
+            "Dirección",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_direccion",
+              "label": "Dirección",
+              "control_id": "frm_cliente_direccion",
+              "control_type": "textarea",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_direccion",
+              "label": "string",
+              "control_id": "frm_cliente_direccion",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_direccion",
+              "label": "Dirección",
+              "control_id": "frm_cliente_direccion",
+              "control_type": "textarea",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_direccion",
+              "label": "string",
+              "control_id": "frm_cliente_direccion",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_email",
+          "labels": [
+            "Email",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_email",
+              "label": "Email",
+              "control_id": "frm_cliente_email",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_email",
+              "label": "string",
+              "control_id": "frm_cliente_email",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_email",
+              "label": "Email",
+              "control_id": "frm_cliente_email",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_email",
+              "label": "string",
+              "control_id": "frm_cliente_email",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_nombre",
+          "labels": [
+            "Primer nombre",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_nombre",
+              "label": "Primer nombre",
+              "control_id": "frm_cliente_nombre",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_nombre",
+              "label": "string",
+              "control_id": "frm_cliente_nombre",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_nombre",
+              "label": "Primer nombre",
+              "control_id": "frm_cliente_nombre",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_nombre",
+              "label": "string",
+              "control_id": "frm_cliente_nombre",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_segundo_nombre",
+          "labels": [
+            "Segundo nombre",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_segundo_nombre",
+              "label": "Segundo nombre",
+              "control_id": "frm_cliente_segundo_nombre",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_segundo_nombre",
+              "label": "string",
+              "control_id": "frm_cliente_segundo_nombre",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_segundo_nombre",
+              "label": "Segundo nombre",
+              "control_id": "frm_cliente_segundo_nombre",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_segundo_nombre",
+              "label": "string",
+              "control_id": "frm_cliente_segundo_nombre",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_tipo_identificacion",
+          "labels": [
+            "string",
+            "Tipo de identificacion"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_tipo_identificacion",
+              "label": "Tipo de identificacion",
+              "control_id": "frm_cliente_tipo_identificacion",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_tipo_identificacion",
+              "label": "string",
+              "control_id": "frm_cliente_tipo_identificacion",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_tipo_identificacion",
+              "label": "Tipo de identificacion",
+              "control_id": "frm_cliente_tipo_identificacion",
+              "control_type": "dropdown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            },
+            {
+              "variable": "frm_cliente_tipo_identificacion",
+              "label": "string",
+              "control_id": "frm_cliente_tipo_identificacion",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_comentario",
+          "labels": [
+            "Observacion",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_comentario",
+              "label": "Observacion",
+              "control_id": "frm_comentario",
+              "control_type": "textarea",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_comentario",
+              "label": "string",
+              "control_id": "frm_comentario",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_comentario",
+              "label": "Observacion",
+              "control_id": "frm_comentario",
+              "control_type": "textarea",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_comentario",
+              "label": "string",
+              "control_id": "frm_comentario",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_concepto",
+          "labels": [
+            "Concepto de pago",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_concepto",
+              "label": "Concepto de pago",
+              "control_id": "frm_concepto",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_concepto",
+              "label": "string",
+              "control_id": "frm_concepto",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_concepto",
+              "label": "Concepto de pago",
+              "control_id": "frm_concepto",
+              "control_type": "dropdown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_concepto",
+              "label": "string",
+              "control_id": "frm_concepto",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_primera_cuota_descuento",
+          "labels": [
+            "Descuento",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_primera_cuota_descuento",
+              "label": "Descuento",
+              "control_id": "frm_primera_cuota_descuento",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_descuento",
+              "label": "string",
+              "control_id": "frm_primera_cuota_descuento",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_descuento",
+              "label": "Descuento",
+              "control_id": "frm_primera_cuota_descuento",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_primera_cuota_descuento",
+              "label": "string",
+              "control_id": "frm_primera_cuota_descuento",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_primera_cuota_total_pagar",
+          "labels": [
+            "string",
+            "Total a pagar"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_primera_cuota_total_pagar",
+              "label": "Total a pagar",
+              "control_id": "frm_primera_cuota_total_pagar",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_total_pagar",
+              "label": "string",
+              "control_id": "frm_primera_cuota_total_pagar",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_total_pagar",
+              "label": "Total a pagar",
+              "control_id": "frm_primera_cuota_total_pagar",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_primera_cuota_total_pagar",
+              "label": "string",
+              "control_id": "frm_primera_cuota_total_pagar",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_primera_cuota_total_primer_pago",
+          "labels": [
+            "string",
+            "Total primer pago"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_primera_cuota_total_primer_pago",
+              "label": "Total primer pago",
+              "control_id": "frm_primera_cuota_total_primer_pago",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_total_primer_pago",
+              "label": "string",
+              "control_id": "frm_primera_cuota_total_primer_pago",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_total_primer_pago",
+              "label": "Total primer pago",
+              "control_id": "frm_primera_cuota_total_primer_pago",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_primera_cuota_total_primer_pago",
+              "label": "string",
+              "control_id": "frm_primera_cuota_total_primer_pago",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_proceso",
+          "labels": [
+            "Proceso:",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_proceso",
+              "label": "Proceso:",
+              "control_id": "frm_proceso",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_proceso",
+              "label": "string",
+              "control_id": "frm_proceso",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6260355156348362102ab40000249476",
+              "origin_dyn_title": "Seguimiento de casos",
+              "origin_form_id": "6260355156348362102ab40000249476",
+              "depth": 0
+            },
+            {
+              "variable": "frm_proceso",
+              "label": "Proceso:",
+              "control_id": "frm_proceso",
+              "control_type": "dropdown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            },
+            {
+              "variable": "frm_proceso",
+              "label": "string",
+              "control_id": "frm_proceso",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "2685114015fd79420a30612057178517",
+      "dyn_title": "Subform cliente",
+      "form_id": "2685114015fd79420a30612057178517",
+      "variables": [
+        {
+          "variable": "frm_cliente_apellidoMaterno",
+          "labels": [
+            "Apellido Materno",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_apellidoMaterno",
+              "label": "Apellido Materno",
+              "control_id": "frm_cliente_apellidoMaterno",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_apellidoMaterno",
+              "label": "string",
+              "control_id": "frm_cliente_apellidoMaterno",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_apellidoPaterno",
+          "labels": [
+            "Apellido Paterno",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_apellidoPaterno",
+              "label": "Apellido Paterno",
+              "control_id": "frm_cliente_apellidoPaterno",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_apellidoPaterno",
+              "label": "string",
+              "control_id": "frm_cliente_apellidoPaterno",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_cedula",
+          "labels": [
+            "Cedula / Pasaporte",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_cedula",
+              "label": "Cedula / Pasaporte",
+              "control_id": "frm_cliente_cedula",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_cedula",
+              "label": "string",
+              "control_id": "frm_cliente_cedula",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_celular",
+          "labels": [
+            "Celular",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_celular",
+              "label": "Celular",
+              "control_id": "frm_cliente_celular",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_celular",
+              "label": "string",
+              "control_id": "frm_cliente_celular",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_direccion",
+          "labels": [
+            "Dirección",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_direccion",
+              "label": "Dirección",
+              "control_id": "frm_cliente_direccion",
+              "control_type": "textarea",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_direccion",
+              "label": "string",
+              "control_id": "frm_cliente_direccion",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_email",
+          "labels": [
+            "Email",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_email",
+              "label": "Email",
+              "control_id": "frm_cliente_email",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_email",
+              "label": "string",
+              "control_id": "frm_cliente_email",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_nombre",
+          "labels": [
+            "Primer nombre",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_nombre",
+              "label": "Primer nombre",
+              "control_id": "frm_cliente_nombre",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_nombre",
+              "label": "string",
+              "control_id": "frm_cliente_nombre",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_segundo_nombre",
+          "labels": [
+            "Segundo nombre",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_segundo_nombre",
+              "label": "Segundo nombre",
+              "control_id": "frm_cliente_segundo_nombre",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_segundo_nombre",
+              "label": "string",
+              "control_id": "frm_cliente_segundo_nombre",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_cliente_tipo_identificacion",
+          "labels": [
+            "string",
+            "Tipo de identificacion"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_cliente_tipo_identificacion",
+              "label": "Tipo de identificacion",
+              "control_id": "frm_cliente_tipo_identificacion",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            },
+            {
+              "variable": "frm_cliente_tipo_identificacion",
+              "label": "string",
+              "control_id": "frm_cliente_tipo_identificacion",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "2685114015fd79420a30612057178517",
+              "origin_dyn_title": "Subform cliente",
+              "origin_form_id": "2685114015fd79420a30612057178517",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "6673380215fd78842b513c6033965185",
+      "dyn_title": "subform definicion de Pago",
+      "form_id": "6673380215fd78842b513c6033965185",
+      "variables": [
+        {
+          "variable": "frm_accion",
+          "labels": [
+            "Acción",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_accion",
+              "label": "Acción",
+              "control_id": "frm_accion",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            },
+            {
+              "variable": "frm_accion",
+              "label": "string",
+              "control_id": "frm_accion",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_comentario",
+          "labels": [
+            "Observacion",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_comentario",
+              "label": "Observacion",
+              "control_id": "frm_comentario",
+              "control_type": "textarea",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            },
+            {
+              "variable": "frm_comentario",
+              "label": "string",
+              "control_id": "frm_comentario",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_concepto",
+          "labels": [
+            "Concepto de pago",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_concepto",
+              "label": "Concepto de pago",
+              "control_id": "frm_concepto",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            },
+            {
+              "variable": "frm_concepto",
+              "label": "string",
+              "control_id": "frm_concepto",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_primera_cuota_descuento",
+          "labels": [
+            "Descuento",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_primera_cuota_descuento",
+              "label": "Descuento",
+              "control_id": "frm_primera_cuota_descuento",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_descuento",
+              "label": "string",
+              "control_id": "frm_primera_cuota_descuento",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_primera_cuota_total_pagar",
+          "labels": [
+            "string",
+            "Total a pagar"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_primera_cuota_total_pagar",
+              "label": "Total a pagar",
+              "control_id": "frm_primera_cuota_total_pagar",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_total_pagar",
+              "label": "string",
+              "control_id": "frm_primera_cuota_total_pagar",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_primera_cuota_total_primer_pago",
+          "labels": [
+            "string",
+            "Total primer pago"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_primera_cuota_total_primer_pago",
+              "label": "Total primer pago",
+              "control_id": "frm_primera_cuota_total_primer_pago",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            },
+            {
+              "variable": "frm_primera_cuota_total_primer_pago",
+              "label": "string",
+              "control_id": "frm_primera_cuota_total_primer_pago",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_proceso",
+          "labels": [
+            "Proceso:",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_proceso",
+              "label": "Proceso:",
+              "control_id": "frm_proceso",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            },
+            {
+              "variable": "frm_proceso",
+              "label": "string",
+              "control_id": "frm_proceso",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "6673380215fd78842b513c6033965185",
+              "origin_dyn_title": "subform definicion de Pago",
+              "origin_form_id": "6673380215fd78842b513c6033965185",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+      "dyn_title": "Subform estilos y funciones",
+      "form_id": "1172715205fd79fd6a7b9d3036817852",
+      "variables": [
+        {
+          "variable": "expresion_regular_1",
+          "labels": [
+            "expresion_regular_1",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "expresion_regular_1",
+              "label": "expresion_regular_1",
+              "control_id": "expresion_regular_1",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_1",
+              "label": "string",
+              "control_id": "expresion_regular_1",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "expresion_regular_2",
+          "labels": [
+            "expresion_regular_2",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "expresion_regular_2",
+              "label": "expresion_regular_2",
+              "control_id": "expresion_regular_2",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_2",
+              "label": "string",
+              "control_id": "expresion_regular_2",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "expresion_regular_3",
+          "labels": [
+            "expresion_regular_3",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "expresion_regular_3",
+              "label": "expresion_regular_3",
+              "control_id": "expresion_regular_3",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_3",
+              "label": "string",
+              "control_id": "expresion_regular_3",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "expresion_regular_4",
+          "labels": [
+            "expresion_regular_4",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "expresion_regular_4",
+              "label": "expresion_regular_4",
+              "control_id": "expresion_regular_4",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 0
+            },
+            {
+              "variable": "expresion_regular_4",
+              "label": "string",
+              "control_id": "expresion_regular_4",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "1172715205fd79fd6a7b9d3036817852",
+              "origin_dyn_title": "Subform estilos y funciones",
+              "origin_form_id": "1172715205fd79fd6a7b9d3036817852",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

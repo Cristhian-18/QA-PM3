@@ -1,0 +1,10 @@
+{
+  "prj_uid": "1000194806550fb7da01a56009651331",
+  "prj_name": "SINIESTROS  GENERALES",
+  "prj_description": "Proceso que permita registrar el siniestro con consulta directa al SISE para la búsqueda de información del contratante, asegurado, bienes asegurados, coberturas, generar la reserva de manera automática, subir y encerar la reserva con la finalidad de dar seguimiento desde el registro hasta su respectivo pago",
+  "prj_category": "824545873695ffc4c2c6556087022047",
+  "prj_type": "bpmn",
+  "prj_create_date": "2023-11-12 11:21:17",
+  "prj_update_date": "2026-03-09 10:26:42",
+  "prj_status": "ACTIVE"
+}

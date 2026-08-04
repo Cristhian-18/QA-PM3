@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+   <style>
+        table, td, tr {
+        border: 1px solid #333;
+        width: 100%;
+        border-collapse: collapse;
+        }
+        td{
+        width: 25%;
+        text-align: left;
+        }
+		body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    </style>
+  </head>
+
+  <body>
+<table border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td width="100%" colspan="4" valign="top"><font size="1"><img src="https://imagenesweb.equisuiza.com/imagenesweb/Generales/BPM%20siniestros%20VH%20y%20Generales/SINIESTROS%20GENERALES/Salidas/links/logo2.png" class="img-responsive" alt="equisuiza" /></font></td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td colspan="4" style="background: #ccc; text-align: center;"><font size="1"><b>INFORME FINAL</b></font></td>
+</tr>
+<tr>
+<td><font size="1"><b>1. POLIZA Y DATOS DE ASEGURADO</b></font></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td><font size="1">CI/RUC</font></td>
+<td><font size="1">@#frm_da_NoDocumentoContratate</font></td>
+<td><font size="1">NOMBRE DEL ASEGURADO</font></td>
+<td><font size="1">@#frm_da_apellidoPaterno</font></td>
+</tr>
+<tr>
+<td><font size="1">CELULAR DEL ASEGURADO</font></td>
+<td><font size="1">@#frm_da_celular</font></td>
+<td><font size="1">CORREO DEL ASEGURADO</font></td>
+<td><font size="1">@#frm_da_correoElectronico</font></td>
+</tr>
+<tr>
+<td><font size="1">FECHA REGISTRO</font></td>
+<td><font size="1">@#frm_da_FechaRegistro</font></td>
+<td><font size="1">FECHA NOTIFICACI&Oacute;N</font></td>
+<td><font size="1">@#frm_da_fechaNotificacion</font></td>
+</tr>
+<tr>
+<td><font size="1">N.- POLIZA</font></td>
+<td><font size="1">@#frm_rs_NroPoliza - @#frm_ds_tipoOperacion</font></td>
+<td><font size="1">N.- SINIESTRO</font></td>
+<td><font size="1">@#frm_is_CodcausaSiniestro - @#frm_is_causaSiniestro</font></td>
+</tr>
+<tr>
+<td><font size="1">N.- REPORTE</font></td>
+<td><font size="1">@#APP_NUMBER</font></td>
+<td><font size="1">FECHA OCURRENCIA</font></td>
+<td><font size="1">@#frm_da_fechaNotificacion</font></td>
+</tr>
+<tr>
+<td><font size="1">LINEA NEGOCIO</font></td>
+<td><font size="1">@#frm_ds_lineaNegocio</font></td>
+<td><font size="1">SUBLINEA NEGOCIO</font></td>
+<td><font size="1">@#frm_ds_SublineaNegocio</font></td>
+</tr>
+<tr>
+<td><font size="1">SUMA ASEGURADA</font></td>
+<td><font size="1">$ @#frm_ds_sumaAsegurada</font></td>
+<td><font size="1">N.- ENDOSO</font></td>
+<td><font size="1">@#frm_nroEndoso</font></td>
+</tr>
+<tr>
+<td><font size="1">FECHA INICIO VIGENCIA</font></td>
+<td><font size="1">@#frm_ds_polizaInicioVigencia</font></td>
+<td><font size="1">FECHA FIN VIGENCIA</font></td>
+<td><font size="1">@#frm_ds_fechaFinVigenciaUltimafacturacion</font></td>
+</tr>
+<tr>
+<td><font size="1">RAMO</font></td>
+<td><font size="1">@#frm_poliza_ramo</font></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><font size="1"><b>2. CIRCUNSTANCIAS DEL EVENTO</b></font></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td><font size="1">REPORTADO POR</font></td>
+<td><font size="1">@#frm_is_nombreApellidosResponsableNotificacion</font></td>
+<td><font size="1">INCISO AFECTADO</font></td>
+<td><font size="1">@#frm_is_incisoAfectado</font></td>
+</tr>
+<tr>
+<td><font size="1">EMAIL</font></td>
+<td><font size="1">@#frm_is_emailResponsableNotificacion</font></td>
+<td><font size="1">TELEFONO</font></td>
+<td><font size="1">@#frm_is_fonoResponsableNotificacion</font></td>
+</tr>
+<tr>
+<td><font size="1">PAIS OCURRENCIA</font></td>
+<td><font size="1">@#frm_is_paisOcurrencia</font></td>
+<td><font size="1">PROVINCIA OCURRENCIA</font></td>
+<td><font size="1">@#frm_is_provinciaOcurrencia</font></td>
+</tr>
+<tr>
+<td><font size="1">CIUDAD OCURRENCIA</font></td>
+<td><font size="1">@#frm_is_ciudadOcurrencia</font></td>
+<td><font size="1">EMAIL ASEGURADO</font></td>
+<td><font size="1">@#frm_is_emailAsegurado1/@#frm_is_emailAsegurado2</font></td>
+</tr>
+<tr>
+<td><font size="1">CELULAR ASEGURADO</font></td>
+<td><font size="1">@#frm_is_NoCelularAsegurado</font></td>
+<td><font size="1">OBJETO ASEGURADO</font></td>
+<td><font size="1">@#frm_is_objetoAsegurado</font></td>
+</tr>
+<tr>
+<td><font size="1"><b>3. CAUSA</b></font></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td><font size="1">CAUSA SINIESTRO</font></td>
+<td><font size="1">@#frm_is_causaSiniestro</font></td>
+<td><font size="1">BIEN SINIESTRADO</font></td>
+<td><font size="1">@#frm_is_bienSiniestrado</font></td>
+</tr>
+<tr>
+<td><font size="1">DETALLE SUCESO</font></td>
+<td colspan="3"><font size="1">@#frm_is_detalleLoSucedido</font></td>
+</tr>
+<tr>
+<td><font size="1"><b>4. COBERTURA</b></font></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td><font size="1">COBERTURA</font></td>
+<td><font size="1">@#frm_as_reclamoTieneCobertura</font></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><font size="1"><b>5. GESTIONES REALIZADAS</b></font></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td><font size="1">FECHA ENTREGA</font></td>
+<td><font size="1">@#frm_rif_fechaEntregaInformePreliminar</font></td>
+<td><font size="1">GIRO NEGOCIO</font></td>
+<td><font size="1">@#frm_rif_giroNegocio</font></td>
+</tr>
+<tr>
+<td><font size="1">VALOR ANTERIOR DEDUCIBLE</font></td>
+<td><font size="1">@#frm_rif_valorAntesDeducible</font></td>
+<td><font size="1">VALOR DEDUCIBLE</font></td>
+<td><font size="1">@#frm_rif_valorDeducible</font></td>
+</tr>
+<tr>
+<td><font size="1">VALOR LUEGO DEDUCIBLE</font></td>
+<td><font size="1">@#frm_rif_valorLuegoDeducible</font></td>
+<td><font size="1">VALOR HONORARIOS</font></td>
+<td><font size="1">@#frm_rif_valorAproxHonorario</font></td>
+</tr>
+<tr>
+<td><font size="1">VALOR GASTOS</font></td>
+<td><font size="1">@#frm_rif_valorAproxGastos</font></td>
+<td><font size="1">DEDUCIBLE APLICADO</font></td>
+<td><font size="1">@#frm_rif_textoDeducible</font></td>
+</tr>
+<tr>
+<td><font size="1">TABLA DEPRECIACI&Oacute;N</font></td>
+<td><font size="1">@#frm_rif_tablaDepreciacion</font></td>
+<td><font size="1">CIRCUNSTANCIA EVENTO</font></td>
+<td><font size="1">@#frm_rif_circunstanciaEvento</font></td>
+</tr>
+<tr>
+<td><font size="1">GESTIONES REALIZADAS</font></td>
+<td colspan="3"><font size="1">@#frm_rif_gestionesRealizadas</font></td>
+</tr>
+<tr>
+<td><font size="1"><b>6. RESERVA SUGERIDAS</b></font></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td><font size="1">VALOR LUEGO DEDUCIBLE</font></td>
+<td><font size="1">@#frm_rip_valorLuegoDeducible</font></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><font size="1"><b>7. INFRASEGURO</b></font></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td><font size="1">VALOR INFRASEGURO</font></td>
+<td><font size="1">@#frm_as_valorInfraseguros</font></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><font size="1"><b>8. SALVAMENTO</b></font></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td><font size="1">EXISTE SALVAMENTO</font></td>
+<td><font size="1">@#frm_ss_existeSalvamento</font></td>
+<td><font size="1">CAUSA SALVAMENTO</font></td>
+<td><font size="1">@#frm_rs_causaSalvamento</font></td>
+</tr>
+<tr>
+<td><font size="1">MODELO SALVAMENTO</font></td>
+<td><font size="1">@#frm_rs_modeloSalvamento</font></td>
+<td><font size="1">NOMBRE SALVAMENTO</font></td>
+<td><font size="1">@#frm_rs_nombreSalvamento</font></td>
+</tr>
+<tr>
+<td><font size="1">OFERTA ASEGURADO SALVAMENTO</font></td>
+<td><font size="1">@#frm_rs_ofertaAseguradoSalvamento</font></td>
+<td><font size="1">SERIE SALVAMENTO</font></td>
+<td><font size="1">@#frm_rs_serieSalvamento</font></td>
+</tr>
+<tr>
+<td><font size="1"></font></td>
+<td><font size="1">&nbsp;</font></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><font size="1"><b>9. SUBROGACI&Oacute;N</b></font></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td><font size="1">EXISTE SUBRROGACI&Oacute;N</font></td>
+<td><font size="1">@#frm_ss_existeSubrogacion</font></td>
+<td><font size="1">OBSERVACI&Oacute;N</font></td>
+<td><font size="1">@#frm_ss_observaciones</font></td>
+</tr>
+<tr>
+<td><font size="1"><b>10. RECOMENDACI&Oacute;N</b></font></td>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td><font size="1">TIPO RECOMENDACI&Oacute;N</font></td>
+<td><font size="1">@#frm_re_tipoRecomendacion_label</font></td>
+<td><font size="1">RECOMENDACI&Oacute;N</font></td>
+<td><font size="1">@#frm_re_recomendacion</font></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

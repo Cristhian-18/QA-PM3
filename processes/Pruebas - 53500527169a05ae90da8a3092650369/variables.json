@@ -1,0 +1,731 @@
+{
+  "prj_uid": "53500527169a05ae90da8a3092650369",
+  "generated_at": "2026-08-03T19:44:05.824Z",
+  "dynaforms": [
+    {
+      "dyn_uid": "32096837769de96db395c54063958953",
+      "dyn_title": "demo1",
+      "form_id": "32096837769de96db395c54063958953",
+      "variables": [
+        {
+          "variable": "checkboxVar001",
+          "labels": [
+            "boolean",
+            "Checkbox Var 001"
+          ],
+          "occurrences": [
+            {
+              "variable": "checkboxVar001",
+              "label": "Checkbox Var 001",
+              "control_id": "checkboxVar001",
+              "control_type": "checkbox",
+              "origin_type": "self",
+              "origin_dyn_uid": "32096837769de96db395c54063958953",
+              "origin_dyn_title": "demo1",
+              "origin_form_id": "32096837769de96db395c54063958953",
+              "depth": 0
+            },
+            {
+              "variable": "checkboxVar001",
+              "label": "boolean",
+              "control_id": "checkboxVar001",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "32096837769de96db395c54063958953",
+              "origin_dyn_title": "demo1",
+              "origin_form_id": "32096837769de96db395c54063958953",
+              "depth": 0
+            },
+            {
+              "variable": "checkboxVar001",
+              "label": "Checkbox Var 001",
+              "control_id": "checkboxVar001",
+              "control_type": "checkbox",
+              "origin_type": "subform",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 1
+            },
+            {
+              "variable": "checkboxVar001",
+              "label": "boolean",
+              "control_id": "checkboxVar001",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "textVar001",
+          "labels": [
+            "string",
+            "Text Var 001"
+          ],
+          "occurrences": [
+            {
+              "variable": "textVar001",
+              "label": "Text Var 001",
+              "control_id": "textVar001",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "32096837769de96db395c54063958953",
+              "origin_dyn_title": "demo1",
+              "origin_form_id": "32096837769de96db395c54063958953",
+              "depth": 0
+            },
+            {
+              "variable": "textVar001",
+              "label": "string",
+              "control_id": "textVar001",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "32096837769de96db395c54063958953",
+              "origin_dyn_title": "demo1",
+              "origin_form_id": "32096837769de96db395c54063958953",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "textVar002",
+          "labels": [
+            "string",
+            "Text Var 002"
+          ],
+          "occurrences": [
+            {
+              "variable": "textVar002",
+              "label": "Text Var 002",
+              "control_id": "textVar002",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "32096837769de96db395c54063958953",
+              "origin_dyn_title": "demo1",
+              "origin_form_id": "32096837769de96db395c54063958953",
+              "depth": 0
+            },
+            {
+              "variable": "textVar002",
+              "label": "string",
+              "control_id": "textVar002",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "32096837769de96db395c54063958953",
+              "origin_dyn_title": "demo1",
+              "origin_form_id": "32096837769de96db395c54063958953",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "textVar003",
+          "labels": [
+            "string",
+            "Text Var 003"
+          ],
+          "occurrences": [
+            {
+              "variable": "textVar003",
+              "label": "Text Var 003",
+              "control_id": "textVar003",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "32096837769de96db395c54063958953",
+              "origin_dyn_title": "demo1",
+              "origin_form_id": "32096837769de96db395c54063958953",
+              "depth": 0
+            },
+            {
+              "variable": "textVar003",
+              "label": "string",
+              "control_id": "textVar003",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "32096837769de96db395c54063958953",
+              "origin_dyn_title": "demo1",
+              "origin_form_id": "32096837769de96db395c54063958953",
+              "depth": 0
+            },
+            {
+              "variable": "textVar003",
+              "label": "Text Var 003",
+              "control_id": "textVar003",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 1
+            },
+            {
+              "variable": "textVar003",
+              "label": "string",
+              "control_id": "textVar003",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "textVar004",
+          "labels": [
+            "string",
+            "Text Var 004"
+          ],
+          "occurrences": [
+            {
+              "variable": "textVar004",
+              "label": "Text Var 004",
+              "control_id": "textVar004",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "32096837769de96db395c54063958953",
+              "origin_dyn_title": "demo1",
+              "origin_form_id": "32096837769de96db395c54063958953",
+              "depth": 0
+            },
+            {
+              "variable": "textVar004",
+              "label": "string",
+              "control_id": "textVar004",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "32096837769de96db395c54063958953",
+              "origin_dyn_title": "demo1",
+              "origin_form_id": "32096837769de96db395c54063958953",
+              "depth": 0
+            },
+            {
+              "variable": "textVar004",
+              "label": "Text Var 004",
+              "control_id": "textVar004",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 1
+            },
+            {
+              "variable": "textVar004",
+              "label": "string",
+              "control_id": "textVar004",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "textVar005",
+          "labels": [
+            "string",
+            "Text Var 005"
+          ],
+          "occurrences": [
+            {
+              "variable": "textVar005",
+              "label": "Text Var 005",
+              "control_id": "textVar005",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "32096837769de96db395c54063958953",
+              "origin_dyn_title": "demo1",
+              "origin_form_id": "32096837769de96db395c54063958953",
+              "depth": 0
+            },
+            {
+              "variable": "textVar005",
+              "label": "string",
+              "control_id": "textVar005",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "32096837769de96db395c54063958953",
+              "origin_dyn_title": "demo1",
+              "origin_form_id": "32096837769de96db395c54063958953",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "45755528869de974f893742083118480",
+      "dyn_title": "demo2subform",
+      "form_id": "45755528869de974f893742083118480",
+      "variables": [
+        {
+          "variable": "checkboxVar001",
+          "labels": [
+            "boolean",
+            "Checkbox Var 001"
+          ],
+          "occurrences": [
+            {
+              "variable": "checkboxVar001",
+              "label": "Checkbox Var 001",
+              "control_id": "checkboxVar001",
+              "control_type": "checkbox",
+              "origin_type": "self",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 0
+            },
+            {
+              "variable": "checkboxVar001",
+              "label": "boolean",
+              "control_id": "checkboxVar001",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "textVar003",
+          "labels": [
+            "string",
+            "Text Var 003"
+          ],
+          "occurrences": [
+            {
+              "variable": "textVar003",
+              "label": "Text Var 003",
+              "control_id": "textVar003",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 0
+            },
+            {
+              "variable": "textVar003",
+              "label": "string",
+              "control_id": "textVar003",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "textVar004",
+          "labels": [
+            "string",
+            "Text Var 004"
+          ],
+          "occurrences": [
+            {
+              "variable": "textVar004",
+              "label": "Text Var 004",
+              "control_id": "textVar004",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 0
+            },
+            {
+              "variable": "textVar004",
+              "label": "string",
+              "control_id": "textVar004",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "96468031769deb4573e2681066683264",
+      "dyn_title": "demoaurotiza",
+      "form_id": "96468031769deb4573e2681066683264",
+      "variables": [
+        {
+          "variable": "checkboxVar001",
+          "labels": [
+            "boolean",
+            "Checkbox Var 001"
+          ],
+          "occurrences": [
+            {
+              "variable": "checkboxVar001",
+              "label": "Checkbox Var 001",
+              "control_id": "checkboxVar001",
+              "control_type": "checkbox",
+              "origin_type": "self",
+              "origin_dyn_uid": "96468031769deb4573e2681066683264",
+              "origin_dyn_title": "demoaurotiza",
+              "origin_form_id": "96468031769deb4573e2681066683264",
+              "depth": 0
+            },
+            {
+              "variable": "checkboxVar001",
+              "label": "boolean",
+              "control_id": "checkboxVar001",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "96468031769deb4573e2681066683264",
+              "origin_dyn_title": "demoaurotiza",
+              "origin_form_id": "96468031769deb4573e2681066683264",
+              "depth": 0
+            },
+            {
+              "variable": "checkboxVar001",
+              "label": "Checkbox Var 001",
+              "control_id": "checkboxVar001",
+              "control_type": "checkbox",
+              "origin_type": "subform",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 1
+            },
+            {
+              "variable": "checkboxVar001",
+              "label": "boolean",
+              "control_id": "checkboxVar001",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "textareaVar001",
+          "labels": [
+            "string",
+            "Textarea Var 001"
+          ],
+          "occurrences": [
+            {
+              "variable": "textareaVar001",
+              "label": "Textarea Var 001",
+              "control_id": "textareaVar001",
+              "control_type": "textarea",
+              "origin_type": "self",
+              "origin_dyn_uid": "96468031769deb4573e2681066683264",
+              "origin_dyn_title": "demoaurotiza",
+              "origin_form_id": "96468031769deb4573e2681066683264",
+              "depth": 0
+            },
+            {
+              "variable": "textareaVar001",
+              "label": "string",
+              "control_id": "textareaVar001",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "96468031769deb4573e2681066683264",
+              "origin_dyn_title": "demoaurotiza",
+              "origin_form_id": "96468031769deb4573e2681066683264",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "textVar003",
+          "labels": [
+            "string",
+            "Text Var 003"
+          ],
+          "occurrences": [
+            {
+              "variable": "textVar003",
+              "label": "Text Var 003",
+              "control_id": "textVar003",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "96468031769deb4573e2681066683264",
+              "origin_dyn_title": "demoaurotiza",
+              "origin_form_id": "96468031769deb4573e2681066683264",
+              "depth": 0
+            },
+            {
+              "variable": "textVar003",
+              "label": "string",
+              "control_id": "textVar003",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "96468031769deb4573e2681066683264",
+              "origin_dyn_title": "demoaurotiza",
+              "origin_form_id": "96468031769deb4573e2681066683264",
+              "depth": 0
+            },
+            {
+              "variable": "textVar003",
+              "label": "Text Var 003",
+              "control_id": "textVar003",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 1
+            },
+            {
+              "variable": "textVar003",
+              "label": "string",
+              "control_id": "textVar003",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "textVar004",
+          "labels": [
+            "string",
+            "Text Var 004"
+          ],
+          "occurrences": [
+            {
+              "variable": "textVar004",
+              "label": "Text Var 004",
+              "control_id": "textVar004",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "96468031769deb4573e2681066683264",
+              "origin_dyn_title": "demoaurotiza",
+              "origin_form_id": "96468031769deb4573e2681066683264",
+              "depth": 0
+            },
+            {
+              "variable": "textVar004",
+              "label": "string",
+              "control_id": "textVar004",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "96468031769deb4573e2681066683264",
+              "origin_dyn_title": "demoaurotiza",
+              "origin_form_id": "96468031769deb4573e2681066683264",
+              "depth": 0
+            },
+            {
+              "variable": "textVar004",
+              "label": "Text Var 004",
+              "control_id": "textVar004",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 1
+            },
+            {
+              "variable": "textVar004",
+              "label": "string",
+              "control_id": "textVar004",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "45755528869de974f893742083118480",
+              "origin_dyn_title": "demo2subform",
+              "origin_form_id": "45755528869de974f893742083118480",
+              "depth": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "3089136086a6cd3888f5d66028923501",
+      "dyn_title": "pruebas_multimarca",
+      "form_id": "3089136086a6cd3888f5d66028923501",
+      "variables": [
+        {
+          "variable": "frm_accidente_provincia",
+          "labels": [
+            "Frm Accidente Provincia",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_accidente_provincia",
+              "label": "Frm Accidente Provincia",
+              "control_id": "frm_accidente_provincia",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "3089136086a6cd3888f5d66028923501",
+              "origin_dyn_title": "pruebas_multimarca",
+              "origin_form_id": "3089136086a6cd3888f5d66028923501",
+              "depth": 0
+            },
+            {
+              "variable": "frm_accidente_provincia",
+              "label": "string",
+              "control_id": "frm_accidente_provincia",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "3089136086a6cd3888f5d66028923501",
+              "origin_dyn_title": "pruebas_multimarca",
+              "origin_form_id": "3089136086a6cd3888f5d66028923501",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_componente_electronico",
+          "labels": [
+            "Frm Componente Electronico",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_componente_electronico",
+              "label": "Frm Componente Electronico",
+              "control_id": "frm_componente_electronico",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "3089136086a6cd3888f5d66028923501",
+              "origin_dyn_title": "pruebas_multimarca",
+              "origin_form_id": "3089136086a6cd3888f5d66028923501",
+              "depth": 0
+            },
+            {
+              "variable": "frm_componente_electronico",
+              "label": "string",
+              "control_id": "frm_componente_electronico",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "3089136086a6cd3888f5d66028923501",
+              "origin_dyn_title": "pruebas_multimarca",
+              "origin_form_id": "3089136086a6cd3888f5d66028923501",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_vehiculo_anio",
+          "labels": [
+            "Frm Vehiculo Anio",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_vehiculo_anio",
+              "label": "Frm Vehiculo Anio",
+              "control_id": "frm_vehiculo_anio",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "3089136086a6cd3888f5d66028923501",
+              "origin_dyn_title": "pruebas_multimarca",
+              "origin_form_id": "3089136086a6cd3888f5d66028923501",
+              "depth": 0
+            },
+            {
+              "variable": "frm_vehiculo_anio",
+              "label": "string",
+              "control_id": "frm_vehiculo_anio",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "3089136086a6cd3888f5d66028923501",
+              "origin_dyn_title": "pruebas_multimarca",
+              "origin_form_id": "3089136086a6cd3888f5d66028923501",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_vehiculo_marca",
+          "labels": [
+            "Frm Vehiculo Marca",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_vehiculo_marca",
+              "label": "Frm Vehiculo Marca",
+              "control_id": "frm_vehiculo_marca",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "3089136086a6cd3888f5d66028923501",
+              "origin_dyn_title": "pruebas_multimarca",
+              "origin_form_id": "3089136086a6cd3888f5d66028923501",
+              "depth": 0
+            },
+            {
+              "variable": "frm_vehiculo_marca",
+              "label": "string",
+              "control_id": "frm_vehiculo_marca",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "3089136086a6cd3888f5d66028923501",
+              "origin_dyn_title": "pruebas_multimarca",
+              "origin_form_id": "3089136086a6cd3888f5d66028923501",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_vehiculo_tipo",
+          "labels": [
+            "Frm Vehiculo Tipo",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_vehiculo_tipo",
+              "label": "Frm Vehiculo Tipo",
+              "control_id": "frm_vehiculo_tipo",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "3089136086a6cd3888f5d66028923501",
+              "origin_dyn_title": "pruebas_multimarca",
+              "origin_form_id": "3089136086a6cd3888f5d66028923501",
+              "depth": 0
+            },
+            {
+              "variable": "frm_vehiculo_tipo",
+              "label": "string",
+              "control_id": "frm_vehiculo_tipo",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "3089136086a6cd3888f5d66028923501",
+              "origin_dyn_title": "pruebas_multimarca",
+              "origin_form_id": "3089136086a6cd3888f5d66028923501",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "64982185369ab03a7bba6e3091845336",
+      "dyn_title": "test",
+      "form_id": "64982185369ab03a7bba6e3091845336",
+      "variables": []
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,1 @@
+$("#grd_participacion_coaseguro").hide();

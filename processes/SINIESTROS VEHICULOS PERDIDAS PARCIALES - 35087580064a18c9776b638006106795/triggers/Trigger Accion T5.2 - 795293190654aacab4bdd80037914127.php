@@ -1,0 +1,42 @@
+<?php
+//Trigger Accion T5.2
+@@grd_valores_siniestros_alcance =  array();
+
+@@frm_fecha_entrega = date('Y-m-d');
+$pos = strpos(@@frm_taller_tipo, "CONCESIONARIO");
+if($pos !== false){
+	@@tri_bandera_concesionario = "1";
+} else {
+	@@tri_bandera_concesionario = "0";
+}
+
+if(strpos(@@frm_taller, "MUNDO MOTRIZ") !== false){
+	@@tri_bandera_mundo = "1";
+} else {
+	@@tri_bandera_mundo = "0";
+}
+
+
+if(@@tri_bandera_compra_completada == "1"){
+    @=frm_accion_dum = array();
+    @=frm_accion_dum[] = array("", "-- Seleccione uno --");
+    @=frm_accion_dum[] = array("CONTINUAR", "Finalizar arreglo del automotor");
+    @=frm_accion_dum[] = array("REGISTRAR", "Registrar comentario");
+	@=frm_accion_dum[] = array("SOLICITAR", "Solicitar alcance adicional");
+    @=frm_accion_dum[] = array("CANCELAR", "Caso desistido");
+	    @=frm_accion_dum[] = array("DEDUCIBLE", "Solicitar cambio de deducible");
+
+
+} 
+else {
+    @=frm_accion_dum = array();
+    @=frm_accion_dum[] = array("", "-- Seleccione uno --");
+    @=frm_accion_dum[] = array("REGISTRAR", "Registrar comentario");
+	@=frm_accion_dum[] = array("SOLICITAR", "Solicitar alcance adicional");
+    @=frm_accion_dum[] = array("REPUESTOSP", "Registrar recepción parcial de repuestos");
+    @=frm_accion_dum[] = array("REPUESTOS", "Registrar recepción total de repuestos");
+    @=frm_accion_dum[] = array("DISCREPANCIA", "Registrar discrepancia de repuestos");
+    @=frm_accion_dum[] = array("CANCELAR", "Caso desistido");
+		    @=frm_accion_dum[] = array("DEDUCIBLE", "Solicitar cambio de deducible");
+
+}

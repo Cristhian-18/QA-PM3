@@ -1,0 +1,2 @@
+<?php
+@@tri_comentarios = '';

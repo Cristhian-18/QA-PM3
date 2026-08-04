@@ -1,0 +1,1 @@
+$("#frm_infconf_morfologia").find("div.radio").addClass("radio-inline");

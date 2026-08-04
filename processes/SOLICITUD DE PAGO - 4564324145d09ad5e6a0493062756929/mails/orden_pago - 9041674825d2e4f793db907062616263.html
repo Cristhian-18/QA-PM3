@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+</head>
+<body>
+<table align="center" style="width: 95%; height: 202px;" border="0">
+<tbody>
+<tr>
+<td align="left" width="50%"><br />
+<p style="font-family: Arial, Helvetica, sans-serif;"><b>EQUISUIZA SEGUROS S.A.</b><br />RUC: 1790007502001<br />
+  Dirección: De las Hiedras N41-130 y Av. De los Granados, Quito.<br />
+  Tel&eacute;fono: 1800787878<br /> Contacto: @#frm_ordencompra_responsable</p>
+</td>
+<td align="center" width="50%"></td>
+</tr>
+<tr>
+<td align="left" width="50%">
+<p style="font-family: Arial, Helvetica, sans-serif;">Proveedor: @#frm_proveedor_nombre<br /><br /> RUC: @#frm_proveedor_ruc<br />Direcci&oacute;n: <br />Tel&eacute;fono: <br /> Contacto: @#frm_contacto_compra<br />Fecha de emisi&oacute;n:16 enero de 2019</p>
+</td>
+<td align="center" width="50%"><font size="4" style="font-family: arial">ORDEN DE PAGO: No. @#APP_NUMBER</font></td>
+</tr>
+</tbody>
+</table>
+<p align="center"><font size="3" face="arial black,sans-serif"><b>DETALLE DE PRODUCTOS</b></font></p>
+<p></p>
+<table align="center" style="width: 95%;" border="1" style="font-family: arial">
+<tbody>
+<tr bgcolor="#c4f99b"><th>Producto</th><th>Detalle</th><th>Cantidad</th><th>Unidad</th><th>Precio</th><th>IVA</th><th>Subtotal</th><th>Total</th></tr>
+<!--@>grd_detalle-->
+<tr style="font-family: arial">
+<td>@#frm_producto_label</td>
+<td>@#frm_producto_detalle</td>
+<td>@#frm_producto_cantidad</td>
+<td>@#frm_producto_unidad_label</td>
+<td>@#frm_producto_precio_negociado</td>
+<td>@#frm_producto_iva</td>
+<td>@#frm_producto_subtotal</td>
+<td>@#frm_producto_total</td>
+</tr>
+<!--@<grd_detalle--></tbody>
+</table>
+<p></p>
+<table align="center" style="width: 95%; height: 90px;">
+<tbody>
+<tr>
+<td width="50%">
+<p style="font-family: Arial, Helvetica, sans-serif;"><b>Condiciones de compra:</b><br /> Plazo de entrega: @#frm_plazo<br /> D&iacute;as Cr&eacute;dito: @#frm_dias_credito<br /> Forma de Pago: @#frm_forma_pago<br /> Anticipo: @#frm_anticipo<br /> Contrato: @#frm_datos_contrato<br /> P&oacute;lizas: @#frm_poliza</p>
+</td>
+<td width="50%">
+<p align="center" style="font-family: arial">Aprobado por: @#frm_pda_nombre<br /> Cargo del Aprobador PDA</p>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

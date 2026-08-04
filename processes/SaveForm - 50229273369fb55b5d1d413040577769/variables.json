@@ -1,0 +1,76 @@
+{
+  "prj_uid": "50229273369fb55b5d1d413040577769",
+  "generated_at": "2026-08-03T19:44:10.170Z",
+  "dynaforms": [
+    {
+      "dyn_uid": "31578763869fb56e97aac08000065336",
+      "dyn_title": "Saveform Example",
+      "form_id": "31578763869fb56e97aac08000065336",
+      "variables": [
+        {
+          "variable": "FirstName",
+          "labels": [
+            "First Name",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "FirstName",
+              "label": "First Name",
+              "control_id": "FirstName",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "31578763869fb56e97aac08000065336",
+              "origin_dyn_title": "Saveform Example",
+              "origin_form_id": "31578763869fb56e97aac08000065336",
+              "depth": 0
+            },
+            {
+              "variable": "FirstName",
+              "label": "string",
+              "control_id": "FirstName",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "31578763869fb56e97aac08000065336",
+              "origin_dyn_title": "Saveform Example",
+              "origin_form_id": "31578763869fb56e97aac08000065336",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "LastName",
+          "labels": [
+            "Last Name",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "LastName",
+              "label": "Last Name",
+              "control_id": "LastName",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "31578763869fb56e97aac08000065336",
+              "origin_dyn_title": "Saveform Example",
+              "origin_form_id": "31578763869fb56e97aac08000065336",
+              "depth": 0
+            },
+            {
+              "variable": "LastName",
+              "label": "string",
+              "control_id": "LastName",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "31578763869fb56e97aac08000065336",
+              "origin_dyn_title": "Saveform Example",
+              "origin_form_id": "31578763869fb56e97aac08000065336",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

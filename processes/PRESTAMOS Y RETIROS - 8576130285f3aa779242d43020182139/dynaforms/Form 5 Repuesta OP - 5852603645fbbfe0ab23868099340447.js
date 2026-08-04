@@ -1,0 +1,1 @@
+var id_op = $("#html_op").html($("#motivo_proceso").getValue());

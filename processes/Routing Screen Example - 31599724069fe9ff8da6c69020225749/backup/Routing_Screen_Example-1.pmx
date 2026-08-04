@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">1.1.276</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1784320065</meta>
+    <meta key="export_datetime"><![CDATA[2026-07-17T15:27:45-05:00]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">80328</meta>
+    <meta key="export_version">1</meta>
+    <meta key="workspace">certificacion</meta>
+    <meta key="name">Routing Screen Example</meta>
+    <meta key="uid">31599724069fe9ff8da6c69020225749</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>15548863469fea02b9cdfd6000584503</act_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <pro_uid>26415477169fe9ff8f3d5a7055439234</pro_uid>
+        <act_name>Request</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>1</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>51109216669fea02b9dd273022367789</bou_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <element_uid>15548863469fea02b9cdfd6000584503</element_uid>
+        <bou_element>52991234169fea02b8f68c9005359152</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>149</bou_x>
+        <bou_y>56</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <act_uid>85916540069fea02bcfe117007528416</act_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <pro_uid>26415477169fe9ff8f3d5a7055439234</pro_uid>
+        <act_name>Validation</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>1</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>82379154269fea02bd0ab58037363866</bou_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <element_uid>85916540069fea02bcfe117007528416</element_uid>
+        <bou_element>52991234169fea02b8f68c9005359152</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>377</bou_x>
+        <bou_y>56</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>46762348669fea02b904a64035060283</bou_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <element_uid>52991234169fea02b8f68c9005359152</element_uid>
+        <bou_element>78599304269fea02b825ef5077785567</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>664</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>51109216669fea02b9dd273022367789</bou_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <element_uid>15548863469fea02b9cdfd6000584503</element_uid>
+        <bou_element>52991234169fea02b8f68c9005359152</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>149</bou_x>
+        <bou_y>56</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>60917956769fea02be457f7039149231</bou_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <element_uid>68096364769fea02be34956011609622</element_uid>
+        <bou_element>52991234169fea02b8f68c9005359152</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>73</bou_x>
+        <bou_y>77</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>82379154269fea02bd0ab58037363866</bou_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <element_uid>85916540069fea02bcfe117007528416</element_uid>
+        <bou_element>52991234169fea02b8f68c9005359152</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>377</bou_x>
+        <bou_y>56</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>92379504369fea02b838ee9069054305</bou_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <element_uid>78599304269fea02b825ef5077785567</element_uid>
+        <bou_element>56976115069fe9ff8ed8722003447930</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>213</bou_x>
+        <bou_y>67</bou_y>
+        <bou_width>705</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>94142605169fea02bed6a71029376880</bou_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <element_uid>92179751869fea02bec7195021217609</element_uid>
+        <bou_element>52991234169fea02b8f68c9005359152</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>567</bou_x>
+        <bou_y>77</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <dia_name>Routing Screen Example</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>68096364769fea02be34956011609622</evn_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <pro_uid>26415477169fe9ff8f3d5a7055439234</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>60917956769fea02be457f7039149231</bou_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <element_uid>68096364769fea02be34956011609622</element_uid>
+        <bou_element>52991234169fea02b8f68c9005359152</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>73</bou_x>
+        <bou_y>77</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <evn_uid>92179751869fea02bec7195021217609</evn_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <pro_uid>26415477169fe9ff8f3d5a7055439234</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>94142605169fea02bed6a71029376880</bou_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <element_uid>92179751869fea02bec7195021217609</element_uid>
+        <bou_element>52991234169fea02b8f68c9005359152</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>567</bou_x>
+        <bou_y>77</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>4298017726a062097329d32026229302</flo_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>15548863469fea02b9cdfd6000584503</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>85916540069fea02bcfe117007528416</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>555</flo_x1>
+        <flo_y1>163</flo_y1>
+        <flo_x2>632</flo_x2>
+        <flo_y2>163</flo_y2>
+        <flo_state><![CDATA[[{"x":555,"y":163},{"x":632,"y":163}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>7094796896a062097329f81033241509</flo_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>68096364769fea02be34956011609622</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>15548863469fea02b9cdfd6000584503</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>361</flo_x1>
+        <flo_y1>163</flo_y1>
+        <flo_x2>404</flo_x2>
+        <flo_y2>163</flo_y2>
+        <flo_state><![CDATA[[{"x":361,"y":163},{"x":404,"y":163}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>9923663836a062097329f04068064831</flo_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>85916540069fea02bcfe117007528416</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>92179751869fea02bec7195021217609</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>783</flo_x1>
+        <flo_y1>163</flo_y1>
+        <flo_x2>822</flo_x2>
+        <flo_y2>163</flo_y2>
+        <flo_state><![CDATA[[{"x":783,"y":163},{"x":822,"y":163}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY"/>
+    <table name="LANE">
+      <record>
+        <lan_uid>52991234169fea02b8f68c9005359152</lan_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <lns_uid>78599304269fea02b825ef5077785567</lns_uid>
+        <lan_name>Example</lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>46762348669fea02b904a64035060283</bou_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <element_uid>52991234169fea02b8f68c9005359152</element_uid>
+        <bou_element>78599304269fea02b825ef5077785567</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>664</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+    </table>
+    <table name="LANESET">
+      <record>
+        <lns_uid>78599304269fea02b825ef5077785567</lns_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <pro_uid>26415477169fe9ff8f3d5a7055439234</pro_uid>
+        <lns_name>Routing Screen Example</lns_name>
+        <lns_parent_lane></lns_parent_lane>
+        <lns_is_horizontal>1</lns_is_horizontal>
+        <lns_state></lns_state>
+        <bou_uid>92379504369fea02b838ee9069054305</bou_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <element_uid>78599304269fea02b825ef5077785567</element_uid>
+        <bou_element>56976115069fe9ff8ed8722003447930</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>213</bou_x>
+        <bou_y>67</bou_y>
+        <bou_width>705</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>26415477169fe9ff8f3d5a7055439234</pro_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <dia_uid>56976115069fe9ff8ed8722003447930</dia_uid>
+        <pro_name>Routing Screen Example</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <prj_name>Routing Screen Example</prj_name>
+        <prj_description>Example about usage of Routing Screen</prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2026-05-09 02:46:16]]></prj_create_date>
+        <prj_update_date><![CDATA[2026-05-14 14:20:54]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>31599724069fe9ff8da6c69020225749</pro_uid>
+        <pro_title>Routing Screen Example</pro_title>
+        <pro_description>Example about usage of Routing Screen</pro_description>
+        <pro_parent>31599724069fe9ff8da6c69020225749</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_status_id>1</pro_status_id>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2026-05-14 14:20:55]]></pro_update_date>
+        <pro_create_date><![CDATA[2026-05-14 14:20:54]]></pro_create_date>
+        <pro_create_user>75116441766954eec5a9325074992475</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <category_id>0</category_id>
+        <pro_category_label>No Category</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>31599724069fe9ff8da6c69020225749</pro_uid>
+        <pro_id>0</pro_id>
+        <tas_uid>15548863469fea02b9cdfd6000584503</tas_uid>
+        <tas_title>Request</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day>1</tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>149</tas_posx>
+        <tas_posy>56</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl>cases_ScreenDerivation.html</tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+        <tas_average>0</tas_average>
+        <tas_sdv>0</tas_sdv>
+      </record>
+      <record>
+        <pro_uid>31599724069fe9ff8da6c69020225749</pro_uid>
+        <pro_id>0</pro_id>
+        <tas_uid>85916540069fea02bcfe117007528416</tas_uid>
+        <tas_title>Validation</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>377</tas_posx>
+        <tas_posy>56</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+        <tas_average>0</tas_average>
+        <tas_sdv>0</tas_sdv>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>9550879186a0620975253c0075942357</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>31599724069fe9ff8da6c69020225749</pro_uid>
+        <tas_uid>85916540069fea02bcfe117007528416</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>9557093906a0620974fba08058022324</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>31599724069fe9ff8da6c69020225749</pro_uid>
+        <tas_uid>15548863469fea02b9cdfd6000584503</tas_uid>
+        <rou_next_task>85916540069fea02bcfe117007528416</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>67110509769fea197af7c57057849751</dyn_uid>
+        <dyn_title>test Routing</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>31599724069fe9ff8da6c69020225749</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[31599724069fe9ff8da6c69020225749/67110509769fea197af7c57057849751]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"test Routing","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"67110509769fea197af7c57057849751","name":"test Routing","description":"","mode":"edit","script":"","language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"test routing","ariaLabel":"","colSpan":12}],[{"type":"text","variable":"names","var_uid":"60799558169fea1a781cf88032676856","dataType":"string","protectedValue":false,"id":"names","name":"names","label":"Names","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":false,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","dependsOn":"","loadDropdownOptions":"","externalApi":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"names","colSpan":12}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"Send","tabIndex":"","ariaLabel":"","colSpan":12}]],"variables":[{"var_uid":"60799558169fea1a781cf88032676856","prj_uid":"31599724069fe9ff8da6c69020225749","var_name":"names","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2026-05-09 02:53:39]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>33546428669fea1b82f9970029482527</step_uid>
+        <pro_uid>31599724069fe9ff8da6c69020225749</pro_uid>
+        <tas_uid>15548863469fea02b9cdfd6000584503</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>67110509769fea197af7c57057849751</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>68097171569fea1bd6ac1b1014527227</step_uid>
+        <pro_uid>31599724069fe9ff8da6c69020225749</pro_uid>
+        <tas_uid>85916540069fea02bcfe117007528416</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>67110509769fea197af7c57057849751</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>VIEW</step_mode>
+      </record>
+    </table>
+    <table name="triggers"/>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers"/>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>60799558169fea1a781cf88032676856</var_uid>
+        <prj_uid>31599724069fe9ff8da6c69020225749</prj_uid>
+        <var_name>names</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager">
+      <record>
+        <prf_uid>50368109569fea169b52133087280197</prf_uid>
+        <pro_uid>31599724069fe9ff8da6c69020225749</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid>00000000000000000000000000000001</prf_update_usr_uid>
+        <prf_path><![CDATA[/code/shared/sites/certificacion/mailTemplates/31599724069fe9ff8da6c69020225749/cases_ScreenDerivation.html]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>1</prf_editable>
+        <prf_create_date><![CDATA[2026-05-09 02:52:25]]></prf_create_date>
+        <prf_update_date><![CDATA[2026-05-09 03:10:32]]></prf_update_date>
+      </record>
+      <record>
+        <prf_uid>60232367769fea03dee1a32087995546</prf_uid>
+        <pro_uid>31599724069fe9ff8da6c69020225749</pro_uid>
+        <usr_uid>00000000000000000000000000000001</usr_uid>
+        <prf_update_usr_uid></prf_update_usr_uid>
+        <prf_path><![CDATA[/code/shared/sites/certificacion/mailTemplates/31599724069fe9ff8da6c69020225749/luranaLinkAction.html]]></prf_path>
+        <prf_type>file</prf_type>
+        <prf_editable>1</prf_editable>
+        <prf_create_date><![CDATA[2026-05-09 02:47:25]]></prf_create_date>
+        <prf_update_date></prf_update_date>
+      </record>
+    </table>
+    <table name="linkAction"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>test Routing</file_name>
+      <file_path><![CDATA[31599724069fe9ff8da6c69020225749/67110509769fea197af7c57057849751.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjMxNTk5NzI0MDY5ZmU5ZmY4ZGE2YzY5MDIwMjI1NzQ5LzY3MTEwNTA5NzY5ZmVhMTk3YWY3YzU3MDU3ODQ5NzUxIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="templates">
+      <file_name>cases_ScreenDerivation.html</file_name>
+      <file_path><![CDATA[31599724069fe9ff8da6c69020225749/cases_ScreenDerivation.html]]></file_path>
+      <file_content><![CDATA[PGRpdiBpZD0icHVibGlzaGVyQ29udGVudFsxXSIgc3R5bGU9Im1hcmdpbjogMHB4OyIgYWxpZ249ImNlbnRlciI+Cjxmb3JtIG5hbWU9ImZybURlcml2YXRpb24iIGlkPSJmcm1EZXJpdmF0aW9uIiBhY3Rpb249ImNhc2VzX0Rlcml2YXRlIiBtZXRob2Q9IlBPU1QiIGNsYXNzPSJmb3JtRGVmYXVsdCIgc3R5bGU9Im1hcmdpbjogMHB4OyI+CiAgPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0iZm9ybVtST1VfVFlQRV0iIGlkPSJmb3JtW1JPVV9UWVBFXSIgdmFsdWU9InskUFJPQ0VTUy5ST1VfVFlQRX0iPgogIDxkaXYgY2xhc3M9ImJvcmRlckZvcm0iIHN0eWxlPSJ3aWR0aDogNTAwcHg7IHBhZGRpbmctbGVmdDogMDsgcGFkZGluZy1yaWdodDogMDsgYm9yZGVyLXdpZHRoOiAxcHg7Ij4KICAgIDxkaXYgY2xhc3M9ImJveFRvcCI+CiAgICAgIDxkaXYgY2xhc3M9ImEiPjwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJiIj48L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iYyI+PC9kaXY+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImNvbnRlbnQiIHN0eWxlPSJoZWlnaHQ6IDEwMCU7Ij4KICAgICAgPHRhYmxlIHdpZHRoPSI5OSUiPgogICAgICAgIDx0cj4KICAgICAgICAgIDx0ZCB2YWxpZ249J3RvcCc+CiAgICAgICAgICA8dGFibGUgY2VsbHNwYWNpbmc9IjAiIGNlbGxwYWRkaW5nPSIwIiBib3JkZXI9IjAiIHdpZHRoPSIxMDAlIj4KICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgIHtpZiAkUFJPQ0VTUy5FUlJPUiBlcSAnJyAmJiAkUFJPQ0VTUy5ST1VfVFlQRSBuZXEgJ1NFTEVDVCcgJiYgJFBST0NFU1MuUk9VX0ZJTklTSF9GTEFHIH0KICAgICAgICAgICAgICA8dGQgY2xhc3M9J0Zvcm1UaXRsZScgY29sc3Bhbj0iMiIgYWxpZ249IiI+eyRFTkRfT0ZfUFJPQ0VTU308L3RkPgogICAgICAgICAgICAgIHtlbHNlfQogICAgICAgICAgICAgIDx0ZCBjbGFzcz0nRm9ybVRpdGxlJyBjb2xzcGFuPSIyIiBhbGlnbj0iIj57JEFTU0lHTl9UQVNLfTwvdGQ+CiAgICAgICAgICAgICAgey9pZn0KICAgICAgICAgICAgPC90cj4KCiAgICAgICAgICAgIHtmb3JlYWNoIGtleT1pZCBpdGVtPWRhdGEgZnJvbT0kVEFTS30KICAgICAgICAgICAgPHRyIGhlaWdodD0iNSI+CiAgICAgICAgICAgICAgPHRkPiZuYnNwOzwvdGQ+CiAgICAgICAgICAgICAgPHRkPiZuYnNwOzwvdGQ+CiAgICAgICAgICAgIDwvdHI+CgogICAgICAgICAgICB7aWYgJFBST0NFU1MuUk9VX1RZUEUgZXEgJ1NFTEVDVCd9CiAgICAgICAgICAgIDxmb3JtIG5hbWU9ImZybURlcml2YXRpb257JGlkfSIgaWQ9ImZybURlcml2YXRpb257JGlkfSIgYWN0aW9uPSJjYXNlc19EZXJpdmF0ZSIgbWV0aG9kPSJQT1NUIiBjbGFzcz0iZm9ybURlZmF1bHQiIG1ldGhvZD0icG9zdCIgc3R5bGU9Im1hcmdpbjogMHB4OyI+PGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0iZm9ybVtST1VfVFlQRV0iIGlkPSJmb3JtW1JPVV9UWVBFXSIgdmFsdWU9InskUFJPQ0VTUy5ST1VfVFlQRX0iPgogICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgPHRkIGNsYXNzPSJGb3JtTGFiZWwiIHdpZHRoPSIxMDAiPnskT1BUSU9OX0xBQkVMfSB7JGlkfTo8L3RkPgogICAgICAgICAgICAgIDx0ZCBjbGFzcz0iRm9ybUZpZWxkQ29udGVudCI+eyRkYXRhLlJPVV9DT05ESVRJT04gfTwvdGQ+CiAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgIHsvaWZ9CiAgICAgICAgICAgIHtpZiAkUFJPQ0VTUy5FUlJPUiBlcSAnJyB9CiAgICAgICAgICAgICAgICB7aWYgKGlzc2V0KCRkYXRhLk5FWFRfVEFTSy5UQVNfVFlQRSkgJiYgJGRhdGEuTkVYVF9UQVNLLlRBU19UWVBFID09ICJJTlRFUk1FRElBVEUtQ0FUQ0gtTUVTU0FHRS1FVkVOVCIpfQogICAgICAgICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJGb3JtRmllbGRDb250ZW50IiBjb2xzcGFuPSIyIiBzdHlsZT0idGV4dC1hbGlnbjogY2VudGVyIj57JGRhdGEuTkVYVF9UQVNLLlRBU19USVRMRX17JGRhdGEuTkVYVF9UQVNLLlRBU19ISURERU5fRklFTER9PC90ZD4KICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAge2Vsc2VpZiAoaXNzZXQoJGRhdGEuTkVYVF9UQVNLLlRBU19UWVBFKSAmJiAkZGF0YS5ORVhUX1RBU0suVEFTX1RZUEUgPT0gIklOVEVSTUVESUFURS1DQVRDSC1USU1FUi1FVkVOVCIpfQogICAgICAgICAgICAgICAgICAgIDx0ciBzdHlsZT0iZGlzcGxheTogbm9uZTsiPgogICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3M9IkZvcm1GaWVsZENvbnRlbnQiIGNvbHNwYW49IjIiPnskZGF0YS5ORVhUX1RBU0suVEFTX0hJRERFTl9GSUVMRH08L3RkPgogICAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICB7ZWxzZX0KICAgICAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzcz0iRm9ybUxhYmVsIiB3aWR0aD0iMTAwIj57JE5FWFRfVEFTS19MQUJFTH06PC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJGb3JtRmllbGRDb250ZW50Ij57JGRhdGEuTkVYVF9UQVNLLlRBU19USVRMRX17JGRhdGEuTkVYVF9UQVNLLlRBU19ISURERU5fRklFTER9PC90ZD4KICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgey9pZn0KICAgICAgICAgICAgey9pZn0KICAgICAgICAgICAge2lmIG5vdCAkZGF0YS5ORVhUX1RBU0suUk9VX0ZJTklTSF9GTEFHIH0KICAgICAgICAgICAgICB7aWYgJGRhdGEuTkVYVF9UQVNLLlRBU19ORVhUIGVxICdTVEFUSUNfTUknIHx8ICRkYXRhLk5FWFRfVEFTSy5UQVNfTkVYVCBlcSAnQ0FOQ0VMX01JJ30KICAgICAgICAgICAgICAgIHtmb3JlYWNoIGtleT1pZCBpdGVtPWRhdGFVc2VyIGZyb209JGRhdGEuTkVYVF9UQVNLLlVTRVJfQVNTSUdORUR9CiAgICAgICAgICAgICAgICB7aWYgJGRhdGFVc2VyLlVTUl9ISURERU5fRklFTEQgbmVxICcnfQogICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICA8dGQgY2xhc3M9IkZvcm1MYWJlbCIgd2lkdGg9IjEwMCI+eyRFTVBMT1lFRX06PC90ZD4KICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJGb3JtRmllbGRDb250ZW50Ij57JGRhdGFVc2VyLlVTUl9VSUR9eyRkYXRhVXNlci5VU1JfSElEREVOX0ZJRUxEfTwvdGQ+CiAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgey9pZn0KICAgICAgICAgICAgICAgIHsvZm9yZWFjaH0KICAgICAgICAgICAgICB7L2lmfQogICAgICAgICAgICAgIHtpZiAkZGF0YS5ORVhUX1RBU0suVEFTX05FWFQgZXEgJyd9CiAgICAgICAgICAgICAgICB7aWYgJGRhdGEuTkVYVF9UQVNLLlVTUl9VSUQgbmVxICcnfQogICAgICAgICAgICAgICAgICAgIHtpZiAoJGRhdGEuTkVYVF9UQVNLLlRBU19UWVBFID09ICJJTlRFUk1FRElBVEUtQ0FUQ0gtTUVTU0FHRS1FVkVOVCIpfQogICAgICAgICAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3M9IkZvcm1GaWVsZENvbnRlbnQiIGNvbHNwYW49IjIiIHN0eWxlPSJ0ZXh0LWFsaWduOiBjZW50ZXIiPnskZGF0YS5ORVhUX1RBU0suVVNSX0hJRERFTl9GSUVMRH08L3RkPgogICAgICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgICAgIHtlbHNlaWYgKCRkYXRhLk5FWFRfVEFTSy5UQVNfVFlQRSA9PSAiU0NSSVBULVRBU0siKX0KICAgICAgICAgICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJGb3JtTGFiZWwiIHdpZHRoPSIxMDAiPjwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3M9IkZvcm1GaWVsZENvbnRlbnQiPnskZGF0YS5ORVhUX1RBU0suVVNSX1VJRH17JGRhdGEuTkVYVF9UQVNLLlVTUl9ISURERU5fRklFTER9PC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICAgICB7ZWxzZWlmICgkZGF0YS5ORVhUX1RBU0suVEFTX1RZUEUgPT0gIlNFUlZJQ0UtVEFTSyIpfQogICAgICAgICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJGb3JtTGFiZWwiIHdpZHRoPSIxMDAiPjwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzcz0iRm9ybUZpZWxkQ29udGVudCI+eyRkYXRhLk5FWFRfVEFTSy5VU1JfVUlEfXskZGF0YS5ORVhUX1RBU0suVVNSX0hJRERFTl9GSUVMRH08L3RkPgogICAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICAgICAge2Vsc2VpZiAoJGRhdGEuTkVYVF9UQVNLLlRBU19UWVBFID09ICJJTlRFUk1FRElBVEUtQ0FUQ0gtVElNRVItRVZFTlQiKX0KICAgICAgICAgICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJGb3JtTGFiZWwiIHdpZHRoPSIxMDAiPnskTkVYVF9UQVNLX0xBQkVMfTo8L3RkPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJGb3JtRmllbGRDb250ZW50Ij57JGRhdGEuTkVYVF9UQVNLLlVTUl9VSUR9eyRkYXRhLk5FWFRfVEFTSy5VU1JfSElEREVOX0ZJRUxEfTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICAgICAge2Vsc2V9CiAgICAgICAgICAgICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzcz0iRm9ybUxhYmVsIiB3aWR0aD0iMTAwIj57JEVNUExPWUVFfTo8L3RkPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJGb3JtRmllbGRDb250ZW50Ij57JGRhdGEuTkVYVF9UQVNLLlVTUl9VSUR9eyRkYXRhLk5FWFRfVEFTSy5VU1JfSElEREVOX0ZJRUxEfTwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICAgICAgey9pZn0KICAgICAgICAgICAgICAgIHsvaWZ9CiAgICAgICAgICAgICAgey9pZn0KICAgICAgICAgICAgICB7aWYgJGRhdGEuTkVYVF9UQVNLLlRBU19UUkFOU0ZFUl9GTFkgZXEgJ3RydWUnfQogICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgIDx0ZCBjbGFzcz0nRm9ybVN1YlRpdGxlJyBjb2xzcGFuPSIyIiBhbGlnbj0iIj57JFRBU19USU1JTkdfVElUTEV9IEZvciB7JGRhdGEuTkVYVF9UQVNLLlRBU19USVRMRX0gVGFzazwvdGQ+CiAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICA8dGQgY2xhc3M9IkZvcm1MYWJlbCIgd2lkdGg9IjEwMCI+eyRUQVNfRFVSQVRJT059OjwvdGQ+CiAgICAgICAgICAgICAgICA8dGQgY2xhc3M9IkZvcm1GaWVsZENvbnRlbnQiPnskZGF0YS5ORVhUX1RBU0suVEFTX0RVUkFUSU9OfTwvdGQ+CiAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICA8dGQgY2xhc3M9IkZvcm1MYWJlbCIgd2lkdGg9IjEwMCI+eyRUQVNfVElNRVVOSVR9OjwvdGQ+CiAgICAgICAgICAgICAgICA8dGQgY2xhc3M9IkZvcm1GaWVsZENvbnRlbnQiPnskZGF0YS5ORVhUX1RBU0suVEFTX1RJTUVVTklUfTwvdGQ+CiAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICA8dGQgY2xhc3M9IkZvcm1MYWJlbCIgd2lkdGg9IjEwMCI+eyRUQVNfVFlQRV9EQVl9OjwvdGQ+CiAgICAgICAgICAgICAgICA8dGQgY2xhc3M9IkZvcm1GaWVsZENvbnRlbnQiPnskZGF0YS5ORVhUX1RBU0suVEFTX1RZUEVfREFZfTwvdGQ+CiAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICB7aWYgJGRhdGEuTkVYVF9UQVNLLlRBU19DQUxFTkRBUiBuZXEgJyd9CiAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJGb3JtTGFiZWwiIHdpZHRoPSIxMDAiPnskVEFTX0NBTEVOREFSfTo8L3RkPgogICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJGb3JtRmllbGRDb250ZW50Ij57JGRhdGEuTkVYVF9UQVNLLlRBU19DQUxFTkRBUn08L3RkPgogICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgey9pZn0KICAgICAgICAgICAgICA8dHIgaGVpZ2h0PSIwIj4KICAgICAgICAgICAgICAgIDx0ZCBjb2xzcGFuPSIyIj4KICAgICAgICAgICAgICAgICAgeyRkYXRhLk5FWFRfVEFTSy5UQVNfVFJBTlNGRVJfSElEREVOX0ZMWX0KICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgey9pZn0KICAgICAgICAgICAge2Vsc2V9CiAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICA8dGQgY2xhc3M9IkZvcm1MYWJlbCIgd2lkdGg9IjEwMCI+eyRMQVNUX0VNUExPWUVFfTo8L3RkPgogICAgICAgICAgICAgIDx0ZCBjbGFzcz0iRm9ybUZpZWxkQ29udGVudCI+eyRkYXRhLk5FWFRfVEFTSy5VU1JfVUlEfXskZGF0YS5ORVhUX1RBU0suVVNSX0hJRERFTl9GSUVMRH08L3RkPgogICAgICAgICAgICA8L3RyPgogICAgICAgICAgICB7L2lmfQoKICAgICAgICAgICAgPHRyIGhlaWdodD0iMCI+CiAgICAgICAgICAgICAgPHRkIGNvbHNwYW49IjIiPgogICAgICAgICAgICAgICAgeyRkYXRhLk5FWFRfVEFTSy5UQVNfQVNTSUdOX1RZUEV9eyRkYXRhLk5FWFRfVEFTSy5UQVNfREVGX1BST0NfQ09ERX17JGRhdGEuTkVYVF9UQVNLLkRFTF9QUklPUklUWX17JGRhdGEuTkVYVF9UQVNLLlRBU19QQVJFTlR9eyRkYXRhLk5FWFRfVEFTSy5ST1VfUFJFVklPVVNfVEFTS317JGRhdGEuTkVYVF9UQVNLLlJPVV9QUkVWSU9VU19UWVBFfXskZGF0YS5ORVhUX1RBU0suUk9VX0NPTkRJVElPTn17JGRhdGEuTkVYVF9UQVNLLlNPVVJDRV9VSUR9CiAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgPC90cj4KCiAgICAgICAgICAgIHtpZiAkUFJPQ0VTUy5ST1VfVFlQRSBlcSAnU0VMRUNUJ30KICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgIDx0ZCBjb2xzcGFuPSIyIiBhbGlnbj0iY2VudGVyIj4KICAgICAgICAgICAgICAgIHtpZiAkZGF0YS5ORVhUX1RBU0suVEFTX0FTU0lHTl9UWVBFIG5lcSAnJyAmJiBub3QgJGRhdGEuTkVYVF9UQVNLLlJPVV9GSU5JU0hfRkxBRyB9CiAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0iYnV0dG9uIiBjbGFzcz0nbW9kdWxlX2FwcF9idXR0b25fX19ncmF5JyBuYW1lPSJidG5Db250aW51ZV97JGlkfSIgaWQ9ImJ0bkNvbnRpbnVlIiB2YWx1ZT0ieyRDT05USU5VRV9XSVRIX09QVElPTn0geyRpZH0gIiBvbmNsaWNrPSJyZXR1cm4gY2xpY2tCdXR0b24odGhpcyk7Ij4KICAgICAgICAgICAgICAgIHsvaWZ9IHtpZiAkZGF0YS5ORVhUX1RBU0suVEFTX0FTU0lHTl9UWVBFIG5lcSAnJyAmJiAkZGF0YS5ORVhUX1RBU0suUk9VX0ZJTklTSF9GTEFHIH0KICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJidXR0b24iIGNsYXNzPSdtb2R1bGVfYXBwX2J1dHRvbl9fX2dyYXknIG5hbWU9ImJ0bkNvbnRpbnVlX3skaWR9IiBpZD0iYnRuQ29udGludWUiIHZhbHVlPSJ7JEZJTklTSF9XSVRIX09QVElPTn0geyRpZH0gIiBvbmNsaWNrPSJyZXR1cm4gY2xpY2tCdXR0b24odGhpcyk7Ij4KICAgICAgICAgICAgICAgICAgeyRkYXRhLk5FWFRfVEFTSy5UQVNfQVNTSUdOX1RZUEV9CiAgICAgICAgICAgICAgICB7L2lmfQogICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgIDwvdHI+CgogICAgICAgICAgICA8L2Zvcm0+CiAgICAgICAgICAgIHsvaWZ9CiAgICAgICAgICAgIHsvZm9yZWFjaH0KICAgICAgICAgICAge2lmICRQUk9DRVNTLkVSUk9SIGVxICcnICYmICRQUk9DRVNTLlJPVV9UWVBFIG5lcSAnU0VMRUNUJyAmJiAhICRQUk9DRVNTLlJPVV9GSU5JU0hfRkxBRyB9CiAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICA8dGQgY29sc3Bhbj0iMiIgYWxpZ249ImNlbnRlciI+CiAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0iYnV0dG9uIiBjbGFzcz0nbW9kdWxlX2FwcF9idXR0b25fX19ncmF5JyBuYW1lPSJidG5Db250aW51ZV97JGlkfSIgaWQ9ImJ0bkNvbnRpbnVlIiB2YWx1ZT0ieyRDT05USU5VRX0iIHskUFJPQ0VTUy5ESVNBQkxFRH0gb25jbGljaz0icmV0dXJuIGNsaWNrQnV0dG9uKHRoaXMpOyI+CiAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgey9pZn0KICAgICAgICAgICAge2lmICRQUk9DRVNTLkVSUk9SIGVxICcnICYmICRQUk9DRVNTLlJPVV9UWVBFIG5lcSAnU0VMRUNUJyAmJiAkUFJPQ0VTUy5ST1VfRklOSVNIX0ZMQUcgfQogICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgPHRkIGNvbHNwYW49IjIiIGFsaWduPSJjZW50ZXIiPgogICAgICAgICAgICAgICAgPGlucHV0IHR5cGU9ImJ1dHRvbiIgY2xhc3M9J21vZHVsZV9hcHBfYnV0dG9uX19fZ3JheScgbmFtZT0iYnRuQ29udGludWVfeyRpZH0iIGlkPSJidG5Db250aW51ZSIgdmFsdWU9InskRklOSVNIfSIgb25jbGljaz0icmV0dXJuIGNsaWNrQnV0dG9uKHRoaXMpOyI+CiAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgey9pZn0KICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgICA8L3RkPgogICAgICAgIDwvdHI+CiAgICAgIDwvdGFibGU+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IGNsYXNzPSJib3hCb3R0b20iPgogICAgICA8ZGl2IGNsYXNzPSJhIj48L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iYiI+PC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImMiPjwvZGl2PgogICAgPC9kaXY+CiAgPC9kaXY+CntpZiAkUFJPQ0VTUy5ST1VfVFlQRSBuZXEgJ1NFTEVDVCd9CjwvZm9ybT4Key9pZn0KPC9kaXY+Cgo8c2NyaXB0PgogIC8vIGRldmlyYXRpb24gdHlwZQogIHZhciBmbGFnQ2xpY2sgPSBmYWxzZTsKICB2YXIgcm91VHlwZSA9ICd7JFBST0NFU1MuUk9VX1RZUEV9JzsKICB2YXIgdXNlckhpZGRlbiA9ICd7JGRhdGEuTkVYVF9UQVNLLlVTUl9ISURERU5fRklFTER9JzsKICB7bGl0ZXJhbH0KCiAgLy8gb3B0aW9uIHNlbGVjdAogIHZhciBvcHRpb25TZWxlY3QgPSAiIjsKCiAgLyoqCiAgICogQG5hbWUgY2xpY2tCdXR0b24KICAgKiBAZGVzY3JpcHRpb24gdmVyaWZ5IHRoZSBvcHRpb24gc2VsZWN0IGluIGJ1dHRvbgogICAqIEBhY2Nlc3MgcHVibGljCiAgICogQHBhcmFtIG9iaiBbb2JqZWN0OiBidXR0b24sIHN1Ym1pdF0KICAgKiBAcmV0dXJuIGJvb2xlYW4KICAgKiBAYXV0aG9yIEJyYXlhbiBQZXJleXJhIC0gQ29jaGFsbyA8YnJheWFuQGNvbG9zYS5jb20+CiAgICovCiAgdmFyIGNsaWNrQnV0dG9uICA9IGZ1bmN0aW9uKG9iaikgewogICAgaWYgKGZsYWdDbGljaykgewogICAgICByZXR1cm4gZmFsc2U7CiAgICB9CgogICAgZmxhZ0NsaWNrID0gdHJ1ZTsKICAgIGRpc2FibGVkQnV0dG9uKCk7CgogICAgb3B0aW9uU2VsZWN0ID0gb2JqLm5hbWUuc3BsaXQoJ18nKS5wb3AoKTsKCiAgICBpZiAodmFsaWRhdGVTdWJtaXRGb3JtKCkpIHsKICAgICAgb2JqLmZvcm0uc3VibWl0KCk7CiAgICAgIHJldHVybiB0cnVlOwogICAgfQoKICAgIHJldHVybiBmYWxzZTsKICB9OwoKICAvKioKICAgKiBAbmFtZSBkaXNhYmxlZEJ1dHRvbgogICAqIEBkZXNjcmlwdGlvbiBkaXNhYmxlIGFsbCBidXR0b24gdHlwZSBzdWJtaXQKICAgKiBAYWNjZXNzIHB1YmxpYwogICAqIEByZXR1cm4gYm9vbGVhbgogICAqIEBhdXRob3IgQnJheWFuIFBlcmV5cmEgLSBDb2NoYWxvIDxicmF5YW5AY29sb3NhLmNvbT4KICAgKi8KICB2YXIgZGlzYWJsZWRCdXR0b24gPSBmdW5jdGlvbigpIHsKICAgIHZhciBidXR0b25zID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnaW5wdXRbdHlwZT0iYnV0dG9uIl0nKTsKICAgIGZvciAodmFyIGkgPSAwOyBpIDwgYnV0dG9ucy5sZW5ndGg7IGkrKykgewogICAgICBidXR0b25zW2ldLmRpc2FibGVkID0gdHJ1ZTsKICAgICAgey9saXRlcmFsfQogICAgICBidXR0b25zW2ldLnZhbHVlID0gJ3skTE9BRElOR30nOwogICAgICB7bGl0ZXJhbH0KICAgIH0KICAgIHJldHVybiB0cnVlOwogIH07CgogIC8qKgogICAqIEBuYW1lIGRpc2FibGVkQnV0dG9uCiAgICogQGRlc2NyaXB0aW9uIGVuYWJsZSBhbGwgYnV0dG9uIHR5cGUgc3VibWl0CiAgICogQGFjY2VzcyBwdWJsaWMKICAgKiBAcmV0dXJuIGJvb2xlYW4KICAgKiBAYXV0aG9yIEJyYXlhbiBQZXJleXJhIC0gQ29jaGFsbyA8YnJheWFuQGNvbG9zYS5jb20+CiAgICovCiAgdmFyIGVuYWJsZWRCdXR0b24gPSBmdW5jdGlvbigpIHsKICAgIGZsYWdDbGljayA9IGZhbHNlOwogICAgdmFyIGJ1dHRvbnMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdpbnB1dFt0eXBlPSJidXR0b24iXScpOwogICAgZm9yICh2YXIgaSA9IDA7IGkgPCBidXR0b25zLmxlbmd0aDsgaSsrKSB7CiAgICAgIGJ1dHRvbnNbaV0uZGlzYWJsZWQgPSBmYWxzZTsKICAgIH0KICAgIHJldHVybiB0cnVlOwogIH07CgogIC8qKgogICAqIEBuYW1lIHZhbGlkYXRlU3VibWl0Rm9ybQogICAqIEBkZXNjcmlwdGlvbiB2YWxpZGF0ZSB2YWx1ZSBzZWxlY3QKICAgKiBAYWNjZXNzIHB1YmxpYwogICAqIEByZXR1cm4gYm9vbGVhbgogICAqIEBhdXRob3IgQnJheWFuIFBlcmV5cmEgLSBDb2NoYWxvIDxicmF5YW5AY29sb3NhLmNvbT4KICAgKi8KICB2YXIgdmFsaWRhdGVTdWJtaXRGb3JtID0gZnVuY3Rpb24oKSB7CiAgICBkaXNhYmxlZEJ1dHRvbigpOwogICAgdmFyIGZsYWdTZWxlY3QgPSBmYWxzZTsKCiAgICAvLyB2ZXJpZnkgdHlwZSBvZiBkZXJpdmF0aW9uCiAgICBpZiAocm91VHlwZSA9PSAnUEFSQUxMRUwnIHx8IHJvdVR5cGUgPT0gJ1BBUkFMTEVMLUJZLUVWQUxVQVRJT04nKSB7CiAgICAgIC8vIHZlcmlmeSBhbGwgdmFsdWUgc2VsZWN0CiAgICAgIHZhciBzZWxlY3RzRm9ybSA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJzZWxlY3QiKTsKICAgICAgZm9yICh2YXIgaSA9IDAgOyBpIDw9IHNlbGVjdHNGb3JtLmxlbmd0aCA7IGkrKykgewogICAgICAgIGlmICh0eXBlb2Yoc2VsZWN0c0Zvcm1baV0pICE9ICd1bmRlZmluZWQnKSB7CiAgICAgICAgICB2YXIgdnRleHQgPSBuZXcgaW5wdXQoc2VsZWN0c0Zvcm1baV0pOwogICAgICAgICAgaWYgKHNlbGVjdHNGb3JtW2ldLnZhbHVlID09ICcnKSB7CiAgICAgICAgICAgIGZsYWdTZWxlY3QgPSB0cnVlOwogICAgICAgICAgICB2dGV4dC5mYWlsZWQoKTsKICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHZ0ZXh0LnBhc3NlZCgpOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfQoKICAgICAgaWYgKGZsYWdTZWxlY3QpIHsKICAgICAgICBlbmFibGVkQnV0dG9uKCk7CiAgICAgICAgYWxlcnQoR19TVFJJTkdTLklEX0FTU0lHTl9DQVNFX1RPX1VTRVIpOwogICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgfQogICAgfSBlbHNlIHsKICAgICAgdmFyIHNlbGVjdElkID0gImZvcm1bVEFTS1NdWyIrb3B0aW9uU2VsZWN0KyJdW1VTUl9VSURdIjsKCiAgICAgIGlmICh0eXBlb2YoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoc2VsZWN0SWQpKSAhPSAndW5kZWZpbmVkJyAmJiBkb2N1bWVudC5nZXRFbGVtZW50QnlJZChzZWxlY3RJZCkgIT0gbnVsbCAmJiAocm91VHlwZSA9PSAnU0VMRUNUJyB8fCB1c2VySGlkZGVuID09ICcnKSkgewogICAgICAgIHZhciB2dGV4dCAgPSBuZXcgaW5wdXQoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoc2VsZWN0SWQpKTsKCiAgICAgICAgLy8gdmVyaWZ5IHZhbHVlIHNlbGVjdCB0aGUgb3B0aW9uIHNlbGVjdAogICAgICAgIGlmIChkb2N1bWVudC5nZXRFbGVtZW50QnlJZChzZWxlY3RJZCkudmFsdWUgPT0gJycgJiYKICAgICAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImZvcm1bVEFTS1NdWyIrb3B0aW9uU2VsZWN0KyJdW1RBU19BU1NJR05fVFlQRV0iKS52YWx1ZSAhPSAnU0VMRl9TRVJWSUNFJyAmJgogICAgICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZm9ybVtUQVNLU11bIitvcHRpb25TZWxlY3QrIl1bVEFTX0FTU0lHTl9UWVBFXSIpLnZhbHVlICE9ICdTRUxGX1NFUlZJQ0VfRVZBTFVBVEUnCiAgICAgICAgICAgKSB7CiAgICAgICAgICBlbmFibGVkQnV0dG9uKCk7CiAgICAgICAgICB2dGV4dC5mYWlsZWQoKTsKICAgICAgICAgIGFsZXJ0KEdfU1RSSU5HUy5JRF9BU1NJR05fQ0FTRV9UT19VU0VSKTsKICAgICAgICAgIHJldHVybiBmYWxzZTsKICAgICAgICB9IGVsc2UgewogICAgICAgICAgdnRleHQucGFzc2VkKCk7CiAgICAgICAgfQogICAgICB9CiAgICB9CgoKICAgIHsvbGl0ZXJhbH0KICAgIHNldE5lc3RlZFByb3BlcnR5KHRoaXMsIEFycmF5KCdkaXNhYmxlZCcpLCAndHJ1ZScpOwogICAgc2V0TmVzdGVkUHJvcGVydHkodGhpcywgQXJyYXkoJ3ZhbHVlJyksICd7JFBST0NFU1NJTkdfTUVTU0FHRXxlc2NhcGU6amF2YXNjcmlwdH0nKTsKICAgIHtsaXRlcmFsfQoKICAgIHJldHVybiB0cnVlOwogIH07CgogIHsvbGl0ZXJhbH0KPC9zY3JpcHQ+]]></file_content>
+    </file>
+    <file target="templates">
+      <file_name>luranaLinkAction.html</file_name>
+      <file_path><![CDATA[31599724069fe9ff8da6c69020225749/luranaLinkAction.html]]></file_path>
+      <file_content><![CDATA[PCFkb2N0eXBlIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KCjxoZWFkPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgogICAgPG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9VVRGLTgiPgogICAgPHRpdGxlPkx1cmFuYSBMaW5rIEFjdGlvbjwvdGl0bGU+CiAgICA8c3R5bGUgbWVkaWE9ImFsbCIgdHlwZT0idGV4dC9jc3MiPgogICAgICAgIGJvZHkgewogICAgICAgICAgICBmb250LWZhbWlseTogSGVsdmV0aWNhLCBzYW5zLXNlcmlmOwogICAgICAgICAgICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDsKICAgICAgICAgICAgZm9udC1zaXplOiAxNnB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMS4zOwogICAgICAgICAgICAtbXMtdGV4dC1zaXplLWFkanVzdDogMTAwJTsKICAgICAgICAgICAgLXdlYmtpdC10ZXh0LXNpemUtYWRqdXN0OiAxMDAlOwogICAgICAgIH0KCiAgICAgICAgdGFibGUgewogICAgICAgICAgICBib3JkZXItY29sbGFwc2U6IHNlcGFyYXRlOwogICAgICAgICAgICBtc28tdGFibGUtbHNwYWNlOiAwcHQ7CiAgICAgICAgICAgIG1zby10YWJsZS1yc3BhY2U6IDBwdDsKICAgICAgICAgICAgd2lkdGg6IDEwMCU7CiAgICAgICAgfQoKICAgICAgICB0YWJsZSB0ZCB7CiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDsKICAgICAgICAgICAgdmVydGljYWwtYWxpZ246IHRvcDsKICAgICAgICB9CgogICAgICAgIGJvZHkgewogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjRmNWY2OwogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQoKICAgICAgICAuYm9keSB7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmNGY1ZjY7CiAgICAgICAgICAgIHdpZHRoOiAxMDAlOwogICAgICAgIH0KCiAgICAgICAgLmNvbnRhaW5lciB7CiAgICAgICAgICAgIG1hcmdpbjogMCBhdXRvICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIG1heC13aWR0aDogNjAwcHg7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgICAgIHBhZGRpbmctdG9wOiAyNHB4OwogICAgICAgICAgICB3aWR0aDogNjAwcHg7CiAgICAgICAgfQoKICAgICAgICAuY29udGVudCB7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgICAgICBtYXJnaW46IDAgYXV0bzsKICAgICAgICAgICAgbWF4LXdpZHRoOiA2MDBweDsKICAgICAgICAgICAgcGFkZGluZzogMDsKICAgICAgICB9CgogICAgICAgIC5tYWluIHsKICAgICAgICAgICAgYmFja2dyb3VuZDogI2ZmZmZmZjsKICAgICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgI2VhZWJlZDsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMTZweDsKICAgICAgICAgICAgd2lkdGg6IDEwMCU7CiAgICAgICAgfQoKICAgICAgICAud3JhcHBlciB7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIHBhZGRpbmc6IDI0cHg7CiAgICAgICAgfQoKICAgICAgICAuZm9vdGVyIHsKICAgICAgICAgICAgY2xlYXI6IGJvdGg7CiAgICAgICAgICAgIHBhZGRpbmctdG9wOiAyNHB4OwogICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgICAgICAgICAgIHdpZHRoOiAxMDAlOwogICAgICAgIH0KCiAgICAgICAgLmZvb3RlciB0ZCwKICAgICAgICAuZm9vdGVyIHAsCiAgICAgICAgLmZvb3RlciBzcGFuLAogICAgICAgIC5mb290ZXIgYSB7CiAgICAgICAgICAgIGNvbG9yOiAjOWE5ZWE2OwogICAgICAgICAgICBmb250LXNpemU6IDE2cHg7CiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICAgICAgICB9CgogICAgICAgIHAgewogICAgICAgICAgICBmb250LWZhbWlseTogSGVsdmV0aWNhLCBzYW5zLXNlcmlmOwogICAgICAgICAgICBmb250LXNpemU6IDE2cHg7CiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7CiAgICAgICAgICAgIG1hcmdpbjogMDsKICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMTZweDsKICAgICAgICB9CgogICAgICAgIGEgewogICAgICAgICAgICBjb2xvcjogIzA4NjdlYzsKICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7CiAgICAgICAgfQoKICAgICAgICAuYnRuIHsKICAgICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDsKICAgICAgICAgICAgbWluLXdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIHdpZHRoOiAxMDAlOwogICAgICAgIH0KCiAgICAgICAgLmJ0bj50Ym9keT50cj50ZCB7CiAgICAgICAgICAgIHBhZGRpbmctYm90dG9tOiAxNnB4OwogICAgICAgIH0KCiAgICAgICAgLmJ0biB0YWJsZSB7CiAgICAgICAgICAgIHdpZHRoOiBhdXRvOwogICAgICAgIH0KCiAgICAgICAgLmJ0biB0YWJsZSB0ZCB7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7CiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDsKICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgICAgIH0KCiAgICAgICAgLmJ0biBhIHsKICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4OwogICAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94OwogICAgICAgICAgICBjb2xvcjogIzA4NjdlYzsKICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyOwogICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDsKICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7CiAgICAgICAgICAgIG1hcmdpbjogMDsKICAgICAgICAgICAgcGFkZGluZzogMTJweCAyNHB4OwogICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7CiAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiBjYXBpdGFsaXplOwogICAgICAgIH0KCiAgICAgICAgLmJ0bi1wcmltYXJ5IGEgewogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDg2N2VjOwogICAgICAgICAgICBib3JkZXItY29sb3I6ICMwODY3ZWM7CiAgICAgICAgICAgIGNvbG9yOiAjZmZmZmZmOwogICAgICAgIH0KCiAgICAgICAgQG1lZGlhIGFsbCB7CiAgICAgICAgICAgIC5idG4tcHJpbWFyeSBhOmhvdmVyIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDMwNDYgIWltcG9ydGFudDsKICAgICAgICAgICAgICAgIGJvcmRlci1jb2xvcjogIzAwMzA0NiAhaW1wb3J0YW50OwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAubGFzdCB7CiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDA7CiAgICAgICAgfQoKICAgICAgICAuZmlyc3QgewogICAgICAgICAgICBtYXJnaW4tdG9wOiAwOwogICAgICAgIH0KCiAgICAgICAgLmFsaWduLWNlbnRlciB7CiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICAgICAgICB9CgogICAgICAgIC5hbGlnbi1yaWdodCB7CiAgICAgICAgICAgIHRleHQtYWxpZ246IHJpZ2h0OwogICAgICAgIH0KCiAgICAgICAgLmFsaWduLWxlZnQgewogICAgICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0OwogICAgICAgIH0KCiAgICAgICAgLnRleHQtbGluayB7CiAgICAgICAgICAgIGNvbG9yOiAjMDg2N2VjICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lICFpbXBvcnRhbnQ7CiAgICAgICAgfQoKICAgICAgICAuY2xlYXIgewogICAgICAgICAgICBjbGVhcjogYm90aDsKICAgICAgICB9CgogICAgICAgIC5tdDAgewogICAgICAgICAgICBtYXJnaW4tdG9wOiAwOwogICAgICAgIH0KCiAgICAgICAgLm1iMCB7CiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDA7CiAgICAgICAgfQoKICAgICAgICAucHJlaGVhZGVyIHsKICAgICAgICAgICAgY29sb3I6IHRyYW5zcGFyZW50OwogICAgICAgICAgICBkaXNwbGF5OiBub25lOwogICAgICAgICAgICBoZWlnaHQ6IDA7CiAgICAgICAgICAgIG1heC1oZWlnaHQ6IDA7CiAgICAgICAgICAgIG1heC13aWR0aDogMDsKICAgICAgICAgICAgb3BhY2l0eTogMDsKICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjsKICAgICAgICAgICAgbXNvLWhpZGU6IGFsbDsKICAgICAgICAgICAgdmlzaWJpbGl0eTogaGlkZGVuOwogICAgICAgICAgICB3aWR0aDogMDsKICAgICAgICB9CgogICAgICAgIC5wb3dlcmVkLWJ5IGEgewogICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7CiAgICAgICAgfQoKICAgICAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDY0MHB4KSB7CgogICAgICAgICAgICAubWFpbiBwLAogICAgICAgICAgICAubWFpbiB0ZCwKICAgICAgICAgICAgLm1haW4gc3BhbiB7CiAgICAgICAgICAgICAgICBmb250LXNpemU6IDE2cHggIWltcG9ydGFudDsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLndyYXBwZXIgewogICAgICAgICAgICAgICAgcGFkZGluZzogOHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC5jb250ZW50IHsKICAgICAgICAgICAgICAgIHBhZGRpbmc6IDAgIWltcG9ydGFudDsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLmNvbnRhaW5lciB7CiAgICAgICAgICAgICAgICBwYWRkaW5nOiAwICFpbXBvcnRhbnQ7CiAgICAgICAgICAgICAgICBwYWRkaW5nLXRvcDogOHB4ICFpbXBvcnRhbnQ7CiAgICAgICAgICAgICAgICB3aWR0aDogMTAwJSAhaW1wb3J0YW50OwogICAgICAgICAgICB9CgogICAgICAgICAgICAubWFpbiB7CiAgICAgICAgICAgICAgICBib3JkZXItbGVmdC13aWR0aDogMCAhaW1wb3J0YW50OwogICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMCAhaW1wb3J0YW50OwogICAgICAgICAgICAgICAgYm9yZGVyLXJpZ2h0LXdpZHRoOiAwICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC5idG4gdGFibGUgewogICAgICAgICAgICAgICAgbWF4LXdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7CiAgICAgICAgICAgICAgICB3aWR0aDogMTAwJSAhaW1wb3J0YW50OwogICAgICAgICAgICB9CgogICAgICAgICAgICAuYnRuIGEgewogICAgICAgICAgICAgICAgZm9udC1zaXplOiAxNnB4ICFpbXBvcnRhbnQ7CiAgICAgICAgICAgICAgICBtYXgtd2lkdGg6IDEwMCUgIWltcG9ydGFudDsKICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEBtZWRpYSBhbGwgewogICAgICAgICAgICAuRXh0ZXJuYWxDbGFzcyB7CiAgICAgICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLkV4dGVybmFsQ2xhc3MsCiAgICAgICAgICAgIC5FeHRlcm5hbENsYXNzIHAsCiAgICAgICAgICAgIC5FeHRlcm5hbENsYXNzIHNwYW4sCiAgICAgICAgICAgIC5FeHRlcm5hbENsYXNzIGZvbnQsCiAgICAgICAgICAgIC5FeHRlcm5hbENsYXNzIHRkLAogICAgICAgICAgICAuRXh0ZXJuYWxDbGFzcyBkaXYgewogICAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDEwMCU7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC5hcHBsZS1saW5rIGEgewogICAgICAgICAgICAgICAgY29sb3I6IGluaGVyaXQgIWltcG9ydGFudDsKICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBpbmhlcml0ICFpbXBvcnRhbnQ7CiAgICAgICAgICAgICAgICBmb250LXNpemU6IGluaGVyaXQgIWltcG9ydGFudDsKICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiBpbmhlcml0ICFpbXBvcnRhbnQ7CiAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogaW5oZXJpdCAhaW1wb3J0YW50OwogICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lICFpbXBvcnRhbnQ7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgICNNZXNzYWdlVmlld0JvZHkgYSB7CiAgICAgICAgICAgICAgICBjb2xvcjogaW5oZXJpdDsKICAgICAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTsKICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogaW5oZXJpdDsKICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBpbmhlcml0OwogICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGluaGVyaXQ7CiAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogaW5oZXJpdDsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIDwvc3R5bGU+CjwvaGVhZD4KCjxib2R5PgogICAgPHRhYmxlIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IjAiIGNlbGxzcGFjaW5nPSIwIiBjbGFzcz0iYm9keSI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQgd2lkdGg9IjgwJSIgYWxpZ249ImNlbnRlciIgY2xhc3M9ImNvbnRhaW5lciI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJjb250ZW50Ij4KICAgICAgICAgICAgICAgICAgICA8IS0tIFNUQVJUIENFTlRFUkVEIFdISVRFIENPTlRBSU5FUiAtLT4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0icHJlaGVhZGVyIj5UaGlzIGlzIGEgTHVyYW5hIExpbmsgQWN0aW9uIGVtYWlsPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDx0YWJsZSBjbGFzcz0ibWFpbiIgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiPgogICAgICAgICAgICAgICAgICAgICAgICA8IS0tIFNUQVJUIE1BSU4gQ09OVEVOVCBBUkVBIC0tPgogICAgICAgICAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3M9IndyYXBwZXIiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlcjsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGU9ImZvbnQtZmFtaWx5OiBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMjRweDsgZm9udC13ZWlnaHQ6IG5vcm1hbDsgbWFyZ2luOiAwOyBtYXJnaW4tYm90dG9tOiAxNnB4OyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8Yj5MdXJhbmEgTGluayBBY3Rpb248L2I+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGFibGUgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAiIGNsYXNzPSJidG4gYnRuLXByaW1hcnkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGJvZHk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGFsaWduPSJsZWZ0Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQCNfX0xVUkFOQV9MSU5LX0FDVElPTgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3Rib2R5PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgICAgICAgICA8IS0tIEVORCBNQUlOIENPTlRFTlQgQVJFQSAtLT4KICAgICAgICAgICAgICAgICAgICA8L3RhYmxlPgogICAgICAgICAgICAgICAgICAgIDwhLS0gU1RBUlQgRk9PVEVSIC0tPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZvb3RlciI+CiAgICAgICAgICAgICAgICAgICAgICAgIDx0YWJsZSBib3JkZXI9IjAiIGNlbGxwYWRkaW5nPSIwIiBjZWxsc3BhY2luZz0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dHI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzPSJjb250ZW50LWJsb2NrIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImFwcGxlLWxpbmsiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT0iY29sb3I6ICMwMDdEQTY7IGZvbnQtc2l6ZTogMTJweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUaGlzIEJ1c2luZXNzIFByb2Nlc3MgaXMgcG93ZXJlZCBieTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0cj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3M9ImNvbnRlbnQtYmxvY2sgYWxpZ24tY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vc25lYWtwZWVrLmx1cmFuYXNvZnQuY29tL2ltYWdlcy9sdXJhbmEubG9nby5wbmciIGFsdD0iTHVyYW5hIExvZ28iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aD0iMjAwIiBib3JkZXI9IjAiIHN0eWxlPSJ0ZXh0LWFsaWduOmNlbnRlcjsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzcz0iY29udGVudC1ibG9jayBwb3dlcmVkLWJ5Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iaHR0cDovL3d3dy5sdXJhbmFzb2Z0LmNvbSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPSJmb250LXNpemU6IDEycHg7IGNvbG9yOiNmOGE0MDQ7Ij53d3cubHVyYW5hc29mdC5jb208L2E+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPCEtLSBFTkQgRk9PVEVSIC0tPgogICAgICAgICAgICAgICAgICAgIDwhLS0gRU5EIENFTlRFUkVEIFdISVRFIENPTlRBSU5FUiAtLT4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L3RkPgogICAgICAgIDwvdHI+CiAgICA8L3RhYmxlPgo8L2JvZHk+Cgo8L2h0bWw+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>

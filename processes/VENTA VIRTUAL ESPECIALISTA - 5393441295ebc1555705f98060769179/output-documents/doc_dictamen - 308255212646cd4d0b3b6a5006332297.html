@@ -1,0 +1,340 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+  <style type="text/css">
+    .table-spacing {
+      padding: 0px 0px 0px 18px;
+    }
+
+    .footer {
+      width: 100%;
+      position: relative;
+      bottom: 0;
+      padding: 5px;
+    }
+
+    .dimension {
+      position: relative;
+    }
+
+    @media print {
+      .footer {
+        position: absolute;
+      }
+
+      @media (max-height: 360mm) {
+        .dimension {
+          height: 330mm !important;
+          position: relative;
+        }
+      }
+
+      @media (max-height: 300mm) {
+        .dimension {
+          height: 273mm !important;
+          position: relative;
+        }
+
+        p {
+          margin: 10px 0;
+        }
+      }
+    }
+  </style>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif; font-size: small;">
+<p></p>
+<!--INICIO PAGINA-->
+<table cellpadding="0" cellspacing="0" border="0" style="width: 100%;" class="dimension">
+<tbody>
+<tr>
+<td height="250mm" valign="top"><!--INICIO HEADER-->
+<table border="0" cellspacing="0" cellpadding="8" style="background-color: #00493c; width: 100%;">
+<tbody>
+<tr>
+<td align="left" valign="middle" style="line-height: 12px;"><img style="padding: 20px;" width="120" src="data:image/png;base64,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" alt="" /></td>
+<td align="right" style="color: #ffffff; font-size: small; padding: 15px 32px 15px 0px; line-height: 24px;"><b> SEGURO INDIVIDUAL DE VIDA DICTAMEN </b></td>
+</tr>
+</tbody>
+</table>
+<!--FIN HEADER-->
+<table border="0" cellspacing="0" cellpadding="2" style="padding: 20px 0px 0px; width: 100%;">
+<tbody><!--INICIO TABLA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;"><!--INICIO FILA-->
+<tbody>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 30%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#APP_NUMBER</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 70%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_primer_nombre @#frm_segundo_nombre @#frm_apellido_paterno @#frm_apellido_materno</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 30%; color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;"># Caso</td>
+<td style="width: 70%; color: #001815; font-size: x-small; font-weight: normal; vertical-align: top; text-align: center;" class="table-spacing">Nombres</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--INICIO FILA-->
+<tr>
+<td>
+<table cellpadding="4" style="background-color: #00493c; text-transform: uppercase; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b> Revision Tecnica </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="0" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 70%; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_suscripcion_pregunta_html</td>
+<td style="width: 30%; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_suscripcion_respuesta_html</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="4" style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b> Informe del suscriptor </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#frm_suscripcion_suscriptor</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="4" style="background-color: #00493c; text-transform: uppercase; vertical-align: middle; text-align: center; color: #ffffff; line-height: 14px; width: 100%;">
+<tbody>
+<tr>
+<td style="font-size: small;"><b> Coberturas, Montos y Tarifas </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;">Cobertura</td>
+<td style="width: 34%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">Monto Asegurado</td>
+<td style="width: 33%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top;" class="table-spacing">Tarifa</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 33%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#grd_cobertura_label_dictamen</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 34%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#grd_monto_label_dictamen</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 33%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#grd_tarifa_dictamen</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#tri_dictamen_suscripcion</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--> <!--INICIO FILA-->
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#tri_suscriptor_label</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="width: 50%;" class="table-spacing">
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="border: 1px solid #02493c; color: #001815; background-color: #ffffff; font-size: x-small; vertical-align: top;">@#tri_fecha_dictamen</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellspacing="0" cellpadding="2" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top; text-align: center;">Suscriptor</td>
+<td style="width: 50%; color: #001815; font-size: x-small; font-weight: bold; vertical-align: top; text-align: center;" class="table-spacing">Fecha</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FIN FILA--></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--INICIO FOOTER-->
+<tr>
+<td valign="bottom" class="footer">
+<table style="width: 100%; margin: auto;">
+<tbody>
+<tr>
+<td style="text-align: center; padding: 8px 0px 8px 0px; font-size: x-small;"><b>Quito:</b> De Las Hiedras N41-130 y Av. De Los Granados.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom" class="footer">
+<table border="0" cellspacing="0" cellpadding="2" style="background-color: #00493c; color: #ffffff; font-size: small; line-height: 16px; width: 100%;" class="footer">
+<tbody>
+<tr>
+<td align="right" style="width: 50%; text-align: right;"><b> equisuiza.com </b></td>
+<td height="5" style="width: 50%;">
+<table cellspacing="0" cellpadding="0" style="border-left: 1px solid #ffffff;">
+<tbody>
+<tr>
+<td align="center" style="width: 6%; padding: 3px 2px;"><img width="10" height="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBBAMAAAB82dR2AAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAwO9wnB/2V8883Ifnr191EiIAAAEASURBVEjH7dQ9agJRFIbhr1AmkiBJkXaQu4Ah4ULKMKRMEWYF04V0Q1YgrkAENyBYugc3YS/+gD8gdw16RmQs5p4PLFTQt7rFU1zOgYNdwftLeaMO8irO2yIWUMucv1kCIHVavwAiVWzkF3pveCKihzoREzSp+LyYGHRkGYp4RV7bK/6wL/SJRcLEGkw8UwEmVgdQzTxiDqlm7YfziImAQF6qSDXREDGkIrwJMTOmJeLLGBOVin8UBWViiuPGVIRUtKmIqMiocCeJzTF4LBOub20+tK61dnzV27+LM4mUijoRDTwQEaNKRAL8qGIOoKKKGLuGilgi79sUFRdGGgDYAhXQ3oaQvRwSAAAAAElFTkSuQmCC" alt="" /></td>
+<td align="center" style="width: 6%; padding: 3px 2px;"><img width="10" height="10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBBAMAAAB82dR2AAAALVBMVEUAAAD///////////////////////////////////////////////////////+hSKubAAAADnRSTlMAwO9wHzzc9oecV8+v5/cLTngAAAJWSURBVEjHfZS/a1NxEMCv5rU2VkPfoDiFWvDHFARxDdFBcSkPOrlIBwdxyFIdBAkVxLEExEmQ/gUhg9CtdCh0K6VTp5C2aZOm7f0NvXf5ft/l++7Sz/Bevnmf3Pd77y4HnukXAS8hx+wm5uh/CoRXaHBUE6GIaCqZEFXQ5qs3WjiJDWDu4ESGwHzgxVUc8GA8SAOJz5BjeguJHhBTSDwGRdRBxDO/yQUY3EXiOX2o030bLP7RkwXaLz0lKGbjHZjjbDhWTxsUOYHRQW7TramEKd5gna4AS3StKaOEiKd83YAqRZIMfxwsPvrpjBOY4/h7iOdeKHQw5ZD25hgFus5DOZVdgXyNV905IrrujxkUztOmXPp0OvbEmMGM41ohboIy6ih8obUy6ODCmWVUkfiewHs+73ZgDP0KB5yzbwwxuq7WfHziLfe5MkpSwaiRVkIZ69wu0rlNZWxxAlLZfWVUst4fdVVXGf5LcHpPGbzw0JYnljGfGeUJRts07F3qgWGdtMELne3g5mzpfgwgvbSijHTMrDmjyp9zBnf3UDZBUEYRs9K17OpDhQekH51dw2hxf/5e/oUczTCKepSK4QeKsGIYEkSmlvS6vAbHWmDI/zYqO+Hj2Ntvp3/nS/DKLgv3s2HGTVMNBt1yHD9MwDPDG5ZkSpmzKoFb0n7mQB3leGoLEefNt75t3HM/LvMrtKi7J0s8lQzhDRKJSxoHWihwBWV+fUtywjseRQtuoDCLAU8RZeTQQLGRmr5GCwnBCdv8B5CBbrE6nlnHEJ6FJfibD/Pkj3t0DeBpgUYBTZkiAAAAAElFTkSuQmCC" alt="" /></td>
+<td style="width: 68%;"><b> 1800 787878 </b></td>
+<td style="width: 20%;"><b> V1 </b></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--FINAL FOOTER--></tbody>
+</table>
+<!--FINAL PAGINA-->
+<p></p>
+</body>
+
+</html>

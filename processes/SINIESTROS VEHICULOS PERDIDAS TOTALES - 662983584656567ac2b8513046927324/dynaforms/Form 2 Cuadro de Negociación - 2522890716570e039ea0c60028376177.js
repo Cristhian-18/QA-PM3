@@ -1,0 +1,261 @@
+ $("#frm_requiere_PartePolicial").disableValidation();
+ $("#frm_requiere_AsesoriaLegal").disableValidation();
+//
+ $("#frm_siniestro_seConsidera").disableValidation();
+
+ $("#frm_siniestro_OtrosVehiculos").disableValidation();
+ $("#frm_siniestro_Propiedad").disableValidation();
+ $("#frm_siniestro_Personas").disableValidation();
+
+function action(newVal, oldVal) {
+    $("#frm_reserva").hide();
+    $("#frm_reserva").disableValidation();
+   
+    $("#frm_valores_valorAEADE").disableValidation();
+    $("#frm_valores_patioTuerca").disableValidation();
+    $("#frm_valores_valorAjustado").disableValidation();
+    $("#frm_valores_deducible").disableValidation();
+    $("#frm_valores_valorAcordado").disableValidation();
+    $("#frm_valores_porcentajeDeducible").disableValidation();
+
+
+    if (newVal == 'CONTINUAR') {
+        $("#frm_valores_valorAEADE").enableValidation();
+        $("#frm_valores_patioTuerca").enableValidation();
+        $("#frm_valores_valorAjustado").enableValidation();
+        $("#frm_valores_deducible").enableValidation();
+        $("#frm_valores_valorAcordado").enableValidation();
+        $("#frm_valores_porcentajeDeducible").enableValidation();
+    }
+    if (newVal == 'PARCIAL' || newVal == 'CREARPARCIAL') {
+        $("#frm_reserva").show();
+        $("#frm_reserva").enableValidation();
+    }
+
+}
+//execute when the Dynaform loads:
+action($("#frm_accion").getValue(), '');
+$('#frm_accion').setOnchange(action);
+
+
+function negociacion1(newVal, oldVal) {
+    let valorPatioTuerca = $("#frm_valores_patioTuerca").getValue();
+    if (valorPatioTuerca == '' || valorPatioTuerca == null || valorPatioTuerca == undefined) {
+        var value = newVal;
+        if (value != '') {
+            value = roundToFixed(value, 2);
+        }
+        $("#frm_valores_valorAEADE").setValue(value);
+        return;
+    } else {
+        let valorCasco = $("#frm_valores_valorCasco").getValue();
+        let valorAeade = newVal;
+        //inicio = lowest value
+        let inicio = Math.min(valorCasco, valorAeade);
+        //maxima = highest value
+        let maxima = Math.max(valorCasco, valorAeade);
+        //tope = average value of the three
+        let tope = (parseInt(valorPatioTuerca) + parseInt(valorCasco) + parseInt(valorAeade)) / 3;
+
+        $("#frm_valores_inicioNegociacion").setValue(inicio);
+        $("#frm_valores_maximaNegociacion").setValue(maxima);
+        $("#frm_valores_topeNegociacion").setValue(tope);
+        var value = newVal;
+        if (value != '') {
+            value = roundToFixed(value, 2);
+        }
+        $("#frm_valores_valorAEADE").setValue(value);
+    }
+}
+//execute when the Dynaform loads:
+negociacion1($("#frm_valores_valorAEADE").getValue(), '');
+$('#frm_valores_valorAEADE').setOnchange(negociacion1);
+
+function negociacion2(newVal, oldVal) {
+    let valorAeade = $("#frm_valores_valorAEADE").getValue();
+    if (valorAeade == '' || valorAeade == null || valorAeade == undefined) {
+        var value = newVal;
+        if (value != '') {
+            value = roundToFixed(value, 2);
+        }
+        $("#frm_valores_patioTuerca").setValue(value);
+        return;
+    } else {
+        let valorCasco = $("#frm_valores_valorCasco").getValue();
+        let valorPatioTuerca = newVal;
+        //inicio = lowest value
+        let inicio = Math.min(valorCasco, valorAeade);
+        //maxima = highest value
+        let maxima = Math.max(valorCasco, valorAeade);
+        //tope = average value of the three
+        let tope = (parseInt(valorPatioTuerca) + parseInt(valorCasco) + parseInt(valorAeade)) / 3;
+
+        $("#frm_valores_inicioNegociacion").setValue(inicio);
+        $("#frm_valores_maximaNegociacion").setValue(maxima);
+        $("#frm_valores_topeNegociacion").setValue(tope);
+
+        var value = newVal;
+        if (value != '') {
+            value = roundToFixed(value, 2);
+        }
+        $("#frm_valores_patioTuerca").setValue(value);
+    }
+}
+//execute when the Dynaform loads:
+negociacion2($("#frm_valores_patioTuerca").getValue(), '');
+$('#frm_valores_patioTuerca').setOnchange(negociacion2);
+
+
+
+
+$('.menu').on('click', function () {
+    ocultar_todo();
+    console.log(this.id)
+    console.log("CAMBIO")
+    switch (this.id) {
+        case 'solicitud':
+            mostrar_solicitud();
+            break;
+        case 'repuestos':
+            $("#sub_taller").show();
+            $("#489756561656567afcf5da3068863338").show();
+            $("#765755715656567afd18e09041007921").show();
+         $("#480602794656567afd00279083326971").show();
+            $("#sub_gestionrepuestos").show();
+            $("#sub_valores_siniestros").show();
+            $("#899876897656567afce9ba0097496292").show();
+            break;
+        case 'documentos':
+            $("#sub_documentos_caso").show();
+            $("#375344004656567afcfcd58015574466").show();
+            break;
+        case 'historial':
+            $("#sub_historial_caso").show();
+            $("#709751460656567afce0474081432341").show();
+            break;
+    }
+});
+
+
+function ocultar_todo() {
+
+    $("#614037051656567afd2d975045685007").hide();
+
+    $("#subt_poliza").hide();
+    $("#970216769656567afcd3ed7021146455").hide();
+    $("#sub_busqueda").hide();
+    $("#718299480656567afd0c6f5055771758").hide();
+    $("#subt_registro").hide();
+    $("#601939553656567afce2703072259389").hide();
+    $("#subt_dvehiculo").hide();
+    $("#702321057656567afd0b5f8055682937").hide();
+    $("#subt_ppolicial").hide();
+    $("#282239801656567afd29986025672858").hide();
+    $("#subt_asegurado").hide();
+    $("#142725203656567afcda002050435920").hide();
+    $("#subt_accidente").hide();
+    $("#560832659656567afcf4d25066588147").hide();
+    $("#subt_danios").hide();
+    $("#624298983656567afd15b60051714541").hide();
+    $("#subt_ve_afectados").hide();
+    $("#831468248656567afce7676060479058").hide();
+
+    $("#isubt_pe_afectados").hide();
+    $("#516059836656567afd10a48026370985").hide();
+    $("#iisubt_pr_afectados").hide();
+    $("#976441291656567afd2a935002448351").hide();
+    $("#sub_taller").hide();
+    $("#489756561656567afcf5da3068863338").hide();
+    $("#765755715656567afd18e09041007921").hide();
+
+
+    $("#sub_accesorios").hide();
+    $("#388204042656567afd22313001660735").hide();
+    $("#subt_historial").hide();
+    $("#582336739656567afcd7d26036202949").hide();
+    $("#sub_docs").hide();
+    $("#780469005656567afce66c5098057154").hide();
+    $("#765755715656567afd18e09041007921").hide();
+
+    $("#sub_historial_caso").hide();
+    $("#709751460656567afce0474081432341").hide();
+    $("#sub_documentos_caso").hide();
+    $("#375344004656567afcfcd58015574466").hide();
+    $("#sub_cuadro").hide();
+    $("#811120859657204a20fc1b5099654552").hide();
+   $("#480602794656567afd00279083326971").hide();
+    $("#sub_gestionrepuestos").hide();
+    $("#sub_valores_siniestros").hide();
+    $("#899876897656567afce9ba0097496292").hide();
+
+
+}
+function mostrar_solicitud() {
+    $("#614037051656567afd2d975045685007").show();
+
+    $("#subt_poliza").show();
+    $("#970216769656567afcd3ed7021146455").show();
+    $("#sub_busqueda").show();
+    $("#718299480656567afd0c6f5055771758").show();
+    $("#subt_registro").show();
+    $("#601939553656567afce2703072259389").show();
+    $("#subt_dvehiculo").show();
+    $("#702321057656567afd0b5f8055682937").show();
+    $("#subt_ppolicial").show();
+    $("#282239801656567afd29986025672858").show();
+    $("#subt_asegurado").show();
+    $("#142725203656567afcda002050435920").show();
+    $("#subt_accidente").show();
+    $("#560832659656567afcf4d25066588147").show();
+    $("#subt_danios").show();
+    $("#624298983656567afd15b60051714541").show();
+    $("#subt_ve_afectados").show();
+    $("#831468248656567afce7676060479058").show();
+
+    $("#isubt_pe_afectados").show();
+    $("#516059836656567afd10a48026370985").show();
+    $("#iisubt_pr_afectados").show();
+    $("#976441291656567afd2a935002448351").show();
+
+
+
+    $("#sub_accesorios").show();
+    $("#388204042656567afd22313001660735").show();
+    $("#subt_historial").show();
+    $("#582336739656567afcd7d26036202949").show();
+    $("#sub_docs").show();
+    $("#780469005656567afce66c5098057154").show();
+    $("#sub_cuadro").show();
+    $("#811120859657204a20fc1b5099654552").show();
+  
+   checkVehiculosImplicados($("#frm_siniestro_OtrosVehiculos").getValue(), '');
+            $('#frm_siniestro_OtrosVehiculos').setOnchange(checkVehiculosImplicados); //execute when field's value changes
+
+            checkPropiedadImplicados($("#frm_siniestro_Propiedad").getValue(), '');
+            $('#frm_siniestro_Propiedad').setOnchange(checkPropiedadImplicados); //execute when field's value changes
+
+            checkPersonasImplicados($("#frm_siniestro_Personas").getValue(), '');
+            $('#frm_siniestro_Personas').setOnchange(checkPersonasImplicados); //execute when field's value changes
+
+
+}
+
+
+ocultar_todo();
+mostrar_solicitud();
+
+
+let taller = $("#frm_taller").getValue();
+
+if(taller == '' || taller == null || taller == undefined){
+    $("#frm_valores_salvamentoBase").hide();
+    $("#sub_salvamento").hide();
+    $("#frm_valores_comisionSalvamento").hide();
+    $("#frm_valores_netoSalvamento").hide();
+    $("#sub_valoresSESA").hide();
+    $("#frm_valores_porcentajePerdida").hide();
+    $("#frm_valores_valorPerdida").hide();
+    $("#frm_valores_porcentajePerdidaSalvamento").hide();
+
+
+}
