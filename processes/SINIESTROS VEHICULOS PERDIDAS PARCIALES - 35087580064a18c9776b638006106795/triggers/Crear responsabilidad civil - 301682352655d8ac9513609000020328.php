@@ -392,7 +392,7 @@ if (@@frm_origen_core_insurance != 'INSURANCE') {
                     "Accept: */*",
                     "Content-Type: application/json",
                     "Connection: keep-alive",
-                    "apikey: " . $apikey,
+                    "apikey: " . $apikey_reserva,
                 ));
 
                 $res_raw = curl_exec($ch);
