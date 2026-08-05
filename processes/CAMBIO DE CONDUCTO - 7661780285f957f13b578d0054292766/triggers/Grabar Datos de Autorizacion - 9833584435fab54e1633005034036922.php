@@ -37,15 +37,12 @@ array(
 )
 );
 $res_auth = curl_exec($ch_auth);
-$msg_m_auth = '';
 if(curl_errno($ch_auth)){
     $msg_m_auth = curl_error($ch_auth);
 }
 curl_close($ch_auth);
 $rs_m_auth = json_decode($res_auth, true);
 
-
-PMFBitacoraServicios(@@APP_NUMBER, 'trigger', 'GDA-CC-48', $dns_auth, 'POST', '', $json_auth, $rs_m_auth, $msg_m_auth);
 
 
 $token='';
@@ -175,7 +172,6 @@ try{
 
 $res = curl_exec($ch);
 
-$msg = '';
 if(curl_errno($ch)){
     $msg = curl_error($ch);
 }
@@ -183,7 +179,7 @@ curl_close($ch);
 
 $rs = json_decode($res);
 
-PMFBitacoraServicios(@@APP_NUMBER, 'trigger', 'GDA-CC-183', $dns_d, 'POST', 'Authorization', $json, $rs, $msg);
+//PMFBitacoraServicios(@@APP_NUMBER, 'trigger', 'Grabar datos de autorización', $dns_auth, 'POST', 'Auth'.$token, $json, $rs, $msg);
 
 
 if(!empty($rs) && is_array($rs) && count($rs) > 0){

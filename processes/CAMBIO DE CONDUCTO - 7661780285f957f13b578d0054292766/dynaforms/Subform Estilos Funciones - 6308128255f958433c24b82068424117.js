@@ -1,163 +1,104 @@
-// ── RESET BASE ──────────────────────────────────────────────
 $("#dyn_forward").hide();
 $("img[src='/images/bulletButton.gif']").hide();
-$('.panel').css({"border":"none","box-shadow":"none","margin-bottom":"6px"});
-$(".row").css("box-shadow","none");
-$(".panel-body").css("padding","0");
+$('.panel').css("border","none");
+$(".row").css("box-shadow", "none");
+$(".panel").css("box-shadow", "none");
+$(".panel").css("margin-bottom", "5px");
+$(".panel-body").css("padding", "0");
 $('.pmdynaform-form').css("border","none");
-// QUITADO: $(".form-control").css() — causaba border-color y color en todos los campos
-$(".pmdynaform-grid-row").css("border-bottom","none");
-$(".pmdynaform-label-options").css("text-align","left");
+$(".form-control").css("box-shadow", "none");
+$(".pmdynaform-grid-row").css("border-bottom", "none");
+$(".pmdynaform-label-options").css("text-align", "left");
+$(".pmdynaform-grid-title").css("color", "#e1ffcb");
+$(".pmdynaform-field-title").css("margin-bottom", "1px");
+$(".pmdynaform-field-title").css("text-align", "center");
+$(".nav").css("padding.bottom", "1px");
+$(".pmdynaform-field-subtitle h5").css("color", "#000000");
+$(".pmdynaform-field-subtitle h5").css("background-color", "#e1ffcb");
+$(".pmdynaform-field-subtitle h5").css("border-color", "#e1ffcb");
+$(".pmdynaform-field-title h4").css("color", "#e1ffcb");
+$(".pmdynaform-field-title h4").css("background-color", "#027361");
+$(".pmdynaform-field-title h4").css("border-color", "#027361");
 
-// ── TIPOGRAFÍA INTER ─────────────────────────────────────────
-$(".pmdynaform-form").css("visibility","hidden");
+$(".btn-primary:hover").css("background-color", "#027361");
+$(".btn-primary:hover").css("color", "#027361");
+$(".btn-primary").css("background-color", "#027361");
+$(".btn-primary").css("color", "#e1ffcb");
 
-setTimeout(function(){
-  if(!$("#inter-font").length){
-    $("<link>", {
-      id: "inter-font",
-      rel: "stylesheet",
-      href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
-    }).appendTo("head");
-  }
+$(".btn-default").css("background-color", "#027361");
+$(".btn-default").css("color", "#e1ffcb");
+$(".btn-default").css("border-color", "#027361");
 
-  // Estilos via CSS — no toca el atributo style de los campos
-  $("<style id='eq-styles'>" +
-    "body, input, select, textarea, button, .form-control, td, th, div, span, label, p { font-family: 'Inter', sans-serif !important; }" +
-    "input, select, textarea, .form-control { font-size: 14px !important; }" +
-    "h4 { font-size: 15px !important; }" +
-    "h5 { font-size: 14px !important; }" +
-    ".pmdynaform-grid-title { font-size: 13px !important; }" +
-  "</style>").appendTo("head");
+$(".btn-default:hover").css("background-color", "#027361 !important");
+$(".btn-default:hover").css("color", "#e1ffcb !important");
+$(".btn-default:hover").css("border-color", "#027361 !important");
 
-  $(".textlabel, .control-label, .pmdynaform-label span").each(function(){
-    var clean = ($(this).attr("style") || "")
-      .replace(/font-size\s*:[^;]+;?/gi, "")
-      .replace(/font-family\s*:[^;]+;?/gi, "");
-    $(this).attr("style", clean + " font-family: 'Inter', sans-serif !important; font-size: 13px !important;");
-  });
+$(".btn-uploadfile:hover").css("background-color", "#027361 !important");
+$(".btn-uploadfile:hover").css("color", "#e1ffcb !important");
+$(".btn-uploadfile").css("background-color", "#027361 !important");
+$(".btn-uploadfile").css("color", "#e1ffcb !important");
+$(".btn-uploadfile").css("border-color", "#027361 !important");
 
-  $(".pmdynaform-form").css("visibility","visible");
-}, 100);
+$(".btn:hover").css("background-color", "#027361");
+$(".btn:hover").css("color", "#027361");
+$(".btn").css("background-color", "#027361");
+$(".btn").css("color", "#e1ffcb");
+$(".btn").css("border-color", "#027361");
 
-// ── TÍTULO PRINCIPAL ─────────────────────────────────────────
-$(".pmdynaform-field-title h4").css({
-  "background-color":"#008E78",
-  "color":"#DFFFCE",
-  "border-color":"#008E78",
-  "border-radius":"6px 6px 0 0",
-  "text-align":"center",
-  "padding":"10px 16px",
-  "font-size":"15px",
-  "font-weight":"600",
-  "letter-spacing":"0.4px"
+$(".ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix").css("background-color", "#027361");
+$(".ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix").css("color", "#e1ffcb");
+$(".ui-button").css("background-color", "#027361");
+$(".ui-button").css("color", "#e1ffcb");
+
+$(".pmdynaform-grid-title").css("background-color", "#027361");
+$(".pmdynaform-grid-title").css("font-size", "12px");
+$(".pmdynaform-grid-newitem").css("background-color", "#027361");
+$(".pmdynaform-grid-newitem").css("color", "#E1FFCB");
+$(".pmdynaform-grid-newitem").css("font-size", "12px");
+$(".pmdynaform-grid-newitem").css("border-color", "#027361");
+
+$(".pmdynaform-grid-text-plus").css("color", "#E1FFCB");
+$(".pmdynaform-grid-text-plus").css("border-color", "#E1FFCB");
+
+$(".btn-default").css("background-color", "#027361");
+$(".btn-default").css("border-color", "#027361");
+$(".pmdynaform-grid-text-plus").text("Agregar");
+
+$("h5").css("color", "#027361");
+
+$(".info-box-icon.bg-blue").each(function() {
+    this.style.setProperty("background-color", "#027361", "important");
 });
-$(".pmdynaform-field-title").css({"margin-bottom":"0","text-align":"center"});
-
-// ── SUBTÍTULOS DE SECCIÓN ────────────────────────────────────
-$(".pmdynaform-field-subtitle h5").css({
-  "background-color":"#f0fdf9",
-  "color":"#005c50",
-  "border-left":"3px solid #008E78",
-  "border-top":"none",
-  "border-right":"none",
-  "border-bottom":"none",
-  "border-radius":"0 6px 6px 0",
-  "padding":"7px 14px",
-  "font-size":"14px",
-  "font-weight":"600",
-  "margin":"10px 0 6px 0"
-});
-
-// ── ETIQUETAS ────────────────────────────────────────────────
-$("h5").css("color","#008E78");
-$('.textlabel').each(function(){
-  this.style.setProperty("color","#555","important");
-});
-$(".pmdynaform-label-title span").each(function(){
-  this.style.setProperty("color","#DFFFCE","important");
+$(".info-box.box-primary").each(function() {
+    this.style.setProperty("border-top-color", "#027361", "important");
 });
 
-// ── BOTONES PRIMARIOS ────────────────────────────────────────
-$(".btn-primary").css({
-  "background-color":"#008E78",
-  "color":"#ffffff",
-  "border-color":"#008E78",
-  "border-radius":"7px",
-  "font-size":"14px",
-  "font-weight":"500",
-  "padding":"7px 18px"
+
+$(".btn-uploadfile").each(function() {
+    this.style.setProperty("background-color", "#027361", "important");
+    this.style.setProperty("color", "#e1ffcb", "important");
+    this.style.setProperty("border-color", "#027361", "important");
 });
 
-// ── BOTONES DEFAULT ──────────────────────────────────────────
-$(".btn-default").each(function(){
-  this.style.setProperty("background-color","#ffffff","important");
-  this.style.setProperty("color","#008E78","important");
-  this.style.setProperty("border-color","#008E78","important");
-  this.style.setProperty("border-radius","7px","important");
-  this.style.setProperty("font-size","14px","important");
-  this.style.setProperty("font-weight","500","important");
+$('.textlabel').each(function() {
+    this.style.setProperty("color", "#027361", "important");
 });
 
-// ── BOTONES UPLOAD ───────────────────────────────────────────
-$(".btn-uploadfile, .btn-uploadfile-disabled").each(function(){
-  this.style.setProperty("background-color","#DFFFCE","important");
-  this.style.setProperty("color","#005c50","important");
-  this.style.setProperty("border-color","#008E78","important");
-  this.style.setProperty("border-radius","7px","important");
-  this.style.setProperty("font-size","14px","important");
+
+$('.pmdynaform-grid-newitem').each(function() {
+    this.style.setProperty("color", "#e1ffcb", "important");
+    this.style.setProperty("background-color", "#027361", "important");
+    this.style.setProperty("border-color", "#027361", "important");
 });
 
-// ── BOTÓN DANGER ────────────────────────────────────────────
-$(".btn-danger").each(function(){
-  this.style.setProperty("background-color","#008E78","important");
-  this.style.setProperty("color","#ffffff","important");
-  this.style.setProperty("border-color","#008E78","important");
-  this.style.setProperty("border-radius","7px","important");
-});
 
-// ── GRILLA / TABLA ───────────────────────────────────────────
-$(".pmdynaform-grid-title").css({
-  "background-color":"#008E78",
-  "color":"#DFFFCE",
-  "border-radius":"6px 6px 0 0"
-});
-$(".pmdynaform-grid-newitem").each(function(){
-  this.style.setProperty("background-color","#DFFFCE","important");
-  this.style.setProperty("color","#005c50","important");
-  this.style.setProperty("border-color","#008E78","important");
-  this.style.setProperty("font-size","13px","important");
-});
-$(".pmdynaform-grid-text-plus").css({"color":"#005c50","border-color":"#008E78"});
-$(".pmdynaform-grid-text-plus").text("+ Agregar");
+$(".titulo").css("background-color", "#027361");
+$(".titulo").css("border-color", "#027361");
+$(".titulo").css("color", "#e1ffcb");
 
-// ── PAGINADOR ────────────────────────────────────────────────
-$(".pagination li.active a").each(function(){
-  this.style.setProperty("background-color","#008E78","important");
-  this.style.setProperty("color","#ffffff","important");
-  this.style.setProperty("border-color","#008E78","important");
+$(".pmdynaform-label-title span").each(function() {
+    this.style.setProperty("color", "#e1ffcb", "important");
 });
-
-// ── INFO BOX ─────────────────────────────────────────────────
-$(".info-box-icon.bg-blue").each(function(){
-  this.style.setProperty("background-color","#008E78","important");
-});
-$(".info-box.box-primary").each(function(){
-  this.style.setProperty("border-top-color","#008E78","important");
-});
-
- 
-
-// ── TÍTULO PERSONALIZADO ─────────────────────────────────────
-$(".titulo").css({
-  "background-color":"#008E78",
-  "border-color":"#008E78",
-  "color":"#DFFFCE",
-  "border-radius":"6px"
-});
-
-// ── NAV ──────────────────────────────────────────────────────
-$(".nav").css("padding-bottom","2px");
 
 $( function(){
 	$('.subtitulo').css( 'cursor', 'pointer' );
