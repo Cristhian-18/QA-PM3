@@ -45,8 +45,3 @@ if(@@tri_bandera_cierreMes == "SI"){
 	@@frm_accion = 'CIERRE_MES';
 	@@tri_estado = 'INGRESADO';
 }
-
-if (@@frm_origen_core_insurance == "INSURANCE"){
-    @@frm_accion = 'EQUISUIZA';
-}
-

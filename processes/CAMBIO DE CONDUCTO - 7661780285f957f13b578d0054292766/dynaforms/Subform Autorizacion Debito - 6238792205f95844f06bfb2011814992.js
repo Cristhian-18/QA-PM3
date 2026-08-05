@@ -182,7 +182,7 @@ function medioPago() {
         else {
           var i = 1;
           $.each(respuestadata.bancos, function (i, item) {
-            $('#frm_tipo_tarjeta').getControl().append(new Option(item.txt_desc, item.cod_entidad));
+            $('#frm_tipo_tarjeta').getControl().append(new Option(item.nombreEntidad, item.codigo));
             //$("#frm_contratante").disableValidation();
             i++;
           });
@@ -242,7 +242,7 @@ function medioPago() {
           else {
             var i = 1;
             $.each(respuestadata.bancos, function (i, item) {
-              $('#frm_entidad_financiera').getControl().append(new Option(item.txt_desc, item.cod_entidad));
+              $('#frm_entidad_financiera').getControl().append(new Option(item.nombreEntidad, item.codigo));
               //$("#frm_contratante").disableValidation();
               i++;
             });
@@ -919,7 +919,7 @@ function poliza(newValue, oldValue) {
           var i = 1;
           if (respuestadata.frm_contratante.debitType == 'TARJETA') {
             $.each(respuestadata.frm_contratante.bancos, function (i, item) {
-              $('#frm_tipo_tarjeta').getControl().append(new Option(item.txt_desc, item.cod_entidad));
+              $('#frm_tipo_tarjeta').getControl().append(new Option(item.nombreEntidad, item.codigo));
               //$("#frm_contratante").disableValidation();
               i++;
             });
@@ -928,7 +928,7 @@ function poliza(newValue, oldValue) {
             $('#frm_tipo_tarjeta_aux').setValue(respuestadata.frm_contratante.conductoCode);
           } else {
             $.each(respuestadata.frm_contratante.bancos, function (i, item) {
-              $('#frm_entidad_financiera').getControl().append(new Option(item.txt_desc, item.cod_entidad));
+              $('#frm_entidad_financiera').getControl().append(new Option(item.nombreEntidad, item.codigo));
               //$("#frm_contratante").disableValidation();
               i++;
             });
