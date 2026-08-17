@@ -11,5 +11,7 @@ $rs = executeQuery($sql);
 @@tri_user_sac_mail = $rs['1']['USR_EMAIL'];
 
 
-$config = parse_ini_file('/code/shared/sites/certificacion/env.ini', true);
-@@URL_SERVER_SQL =  $config['configuracion_entorno']['url'];
+$host = $_SERVER['HTTP_HOST'];
+$protocolo = $_SERVER['HTTP_X_FORWARDED_PROTO'];
+$server = "$protocolo://$host";
+@@URL_SERVER_SQL =  $server;

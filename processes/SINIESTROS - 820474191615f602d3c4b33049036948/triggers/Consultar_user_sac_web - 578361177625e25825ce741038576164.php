@@ -5,8 +5,10 @@ try{
     $cnx = '11264850561d723f004d5c2072943786';
     $contratante = @@frm_tipo_contratante;
 
-    $config = parse_ini_file('/code/shared/sites/certificacion/env.ini', true);
-    @@URL_SERVER_SQL =  $config['configuracion_entorno']['url'];
+    $host = $_SERVER['HTTP_HOST'];
+$protocolo = $_SERVER['HTTP_X_FORWARDED_PROTO'];
+$server = "$protocolo://$host";
+@@URL_SERVER_SQL =  $server;
 
     //Generar Reserva SiSe
     @@__ERROR__ = '';
@@ -271,7 +273,7 @@ try{
         }
         curl_close($ch_auth);
         $rs_m_auth = json_decode($res_auth, true);
-        
+
         PMFBitacoraServicios(@@APP_NUMBER, 'trigger', 'CUSW-S-276', $dns_auth, 'POST', 'Authorization', $json_auth, $rs_m_auth, $msg_m_auth);
 
         $token='';

@@ -1,0 +1,632 @@
+{
+  "prj_uid": "72117315469eb7927162d04093957935",
+  "generated_at": "2026-08-17T20:56:43.803Z",
+  "dynaforms": [
+    {
+      "dyn_uid": "70086235969eb7d162a8f35025612112",
+      "dyn_title": "Subform documentos del caso",
+      "form_id": "70086235969eb7d162a8f35025612112",
+      "variables": [
+        {
+          "variable": "gridDocumentos",
+          "labels": [
+            "Documentos del caso"
+          ],
+          "occurrences": [
+            {
+              "variable": "gridDocumentos",
+              "label": "Documentos del caso",
+              "control_id": "gridDocumentos",
+              "control_type": "grid",
+              "origin_type": "self",
+              "origin_dyn_uid": "70086235969eb7d162a8f35025612112",
+              "origin_dyn_title": "Subform documentos del caso",
+              "origin_form_id": "70086235969eb7d162a8f35025612112",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "72911312369eb7e983d2be9078787712",
+      "dyn_title": "SubForm Registro",
+      "form_id": "72911312369eb7e983d2be9078787712",
+      "variables": [
+        {
+          "variable": "frm_comentarios",
+          "labels": [
+            "Comentarios del caso",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_comentarios",
+              "label": "Comentarios del caso",
+              "control_id": "frm_comentarios",
+              "control_type": "textarea",
+              "origin_type": "self",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 0
+            },
+            {
+              "variable": "frm_comentarios",
+              "label": "string",
+              "control_id": "frm_comentarios",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_criterio_busqueda",
+          "labels": [
+            "Seleccione parametro de busqueda",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_criterio_busqueda",
+              "label": "Seleccione parametro de busqueda",
+              "control_id": "frm_criterio_busqueda",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 0
+            },
+            {
+              "variable": "frm_criterio_busqueda",
+              "label": "string",
+              "control_id": "frm_criterio_busqueda",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_file_documentos",
+          "labels": [
+            "Documentacion recibida",
+            "multiplefile"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_file_documentos",
+              "label": "Documentacion recibida",
+              "control_id": "frm_file_documentos",
+              "control_type": "multipleFile",
+              "origin_type": "self",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 0
+            },
+            {
+              "variable": "frm_file_documentos",
+              "label": "multiplefile",
+              "control_id": "frm_file_documentos",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_valor_buscado",
+          "labels": [
+            "Ingrese valor para la busqueda",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_valor_buscado",
+              "label": "Ingrese valor para la busqueda",
+              "control_id": "frm_valor_buscado",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 0
+            },
+            {
+              "variable": "frm_valor_buscado",
+              "label": "string",
+              "control_id": "frm_valor_buscado",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "70926409169eb85820ab5d2013991825",
+      "dyn_title": "T1 Form Registro Gestion",
+      "form_id": "70926409169eb85820ab5d2013991825",
+      "variables": [
+        {
+          "variable": "frm_comentarios",
+          "labels": [
+            "Comentarios del caso",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_comentarios",
+              "label": "Comentarios del caso",
+              "control_id": "frm_comentarios",
+              "control_type": "textarea",
+              "origin_type": "self",
+              "origin_dyn_uid": "70926409169eb85820ab5d2013991825",
+              "origin_dyn_title": "T1 Form Registro Gestion",
+              "origin_form_id": "70926409169eb85820ab5d2013991825",
+              "depth": 0
+            },
+            {
+              "variable": "frm_comentarios",
+              "label": "string",
+              "control_id": "frm_comentarios",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "70926409169eb85820ab5d2013991825",
+              "origin_dyn_title": "T1 Form Registro Gestion",
+              "origin_form_id": "70926409169eb85820ab5d2013991825",
+              "depth": 0
+            },
+            {
+              "variable": "frm_comentarios",
+              "label": "Comentarios del caso",
+              "control_id": "frm_comentarios",
+              "control_type": "textarea",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            },
+            {
+              "variable": "frm_comentarios",
+              "label": "string",
+              "control_id": "frm_comentarios",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_criterio_busqueda",
+          "labels": [
+            "Seleccione parametro de busqueda",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_criterio_busqueda",
+              "label": "Seleccione parametro de busqueda",
+              "control_id": "frm_criterio_busqueda",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "70926409169eb85820ab5d2013991825",
+              "origin_dyn_title": "T1 Form Registro Gestion",
+              "origin_form_id": "70926409169eb85820ab5d2013991825",
+              "depth": 0
+            },
+            {
+              "variable": "frm_criterio_busqueda",
+              "label": "string",
+              "control_id": "frm_criterio_busqueda",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "70926409169eb85820ab5d2013991825",
+              "origin_dyn_title": "T1 Form Registro Gestion",
+              "origin_form_id": "70926409169eb85820ab5d2013991825",
+              "depth": 0
+            },
+            {
+              "variable": "frm_criterio_busqueda",
+              "label": "Seleccione parametro de busqueda",
+              "control_id": "frm_criterio_busqueda",
+              "control_type": "dropdown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            },
+            {
+              "variable": "frm_criterio_busqueda",
+              "label": "string",
+              "control_id": "frm_criterio_busqueda",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_file_documentos",
+          "labels": [
+            "Documentacion recibida",
+            "multiplefile"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_file_documentos",
+              "label": "Documentacion recibida",
+              "control_id": "frm_file_documentos",
+              "control_type": "multipleFile",
+              "origin_type": "self",
+              "origin_dyn_uid": "70926409169eb85820ab5d2013991825",
+              "origin_dyn_title": "T1 Form Registro Gestion",
+              "origin_form_id": "70926409169eb85820ab5d2013991825",
+              "depth": 0
+            },
+            {
+              "variable": "frm_file_documentos",
+              "label": "multiplefile",
+              "control_id": "frm_file_documentos",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "70926409169eb85820ab5d2013991825",
+              "origin_dyn_title": "T1 Form Registro Gestion",
+              "origin_form_id": "70926409169eb85820ab5d2013991825",
+              "depth": 0
+            },
+            {
+              "variable": "frm_file_documentos",
+              "label": "Documentacion recibida",
+              "control_id": "frm_file_documentos",
+              "control_type": "multipleFile",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            },
+            {
+              "variable": "frm_file_documentos",
+              "label": "multiplefile",
+              "control_id": "frm_file_documentos",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_valor_buscado",
+          "labels": [
+            "Ingrese valor para la busqueda",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_valor_buscado",
+              "label": "Ingrese valor para la busqueda",
+              "control_id": "frm_valor_buscado",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "70926409169eb85820ab5d2013991825",
+              "origin_dyn_title": "T1 Form Registro Gestion",
+              "origin_form_id": "70926409169eb85820ab5d2013991825",
+              "depth": 0
+            },
+            {
+              "variable": "frm_valor_buscado",
+              "label": "string",
+              "control_id": "frm_valor_buscado",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "70926409169eb85820ab5d2013991825",
+              "origin_dyn_title": "T1 Form Registro Gestion",
+              "origin_form_id": "70926409169eb85820ab5d2013991825",
+              "depth": 0
+            },
+            {
+              "variable": "frm_valor_buscado",
+              "label": "Ingrese valor para la busqueda",
+              "control_id": "frm_valor_buscado",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            },
+            {
+              "variable": "frm_valor_buscado",
+              "label": "string",
+              "control_id": "frm_valor_buscado",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "25568278569eb851a21e4c4054267002",
+      "dyn_title": "T2 Informe tecnico",
+      "form_id": "25568278569eb851a21e4c4054267002",
+      "variables": [
+        {
+          "variable": "frm_comentarios",
+          "labels": [
+            "Comentarios del caso",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_comentarios",
+              "label": "Comentarios del caso",
+              "control_id": "frm_comentarios",
+              "control_type": "textarea",
+              "origin_type": "self",
+              "origin_dyn_uid": "25568278569eb851a21e4c4054267002",
+              "origin_dyn_title": "T2 Informe tecnico",
+              "origin_form_id": "25568278569eb851a21e4c4054267002",
+              "depth": 0
+            },
+            {
+              "variable": "frm_comentarios",
+              "label": "string",
+              "control_id": "frm_comentarios",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "25568278569eb851a21e4c4054267002",
+              "origin_dyn_title": "T2 Informe tecnico",
+              "origin_form_id": "25568278569eb851a21e4c4054267002",
+              "depth": 0
+            },
+            {
+              "variable": "frm_comentarios",
+              "label": "Comentarios del caso",
+              "control_id": "frm_comentarios",
+              "control_type": "textarea",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            },
+            {
+              "variable": "frm_comentarios",
+              "label": "string",
+              "control_id": "frm_comentarios",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_criterio_busqueda",
+          "labels": [
+            "Seleccione parametro de busqueda",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_criterio_busqueda",
+              "label": "Seleccione parametro de busqueda",
+              "control_id": "frm_criterio_busqueda",
+              "control_type": "dropdown",
+              "origin_type": "self",
+              "origin_dyn_uid": "25568278569eb851a21e4c4054267002",
+              "origin_dyn_title": "T2 Informe tecnico",
+              "origin_form_id": "25568278569eb851a21e4c4054267002",
+              "depth": 0
+            },
+            {
+              "variable": "frm_criterio_busqueda",
+              "label": "string",
+              "control_id": "frm_criterio_busqueda",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "25568278569eb851a21e4c4054267002",
+              "origin_dyn_title": "T2 Informe tecnico",
+              "origin_form_id": "25568278569eb851a21e4c4054267002",
+              "depth": 0
+            },
+            {
+              "variable": "frm_criterio_busqueda",
+              "label": "Seleccione parametro de busqueda",
+              "control_id": "frm_criterio_busqueda",
+              "control_type": "dropdown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            },
+            {
+              "variable": "frm_criterio_busqueda",
+              "label": "string",
+              "control_id": "frm_criterio_busqueda",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_file_documentos",
+          "labels": [
+            "Documentacion recibida",
+            "multiplefile"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_file_documentos",
+              "label": "Documentacion recibida",
+              "control_id": "frm_file_documentos",
+              "control_type": "multipleFile",
+              "origin_type": "self",
+              "origin_dyn_uid": "25568278569eb851a21e4c4054267002",
+              "origin_dyn_title": "T2 Informe tecnico",
+              "origin_form_id": "25568278569eb851a21e4c4054267002",
+              "depth": 0
+            },
+            {
+              "variable": "frm_file_documentos",
+              "label": "multiplefile",
+              "control_id": "frm_file_documentos",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "25568278569eb851a21e4c4054267002",
+              "origin_dyn_title": "T2 Informe tecnico",
+              "origin_form_id": "25568278569eb851a21e4c4054267002",
+              "depth": 0
+            },
+            {
+              "variable": "frm_file_documentos",
+              "label": "Documentacion recibida",
+              "control_id": "frm_file_documentos",
+              "control_type": "multipleFile",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            },
+            {
+              "variable": "frm_file_documentos",
+              "label": "multiplefile",
+              "control_id": "frm_file_documentos",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "frm_valor_buscado",
+          "labels": [
+            "Ingrese valor para la busqueda",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_valor_buscado",
+              "label": "Ingrese valor para la busqueda",
+              "control_id": "frm_valor_buscado",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "25568278569eb851a21e4c4054267002",
+              "origin_dyn_title": "T2 Informe tecnico",
+              "origin_form_id": "25568278569eb851a21e4c4054267002",
+              "depth": 0
+            },
+            {
+              "variable": "frm_valor_buscado",
+              "label": "string",
+              "control_id": "frm_valor_buscado",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "25568278569eb851a21e4c4054267002",
+              "origin_dyn_title": "T2 Informe tecnico",
+              "origin_form_id": "25568278569eb851a21e4c4054267002",
+              "depth": 0
+            },
+            {
+              "variable": "frm_valor_buscado",
+              "label": "Ingrese valor para la busqueda",
+              "control_id": "frm_valor_buscado",
+              "control_type": "text",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            },
+            {
+              "variable": "frm_valor_buscado",
+              "label": "string",
+              "control_id": "frm_valor_buscado",
+              "control_type": "unknown",
+              "origin_type": "subform",
+              "origin_dyn_uid": "72911312369eb7e983d2be9078787712",
+              "origin_dyn_title": "SubForm Registro",
+              "origin_form_id": "72911312369eb7e983d2be9078787712",
+              "depth": 1
+            }
+          ]
+        },
+        {
+          "variable": "gridDocumentos",
+          "labels": [
+            "Documentos del caso"
+          ],
+          "occurrences": [
+            {
+              "variable": "gridDocumentos",
+              "label": "Documentos del caso",
+              "control_id": "gridDocumentos",
+              "control_type": "grid",
+              "origin_type": "self",
+              "origin_dyn_uid": "25568278569eb851a21e4c4054267002",
+              "origin_dyn_title": "T2 Informe tecnico",
+              "origin_form_id": "25568278569eb851a21e4c4054267002",
+              "depth": 0
+            },
+            {
+              "variable": "gridDocumentos",
+              "label": "Documentos del caso",
+              "control_id": "gridDocumentos",
+              "control_type": "grid",
+              "origin_type": "subform",
+              "origin_dyn_uid": "70086235969eb7d162a8f35025612112",
+              "origin_dyn_title": "Subform documentos del caso",
+              "origin_form_id": "70086235969eb7d162a8f35025612112",
+              "depth": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

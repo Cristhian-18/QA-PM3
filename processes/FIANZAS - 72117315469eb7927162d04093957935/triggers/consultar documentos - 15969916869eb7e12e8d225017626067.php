@@ -1,12 +1,9 @@
 <?php
 $case_id=@@APPLICATION;
-@@tri_bandera_sac = 'true';
 $case_uid_padre = @@app_padre_totales;
 
-$host = $_SERVER['HTTP_HOST'];
-$protocolo = $_SERVER['HTTP_X_FORWARDED_PROTO'];
-$server = "$protocolo://$host";
- 
+$config = parse_ini_file('/code/shared/sites/certificacion/env.ini', true);
+$server = $config['configuracion_entorno']['url'];
 
 $query = "SELECT
   APP_DOC_CREATE_DATE AS FECHA,
@@ -67,10 +64,6 @@ foreach($inDoc_padre as $dataind){
 	$arr_docs[$con]['gridDocumentos_Usuario'] = nomUsuario($dataind['USR_UID']);
 	$arr_docs[$con]['gridDocumentos_Descarga'] = "$server/syscertificacion/es/3sesa/cases/cases_ShowDocument?a=$fileId";
 	$con++;
-	//$limit++;
-	/*if($limit == @@limite_documentos_padre){
-		break;
-	}*/
 }
 }
 

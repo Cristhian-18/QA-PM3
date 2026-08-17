@@ -1,0 +1,114 @@
+{
+  "prj_uid": "7160521596a77a64902c201080668240",
+  "generated_at": "2026-08-17T20:56:45.912Z",
+  "dynaforms": [
+    {
+      "dyn_uid": "4496129626a77a6b3c09687072853177",
+      "dyn_title": "ingreso",
+      "form_id": "4496129626a77a6b3c09687072853177",
+      "variables": [
+        {
+          "variable": "cedula",
+          "labels": [
+            "Cedula",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "cedula",
+              "label": "Cedula",
+              "control_id": "cedula",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "4496129626a77a6b3c09687072853177",
+              "origin_dyn_title": "ingreso",
+              "origin_form_id": "4496129626a77a6b3c09687072853177",
+              "depth": 0
+            },
+            {
+              "variable": "cedula",
+              "label": "string",
+              "control_id": "cedula",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "4496129626a77a6b3c09687072853177",
+              "origin_dyn_title": "ingreso",
+              "origin_form_id": "4496129626a77a6b3c09687072853177",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "nombre",
+          "labels": [
+            "Nombre",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "nombre",
+              "label": "Nombre",
+              "control_id": "nombre",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "4496129626a77a6b3c09687072853177",
+              "origin_dyn_title": "ingreso",
+              "origin_form_id": "4496129626a77a6b3c09687072853177",
+              "depth": 0
+            },
+            {
+              "variable": "nombre",
+              "label": "string",
+              "control_id": "nombre",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "4496129626a77a6b3c09687072853177",
+              "origin_dyn_title": "ingreso",
+              "origin_form_id": "4496129626a77a6b3c09687072853177",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "8625869446a77a6ee4a4884088640342",
+      "dyn_title": "revision",
+      "form_id": "8625869446a77a6ee4a4884088640342",
+      "variables": [
+        {
+          "variable": "nombre",
+          "labels": [
+            "Nombre",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "nombre",
+              "label": "Nombre",
+              "control_id": "nombre",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "8625869446a77a6ee4a4884088640342",
+              "origin_dyn_title": "revision",
+              "origin_form_id": "8625869446a77a6ee4a4884088640342",
+              "depth": 0
+            },
+            {
+              "variable": "nombre",
+              "label": "string",
+              "control_id": "nombre",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "8625869446a77a6ee4a4884088640342",
+              "origin_dyn_title": "revision",
+              "origin_form_id": "8625869446a77a6ee4a4884088640342",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

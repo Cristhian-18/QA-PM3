@@ -10,8 +10,10 @@ $sql_cot = "SELECT USR_UID, USR_EMAIL FROM USERS WHERE USR_UID = '$frm_responsab
 $rs_cot = executeQuery($sql_cot);
 @@frm_responsable_comercial_mail = $rs_cot['1']['USR_EMAIL'];
 
-$config = parse_ini_file('/code/shared/sites/certificacion/env.ini', true);
-@@URL_SERVER_SQL =  $config['configuracion_entorno']['url'];
+$host = $_SERVER['HTTP_HOST'];
+$protocolo = $_SERVER['HTTP_X_FORWARDED_PROTO'];
+$server = "$protocolo://$host";
+@@URL_SERVER_SQL =  $server;
 
 
 $host = @@URL_SERVER_SQL;

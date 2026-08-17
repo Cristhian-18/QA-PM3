@@ -10,8 +10,9 @@ if (@@frm_siniestro_seConsidera == "AFECTADO") {
 
 @@frm_busqueda_ejecutivoAsignado = @@frm_busqueda_ejecutivoAsignado;
 
-$config = parse_ini_file('/code/shared/sites/certificacion/env.ini', true);
-$server = $config['configuracion_entorno']['url'];
+$host = $_SERVER['HTTP_HOST'];
+$protocolo = $_SERVER['HTTP_X_FORWARDED_PROTO'];
+$server = "$protocolo://$host";
 
 
 @@URL_SERVER_SQL = $server;

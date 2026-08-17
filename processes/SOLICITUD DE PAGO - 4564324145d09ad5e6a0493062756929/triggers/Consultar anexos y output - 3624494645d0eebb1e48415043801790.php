@@ -1,8 +1,9 @@
 <?php
 $app = @@APPLICATION;
 
-$config = parse_ini_file('/code/shared/sites/certificacion/env.ini', true);
-$server = $config['configuracion_entorno']['url'];
+$host = $_SERVER['HTTP_HOST'];
+$protocolo = $_SERVER['HTTP_X_FORWARDED_PROTO'];
+$server = "$protocolo://$host";
 
 $ruta = $server . '/sys' . @@SYS_SYS . '/' . @@SYS_LANG . '/' . @@SYS_SKIN . '/cases/cases_ShowDocument?a=';
 $ruta_out = $server . '/sys' . @@SYS_SYS . '/' . @@SYS_LANG . '/' . @@SYS_SKIN . '/cases/cases_ShowOutputDocument?a=';

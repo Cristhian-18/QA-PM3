@@ -15,8 +15,10 @@ $Email          = @@frm_cliente_email;
 $Telefono       = @@frm_cliente_celular;
 $pago           = @@frm_primera_cuota_total_pagar;
 
-$config = parse_ini_file('/code/shared/sites/certificacion/env.ini', true);
-$server = $config['configuracion_entorno']['url'];
+$host = $_SERVER['HTTP_HOST'];
+$protocolo = $_SERVER['HTTP_X_FORWARDED_PROTO'];
+$server = "$protocolo://$host";
+ 
 
 $sql = "SELECT * FROM ADMIN_CATALOGOS
 WHERE

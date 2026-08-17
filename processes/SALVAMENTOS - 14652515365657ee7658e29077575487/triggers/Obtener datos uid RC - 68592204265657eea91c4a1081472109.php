@@ -11,8 +11,10 @@ $aCase = $c->loadCase($newCaseId);
 @@tri_id_stro = $aCase['APP_DATA']['tri_id_stro'];
 //@@tri_nro_stro = $aCase['APP_DATA']['tri_nro_stro'];
 
-$config = parse_ini_file('/code/shared/sites/certificacion/env.ini', true);
-@@URL_SERVER_SQL =  $config['configuracion_entorno']['url'];
+$host = $_SERVER['HTTP_HOST'];
+$protocolo = $_SERVER['HTTP_X_FORWARDED_PROTO'];
+$server = "$protocolo://$host";
+@@URL_SERVER_SQL =  $server;
 
 
 @@tri_nro_stro =  @@grd_historial_siniestros[1]['grd_hs_siniestro'];

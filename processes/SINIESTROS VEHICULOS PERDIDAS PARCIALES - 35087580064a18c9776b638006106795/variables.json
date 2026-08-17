@@ -1,6 +1,6 @@
 {
   "prj_uid": "35087580064a18c9776b638006106795",
-  "generated_at": "2026-08-05T00:24:03.797Z",
+  "generated_at": "2026-08-17T20:56:54.211Z",
   "dynaforms": [
     {
       "dyn_uid": "82611167467358f27d7b033043910323",
@@ -18341,13 +18341,13 @@
         {
           "variable": "nro_inspeccion",
           "labels": [
-            "Número de siniestro",
+            "Número de reporte",
             "string"
           ],
           "occurrences": [
             {
               "variable": "nro_inspeccion",
-              "label": "Número de siniestro",
+              "label": "Número de reporte",
               "control_id": "nro_inspeccion",
               "control_type": "text",
               "origin_type": "self",
@@ -18550,6 +18550,37 @@
               "variable": "tri_grupo_analistas",
               "label": "string",
               "control_id": "tri_grupo_analistas",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "51792877265bd34fb35a170066452209",
+              "origin_dyn_title": "Form 1.1 Caso duplicado",
+              "origin_form_id": "51792877265bd34fb35a170066452209",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "tri_nro_stro",
+          "labels": [
+            "Numero de reclamo",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "tri_nro_stro",
+              "label": "Numero de reclamo",
+              "control_id": "tri_nro_stro",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "51792877265bd34fb35a170066452209",
+              "origin_dyn_title": "Form 1.1 Caso duplicado",
+              "origin_form_id": "51792877265bd34fb35a170066452209",
+              "depth": 0
+            },
+            {
+              "variable": "tri_nro_stro",
+              "label": "string",
+              "control_id": "tri_nro_stro",
               "control_type": "unknown",
               "origin_type": "self",
               "origin_dyn_uid": "51792877265bd34fb35a170066452209",
@@ -253441,6 +253472,75 @@
               "origin_dyn_uid": "14870785564a5e392d24239097281950",
               "origin_dyn_title": "SubForm Siniestros Registrados",
               "origin_form_id": "14870785564a5e392d24239097281950",
+              "depth": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dyn_uid": "9725393016a74f0af48a869068959022",
+      "dyn_title": "SubForm validador",
+      "form_id": "9725393016a74f0af48a869068959022",
+      "variables": [
+        {
+          "variable": "frm_busqueda_datosBroker_Id",
+          "labels": [
+            "RUC BROKER",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_busqueda_datosBroker_Id",
+              "label": "RUC BROKER",
+              "control_id": "frm_busqueda_datosBroker_Id",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "9725393016a74f0af48a869068959022",
+              "origin_dyn_title": "SubForm validador",
+              "origin_form_id": "9725393016a74f0af48a869068959022",
+              "depth": 0
+            },
+            {
+              "variable": "frm_busqueda_datosBroker_Id",
+              "label": "string",
+              "control_id": "frm_busqueda_datosBroker_Id",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "9725393016a74f0af48a869068959022",
+              "origin_dyn_title": "SubForm validador",
+              "origin_form_id": "9725393016a74f0af48a869068959022",
+              "depth": 0
+            }
+          ]
+        },
+        {
+          "variable": "frm_numero_reporte_sise",
+          "labels": [
+            "Numero Reporte Sise",
+            "string"
+          ],
+          "occurrences": [
+            {
+              "variable": "frm_numero_reporte_sise",
+              "label": "Numero Reporte Sise",
+              "control_id": "frm_numero_reporte_sise",
+              "control_type": "text",
+              "origin_type": "self",
+              "origin_dyn_uid": "9725393016a74f0af48a869068959022",
+              "origin_dyn_title": "SubForm validador",
+              "origin_form_id": "9725393016a74f0af48a869068959022",
+              "depth": 0
+            },
+            {
+              "variable": "frm_numero_reporte_sise",
+              "label": "string",
+              "control_id": "frm_numero_reporte_sise",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "9725393016a74f0af48a869068959022",
+              "origin_dyn_title": "SubForm validador",
+              "origin_form_id": "9725393016a74f0af48a869068959022",
               "depth": 0
             }
           ]

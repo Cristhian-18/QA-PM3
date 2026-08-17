@@ -1,3 +1,5 @@
+
+
 $("#repuestos").hide();
 
 $("#frm_conductor_identificacion").disableValidation();
@@ -7,11 +9,8 @@ $("#frm_conductor_nombres").disableValidation();
 
 
 
-
 $('.menu').on('click', function () {
   ocultar_todo()
-  console.log(this.id)
-  console.log('CAMBIO')
   switch (this.id) {
     case 'solicitud':
       mostrar_solicitud()
@@ -113,10 +112,208 @@ function mostrar_solicitud() {
   $('#14870785564a5e392d24239097281950').show()
   $('#subt_direccionador').show()
   $('#34599290264a5ec882dda43091413149').show()
-
-
-
 }
+
+function esVacioOCero(v) {
+  if (v === null || v === undefined) return true;
+  return String(v).trim() === '';
+}
+
+ // Variable local que guarda el resultado de la última validación
+var validacionOk = false;
+
+function validarDatos(){
+  validacionOk = false; // reset cada vez que se ejecuta
+
+  var origen = $("#frm_origen_core_insurance").getValue();
+
+  // ESCENARIO 4: sin origen definido
+  if ( origen != "SISE" && origen != "INSURANCE") {
+    $("#label0000000001").setValue('Debe definir el Origen (SISE o INSURANCE) antes de validar los datos.');
+    return;
+  }
+
+  var idpv = $("#frm_id_pv").getValue()  || 0;
+var numeroReporte = $("#nro_inspeccion").getValue() || 0;
+  var numeroReclamo = $("#tri_nro_stro").getValue()  || 0;
+  var rucBroker = $("#frm_busqueda_datosBroker_Id").getValue()  || 0;
+
+  // ESCENARIO 3: origen INSURANCE
+  // ESCENARIO 3: origen INSURANCE
+  if (origen == "INSURANCE") {
+    if (esVacioOCero(numeroReporte) || esVacioOCero(numeroReclamo) || esVacioOCero(rucBroker)) {
+      $("#label0000000001").setValue('Complete Número de Reporte, Número de Reclamo y RUC de Bróker.');
+      return;
+    }
+    if (idpv != "0" && idpv != 0) {
+      $("#label0000000001").setValue('Para origen INSURANCE, ID_PV debe ser 0.');
+      return;
+    }
+
+    $("#label0000000001").setValue('Datos válidos para origen INSURANCE. No se consultará ni actualizará SISE.');
+    validacionOk = true;
+    return;
+  }
+
+
+  // origen == SISE
+  console.log('DEBUG VALORES >>>', {
+  idpv: idpv,
+  numeroReporte: numeroReporte,
+  numeroReclamo: numeroReclamo,
+  rucBroker: rucBroker,
+  tipo_numeroReporte: typeof numeroReporte,
+  tipo_numeroReclamo: typeof numeroReclamo,
+  tipo_rucBroker: typeof rucBroker
+});
+
+  // ESCENARIO 1: SISE + ID_PV = 0
+  if (idpv == "0" || idpv == 0) {
+    if (esVacioOCero(numeroReporte) || esVacioOCero(numeroReclamo) || esVacioOCero(rucBroker)) {
+      $("#label0000000001").setValue('Complete Número de Reporte (prereporte), Número de Reclamo y RUC de Bróker.');
+      return;
+    }
+
+    $("#label0000000001").setValue('Prereporte SISE registrado. No se actualizará la reserva en SISE (póliza aún no definitiva).');
+    validacionOk = true;
+    return;
+  }
+
+  // ESCENARIO 2: SISE + ID_PV != 0 -> validar contra servicios
+  var placa = $("#frm_vehiculo_placa").getValue();
+  var chasis = $("#text0000000001").getValue();
+  var numeroReporte = $("#nro_inspeccion").getValue() ?? '0';
+  var numeroInspeccion = $("#id_stro_insp").getValue();
+
+  if (!idpv || !placa || !chasis || !numeroInspeccion || !numeroReporte || !numeroReclamo || !rucBroker) {
+    $("#label0000000001").setValue('Complete todos los campos requeridos: ID_PV, Placa, Chasis, N° Inspección, N° Reporte, N° Reclamo, RUC Bróker.');
+    return;
+  }
+
+  $("#label0000000001").setValue('Consultando...');
+
+  var reqPoliza = $.ajax({
+    url: '../beesmartec/services/siniestrosVeh/ajax_pantalla.php',
+    data: { 'funcion': 'consultarDatosPoliza', 'idpv': idpv, 'placa': placa, 'chasis': chasis },
+    type: 'POST',
+    dataType: 'json'
+  });
+
+  var reqReserva = $.ajax({
+    url: '../beesmartec/services/siniestrosVeh/ajax_pantalla.php',
+    data: { 'funcion': 'consultarDatosReserva', 'idStroInsp': numeroInspeccion },
+    type: 'POST',
+    dataType: 'json'
+  });
+
+  $.when(reqPoliza, reqReserva).done(function (resPoliza, resReserva) {
+    var dataPoliza  = resPoliza[0];
+    var dataReserva = resReserva[0];
+
+    var polizaOk  = dataPoliza  && dataPoliza.codigo  === 200 && dataPoliza.data;
+    var reservaOk = dataReserva && dataReserva.codigo === 200 && dataReserva.data;
+
+    var textoPoliza, textoReserva;
+    var consistente = true;
+    var motivoInconsistencia = '';
+
+    if (polizaOk) {
+        var p = dataPoliza.data.poliza;
+        var v = dataPoliza.data.vehiculo;
+        var siniestros = dataPoliza.data.siniestros || [];
+
+        textoPoliza = 'Datos de la póliza: N° ' + p.nroPoliza +
+                      ' - ' + p.nombreAsegurado +
+                      ' - Vigencia: ' + p.fechaVigenciaDesde.substring(0,10) +
+                      ' a ' + p.fechaVigenciaHasta.substring(0,10);
+
+        // ID_PV corresponda a la póliza consultada
+        if (String(p.idPv) !== String(idpv)) {
+          consistente = false;
+          motivoInconsistencia += ' El ID_PV ingresado no corresponde a la póliza consultada.';
+        }
+        if (v.placa && v.placa.toUpperCase() !== placa.toUpperCase()) {
+          consistente = false;
+          motivoInconsistencia += ' La placa no coincide con la registrada en SISE.';
+        }
+        if (v.chasis && v.chasis.toUpperCase() !== chasis.toUpperCase()) {
+          consistente = false;
+          motivoInconsistencia += ' El chasis no coincide con el registrado en SISE.';
+        }
+
+        // El reclamo exista y la póliza corresponda a ese reclamo
+        var siniestrosCoincidentes = $.grep(siniestros, function(s){
+          return String(s.nroStro) === String(numeroReclamo);
+        });
+
+        if (siniestrosCoincidentes.length === 0) {
+          consistente = false;
+          motivoInconsistencia += ' El número de reclamo ingresado no existe o no corresponde a la póliza consultada.';
+        }
+
+      } else {
+        consistente = false;
+        textoPoliza = 'Datos de la póliza: ' + (dataPoliza && dataPoliza.mensaje ? dataPoliza.mensaje : 'No encontrada.');
+      }
+
+    if (reservaOk) {
+      var r = dataReserva.data;
+      var coberturasTxt = (r.coberturas && r.coberturas.length)
+        ? r.coberturas.map(function(c){ return c.cobertura; }).join(', ')
+        : 'sin coberturas';
+      textoReserva = 'Datos de la reserva: idStro ' + r.idStro + ' - Cobertura(s): ' + coberturasTxt;
+    } else {
+      consistente = false;
+      textoReserva = 'Datos de la reserva: ' + (dataReserva && dataReserva.mensaje ? dataReserva.mensaje : 'No encontrada.');
+    }
+
+    var mensajeFinal = textoReserva + '\n' + textoPoliza;
+    if (!consistente && motivoInconsistencia) {
+      mensajeFinal += '\nInconsistencias:' + motivoInconsistencia;
+    }
+    $("#label0000000001").setValue(mensajeFinal);
+
+    validacionOk = (polizaOk && reservaOk && consistente);
+
+  }).fail(function (xhr, status, err) {
+    $("#label0000000001").setValue('Error al consultar los servicios. Intente nuevamente.');
+    validacionOk = false;
+    console.error('Error AJAX:', status, err);
+  });
+}
+
+// Botón "Validar datos"
+$("#button0000000001").click(function(e){
+  e.preventDefault();
+  validarDatos();
+});
+
+$("#frm_id_pv, #nro_inspeccion, #tri_nro_stro, #frm_busqueda_datosBroker_Id, #frm_vehiculo_placa, #text0000000001, #id_stro_insp, #frm_origen_core_insurance").on('change', function(){
+  if (validacionOk) {
+    validacionOk = false;
+    $("#label0000000001").setValue('Los datos cambiaron. Debe volver a presionar "Validar datos".');
+  }
+});
+
+
+$("#51792877265bd34fb35a170066452209").setOnSubmit(function(){
+  var origen = $("#frm_origen_core_insurance").getValue();
+
+  // ESCENARIO 4: sin origen definido
+  if ( origen != "SISE" && origen != "INSURANCE") {
+    $("#label0000000001").setValue('Debe definir el Origen (SISE o INSURANCE) antes de validar los datos.');
+    return false;
+  }
+
+  if (!validacionOk) {
+    e.preventDefault();
+    $("#label0000000001").setValue('Debe presionar "Validar datos" y confirmar que la información es correcta antes de continuar.');
+    return false;
+  }
+
+  return true;
+});
+
 
 ocultar_todo()
 mostrar_solicitud()
@@ -138,11 +335,11 @@ function checkAccion(newVal, oldVal) {
     $("#id_stro_insp").enableValidation();
     $("#frm_valor_insurance").show();
   }
-  
+
   if(newVal == 'INSURANCE'){
     var origen_actual =  $("#frm_origen_core_insurance").getValue();
-    
-    
+
+
     if(origen_actual==""){
     $("#frm_origen_core_insurance").setValue('INSURANCE');
     }
@@ -161,7 +358,7 @@ function checkAccion(newVal, oldVal) {
     $("#frm_id_pv").enableValidation();
 
   }
-  console.log("TIPO DE REQUERIMIENTO: " + newVal);
+
 }
 //execute when the Dynaform loads:
 checkAccion($("#frm_accion_2").getValue(), '');

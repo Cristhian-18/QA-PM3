@@ -48,9 +48,9 @@ if (count($rs_comentarios) > 0) {
 
 @@frm_fecha_actual = date("Y-m-d H:i:s");
 
-$config = parse_ini_file('/code/shared/sites/certificacion/env.ini', true);
-$server = $config['configuracion_entorno']['url'];
-@@URL_SERVER_SQL = $server;
+$host = $_SERVER['HTTP_HOST'];
+$protocolo = $_SERVER['HTTP_X_FORWARDED_PROTO'];
+$server = "$protocolo://$host";
+@@URL_SERVER_SQL =  $server;
 
 
- 

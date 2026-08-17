@@ -41,7 +41,7 @@ if ($id_bandera == "SI") {
 
 	$apikey = isset($rs_sql_apikey['1']['DESCRIPCION']) ? $rs_sql_apikey['1']['DESCRIPCION'] : '';
 
- 
+
 
 
     $caseUID = @@APPLICATION;
@@ -56,7 +56,7 @@ if ($id_bandera == "SI") {
 		$imp_valor_estimado = '900';
 		$operation_id = @@APPLICATION;
 
-       
+
 
         $coberturas_grid = array();
         $coberturas_grid = @@grd_registro_siniestro;
@@ -67,9 +67,9 @@ if ($id_bandera == "SI") {
             }
         }
 
-      
 
- 
+
+
 
 if ($imp_valor_estimado < 0 || $imp_valor_estimado == null || $imp_valor_estimado == '') {
     die("
@@ -229,9 +229,9 @@ try {
             @@tri_smart_claims_titulo = 'ACTUALIZACION DE RESERVA';
             @@tri_smart_claims_mensaje = 'ACTUALIZACION DE RESERVA: ' . $msg_m;
 
-            
+
             PMFSendMessage(@@APPLICATION, $de, $para, $cc, $bcc, $asunto, $plantilla, array());
-            
+
         }
     }
 

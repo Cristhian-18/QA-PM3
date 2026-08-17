@@ -6,8 +6,10 @@
 $tri_usr_user_creador = @@USER_LOGGED;
 @@frm_bandera_fidelizacion = 'false';
 
-$config = parse_ini_file('/code/shared/sites/certificacion/env.ini', true);
-@@URL_SERVER_SQL =  $config['configuracion_entorno']['url'];
+$host = $_SERVER['HTTP_HOST'];
+$protocolo = $_SERVER['HTTP_X_FORWARDED_PROTO'];
+$server = "$protocolo://$host";
+@@URL_SERVER_SQL =  $server;
 
 //id de grupo fidelizacion = 486574050676f09e4808b52088969540
 //nueva validacion para el grupo de fidelizacion

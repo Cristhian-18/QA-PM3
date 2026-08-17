@@ -164,6 +164,7 @@ echo '<br>SQL TALLER:' . $sql_tm . '<br>';
 @@tri_user_taller = $rs_u['1']['USR_UID'];
 @@tri_tipo_taller = $rs_tm['1']['tipo'];
 @@tri_nombre_taller = $rs_tm['1']['nombre_taller'];
+@@tri_id_direccionador = $rs_tm['1']['id'];
 
 if (@@tri_user_taller == null) {
 	header("HTTP/1.1 500 Internal Server Error");

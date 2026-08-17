@@ -1,6 +1,4 @@
 <?php
-//<?
-
 $vehiculos_siniestrados = array();
 $vehiculos_siniestrados = @@grd_vehiculos_afectados;
 $aux = 1;
@@ -278,9 +276,9 @@ if (@@frm_siniestro_OtrosVehiculos == "SI") {
 }
 
 // ============ CORTE POR ORIGEN INSURANCE (movido al frente) ============
- 
+
 if (@@frm_origen_core_insurance != 'INSURANCE') {
-   
+
     // ============ CREAR Y ACTUALIZAR RESERVA (antes de crear casos) ============
     if ($hayVehiculosElegibles) {
 
@@ -507,8 +505,8 @@ if (@@frm_origen_core_insurance != 'INSURANCE') {
                 }
 
                 // Si la actualización no fue exitosa, se detiene el trigger y NO se crean los casos RC
-            
-                
+
+
 
                 if (strpos($msg_m, 'Reserva actualizada correctamente') === false) {
                     $g = new G();
@@ -523,7 +521,7 @@ if (@@frm_origen_core_insurance != 'INSURANCE') {
             } catch (Exception $e) {
                 @@tri_msg_error = 'Excepción capturada: Error al consultar la Base de Datos, comuníquese con el administrador. ' . $e->getMessage();
                 die("La actualización no pudo completarse debido a que el servicio procesador devolvió una respuesta que impidió continuar con la operación. Se recomienda revisar el detalle del mensaje para identificar la causa del inconveniente y realizar las acciones correctivas correspondientes antes de volver a intentarlo.<br><br><strong>Detalle:</strong> " . $e->getMessage());
-            
+
             }
         }
     }
@@ -546,7 +544,7 @@ if (@@frm_siniestro_OtrosVehiculos == "SI") {
         $anio        = $vehiculo['frm_vafectado_anio'];
         $creado      = $vehiculo['frm_creado'];
 
-        if ($creado != 1 && $estado != '' && $estado != null) {
+        if ($creado != 1 && $estado != '' && $estado != null && empty($vehiculo['numBPM']) ) {
 
             $vehiculo['frm_creado'] = 1;
             $newCaseUID = '';
@@ -604,10 +602,10 @@ if (@@frm_siniestro_OtrosVehiculos == "SI") {
                 $vehiculo['numBPM'] = $aCaseInfo['APP_NUMBER'];
                 $aux++;
 
-                $sqlDel = "SELECT DEL_INDEX FROM APP_DELEGATION 
-                        WHERE APP_UID = '$newCaseUID' 
-                        AND DEL_FINISH_DATE IS NULL 
-                        ORDER BY DEL_INDEX DESC 
+                $sqlDel = "SELECT DEL_INDEX FROM APP_DELEGATION
+                        WHERE APP_UID = '$newCaseUID'
+                        AND DEL_FINISH_DATE IS NULL
+                        ORDER BY DEL_INDEX DESC
                         LIMIT 1";
                 $resultDel = executeQuery($sqlDel);
 
@@ -622,6 +620,5 @@ if (@@frm_siniestro_OtrosVehiculos == "SI") {
         }
     }
     unset($vehiculo);
+    @=grd_vehiculos_afectados = $vehiculos_siniestrados;
 }
-
-@=grd_vehiculos_afectados = $vehiculos_siniestrados;
