@@ -1,7 +1,5 @@
 <?php
-//created by Henry
-//Obtener Usuario PDA
-//8-1-2022
+
 try {
 	$cnx = "11264850561d723f004d5c2072943786";
 	$app_uid        = @@APPLICATION;

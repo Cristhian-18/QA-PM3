@@ -1,6 +1,6 @@
 {
   "prj_uid": "820474191615f602d3c4b33049036948",
-  "generated_at": "2026-08-17T20:56:50.839Z",
+  "generated_at": "2026-08-31T14:20:05.334Z",
   "dynaforms": [
     {
       "dyn_uid": "669886330625d96ef6d7cd1073394695",
@@ -5439,6 +5439,28 @@
             "token_portal"
           ],
           "occurrences": [
+            {
+              "variable": "token_portal",
+              "label": "token_portal",
+              "control_id": "token_portal",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "669886330625d96ef6d7cd1073394695",
+              "origin_dyn_title": "Form 4 Aprobacion Negativas",
+              "origin_form_id": "669886330625d96ef6d7cd1073394695",
+              "depth": 0
+            },
+            {
+              "variable": "token_portal",
+              "label": "string",
+              "control_id": "token_portal",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "669886330625d96ef6d7cd1073394695",
+              "origin_dyn_title": "Form 4 Aprobacion Negativas",
+              "origin_form_id": "669886330625d96ef6d7cd1073394695",
+              "depth": 0
+            },
             {
               "variable": "token_portal",
               "label": "token_portal",
@@ -73447,6 +73469,28 @@
             "token_portal"
           ],
           "occurrences": [
+            {
+              "variable": "token_portal",
+              "label": "token_portal",
+              "control_id": "token_portal",
+              "control_type": "hidden",
+              "origin_type": "self",
+              "origin_dyn_uid": "30710006661da2afe78f889017117406",
+              "origin_dyn_title": "Form3 Auditoria Médica",
+              "origin_form_id": "30710006661da2afe78f889017117406",
+              "depth": 0
+            },
+            {
+              "variable": "token_portal",
+              "label": "string",
+              "control_id": "token_portal",
+              "control_type": "unknown",
+              "origin_type": "self",
+              "origin_dyn_uid": "30710006661da2afe78f889017117406",
+              "origin_dyn_title": "Form3 Auditoria Médica",
+              "origin_form_id": "30710006661da2afe78f889017117406",
+              "depth": 0
+            },
             {
               "variable": "token_portal",
               "label": "token_portal",

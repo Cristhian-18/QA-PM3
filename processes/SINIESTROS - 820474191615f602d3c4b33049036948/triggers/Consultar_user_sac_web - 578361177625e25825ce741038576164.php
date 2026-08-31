@@ -5,10 +5,8 @@ try{
     $cnx = '11264850561d723f004d5c2072943786';
     $contratante = @@frm_tipo_contratante;
 
-    $host = $_SERVER['HTTP_HOST'];
-$protocolo = $_SERVER['HTTP_X_FORWARDED_PROTO'];
-$server = "$protocolo://$host";
-@@URL_SERVER_SQL =  $server;
+    $config = parse_ini_file('/code/shared/sites/certificacion/env.ini', true);
+    @@URL_SERVER_SQL =  $config['configuracion_entorno']['url'];
 
     //Generar Reserva SiSe
     @@__ERROR__ = '';

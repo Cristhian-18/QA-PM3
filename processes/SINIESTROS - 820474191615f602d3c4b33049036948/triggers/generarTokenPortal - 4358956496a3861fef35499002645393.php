@@ -1,4 +1,5 @@
 <?php
+
 $sql = "SELECT VALOR, DESCRIPCION, INTEGRACION, CAMPO1
             FROM ADMIN_CATALOGOS
             WHERE CODIGO = 'PORTAL_AUTH'
@@ -32,13 +33,13 @@ $sql = "SELECT VALOR, DESCRIPCION, INTEGRACION, CAMPO1
         ],
         ]);
 
-    
+
 
     //fin
     $response = curl_exec($ch);
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     $error = curl_error($ch);
-    
+
 
     curl_close($ch);
 
@@ -47,7 +48,7 @@ $sql = "SELECT VALOR, DESCRIPCION, INTEGRACION, CAMPO1
     }
 
     $datos = json_decode($response, true);
- 
+
     $token = $datos['token'];
 
     @@token_portal =  $token;

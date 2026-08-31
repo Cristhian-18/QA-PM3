@@ -2,6 +2,7 @@
 //created by Henry
 //9-12-2020
 //Obtener datos usuario Auditor
+
 try {
 
 

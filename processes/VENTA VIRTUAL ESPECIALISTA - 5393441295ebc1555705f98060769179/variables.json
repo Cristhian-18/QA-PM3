@@ -1,6 +1,6 @@
 {
   "prj_uid": "5393441295ebc1555705f98060769179",
-  "generated_at": "2026-08-17T20:56:58.868Z",
+  "generated_at": "2026-08-31T14:20:19.761Z",
   "dynaforms": [
     {
       "dyn_uid": "8346794115f107ccb990506056426235",
@@ -4351,28 +4351,6 @@
               "origin_dyn_title": "FORM ANALIZAR SUSC",
               "origin_form_id": "7180710025fa41a3ccadfb4005520079",
               "depth": 0
-            },
-            {
-              "variable": "TASK",
-              "label": "TASK",
-              "control_id": "TASK",
-              "control_type": "hidden",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
-            },
-            {
-              "variable": "TASK",
-              "label": "string",
-              "control_id": "TASK",
-              "control_type": "unknown",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
             }
           ]
         },
@@ -7352,28 +7330,6 @@
               "origin_dyn_title": "FORM APLICACION DE PAGO",
               "origin_form_id": "5989379126457d3ac82b204090204207",
               "depth": 0
-            },
-            {
-              "variable": "TASK",
-              "label": "TASK",
-              "control_id": "TASK",
-              "control_type": "hidden",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
-            },
-            {
-              "variable": "TASK",
-              "label": "string",
-              "control_id": "TASK",
-              "control_type": "unknown",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
             }
           ]
         },
@@ -11859,28 +11815,6 @@
               "origin_dyn_title": "FORM ARCHIVO DE POLIZA",
               "origin_form_id": "8954144176457d9bade08a0081167749",
               "depth": 0
-            },
-            {
-              "variable": "TASK",
-              "label": "TASK",
-              "control_id": "TASK",
-              "control_type": "hidden",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
-            },
-            {
-              "variable": "TASK",
-              "label": "string",
-              "control_id": "TASK",
-              "control_type": "unknown",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
             }
           ]
         },
@@ -16657,28 +16591,6 @@
               "origin_dyn_title": "FORM AUTORIZACION DIRECTOR COMERCIAL",
               "origin_form_id": "3841097395f984a2aa4b8a1032045356",
               "depth": 0
-            },
-            {
-              "variable": "TASK",
-              "label": "TASK",
-              "control_id": "TASK",
-              "control_type": "hidden",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
-            },
-            {
-              "variable": "TASK",
-              "label": "string",
-              "control_id": "TASK",
-              "control_type": "unknown",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
             }
           ]
         },
@@ -45238,37 +45150,6 @@
           ]
         },
         {
-          "variable": "TASK",
-          "labels": [
-            "string",
-            "TASK"
-          ],
-          "occurrences": [
-            {
-              "variable": "TASK",
-              "label": "TASK",
-              "control_id": "TASK",
-              "control_type": "hidden",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
-            },
-            {
-              "variable": "TASK",
-              "label": "string",
-              "control_id": "TASK",
-              "control_type": "unknown",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
-            }
-          ]
-        },
-        {
           "variable": "telefono_preferido",
           "labels": [
             "Celular",
@@ -48491,28 +48372,6 @@
               "origin_dyn_title": "Form Documentos reproceso",
               "origin_form_id": "70601447664888cabf21d84054434045",
               "depth": 0
-            },
-            {
-              "variable": "TASK",
-              "label": "TASK",
-              "control_id": "TASK",
-              "control_type": "hidden",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
-            },
-            {
-              "variable": "TASK",
-              "label": "string",
-              "control_id": "TASK",
-              "control_type": "unknown",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
             }
           ]
         },
@@ -52229,28 +52088,6 @@
               "origin_dyn_title": "FORM EMISION POLIZA",
               "origin_form_id": "3382823306457c569d9a864093487913",
               "depth": 0
-            },
-            {
-              "variable": "TASK",
-              "label": "TASK",
-              "control_id": "TASK",
-              "control_type": "hidden",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
-            },
-            {
-              "variable": "TASK",
-              "label": "string",
-              "control_id": "TASK",
-              "control_type": "unknown",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
             }
           ]
         },
@@ -59402,28 +59239,6 @@
               "origin_dyn_title": "FORM IMPRESION DE LA POLIZA",
               "origin_form_id": "809819862669736059b0310005723300",
               "depth": 0
-            },
-            {
-              "variable": "TASK",
-              "label": "TASK",
-              "control_id": "TASK",
-              "control_type": "hidden",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
-            },
-            {
-              "variable": "TASK",
-              "label": "string",
-              "control_id": "TASK",
-              "control_type": "unknown",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
             }
           ]
         },
@@ -65769,28 +65584,6 @@
               "origin_dyn_title": "FORM NOVEDADES DE EMISION",
               "origin_form_id": "551905879668ebc5c0b0915084143793",
               "depth": 0
-            },
-            {
-              "variable": "TASK",
-              "label": "TASK",
-              "control_id": "TASK",
-              "control_type": "hidden",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
-            },
-            {
-              "variable": "TASK",
-              "label": "string",
-              "control_id": "TASK",
-              "control_type": "unknown",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
             }
           ]
         },
@@ -74064,28 +73857,6 @@
               "origin_dyn_title": "FORM REGULARIZACION COMERCIAL",
               "origin_form_id": "5177359096457b36790c8c2007357822",
               "depth": 0
-            },
-            {
-              "variable": "TASK",
-              "label": "TASK",
-              "control_id": "TASK",
-              "control_type": "hidden",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
-            },
-            {
-              "variable": "TASK",
-              "label": "string",
-              "control_id": "TASK",
-              "control_type": "unknown",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
             }
           ]
         },
@@ -76585,28 +76356,6 @@
               "origin_dyn_title": "FORM RESUMEN COMERCIAL",
               "origin_form_id": "425799074609b2913de1037072275836",
               "depth": 0
-            },
-            {
-              "variable": "TASK",
-              "label": "TASK",
-              "control_id": "TASK",
-              "control_type": "hidden",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
-            },
-            {
-              "variable": "TASK",
-              "label": "string",
-              "control_id": "TASK",
-              "control_type": "unknown",
-              "origin_type": "subform",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 1
             }
           ]
         },
@@ -94007,37 +93756,6 @@
               "variable": "fle_otros_docs",
               "label": "multiplefile",
               "control_id": "fle_otros_docs",
-              "control_type": "unknown",
-              "origin_type": "self",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 0
-            }
-          ]
-        },
-        {
-          "variable": "TASK",
-          "labels": [
-            "string",
-            "TASK"
-          ],
-          "occurrences": [
-            {
-              "variable": "TASK",
-              "label": "TASK",
-              "control_id": "TASK",
-              "control_type": "hidden",
-              "origin_type": "self",
-              "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",
-              "origin_dyn_title": "subform check list documentos",
-              "origin_form_id": "4134920295f9c8c87b37d96033269232",
-              "depth": 0
-            },
-            {
-              "variable": "TASK",
-              "label": "string",
-              "control_id": "TASK",
               "control_type": "unknown",
               "origin_type": "self",
               "origin_dyn_uid": "4134920295f9c8c87b37d96033269232",

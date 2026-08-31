@@ -9,4 +9,3 @@ $respuesta = isset($rs_auth['1']['VALOR']) ? $rs_auth['1']['VALOR'] : '';
 
 
 @@urlResumenMagnum = $respuesta;
-

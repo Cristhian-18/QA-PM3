@@ -787,7 +787,8 @@ function consultar_datos() {
       }
       else {
         //combo de contratante
-        $('#frm_ajax_contratante').setValue(respuestadata);
+        //$('#frm_ajax_contratante').setValue(respuestadata);
+        $('#frm_ajax_contratante').setValue(JSON.stringify(respuestadata));
         var i = 1;
         $.each(respuestadata.frm_contratante, function (i, item) {
           $('#frm_apellidos_poliza').setValue(item.txt_Apellido1_cont + ' ' + item.txt_apellido2_cont);
@@ -805,7 +806,8 @@ function consultar_datos() {
           i++;
         });
         //combo de contratante
-        $('#frm_ajax_contratante').setValue(respuestadata);
+        //$('#frm_ajax_contratante').setValue(respuestadata);
+        $('#frm_ajax_contratante').setValue(JSON.stringify(respuestadata));
       }
     },
     error: function (xhr, status) {

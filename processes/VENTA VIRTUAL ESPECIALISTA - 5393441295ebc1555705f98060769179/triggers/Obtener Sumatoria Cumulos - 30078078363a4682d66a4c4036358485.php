@@ -1,7 +1,6 @@
 <?php
 //created by Henry
 //Obtener Sumatoria Cumulos
-//22-12-2022
 
 @@__ERROR__ = '';
 $cnx_rp = '1479570925ec29f1d8d1d57019959618';

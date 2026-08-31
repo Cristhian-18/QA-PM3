@@ -1,2 +1,0 @@
-<?php
-@@consultaExterior = 0;

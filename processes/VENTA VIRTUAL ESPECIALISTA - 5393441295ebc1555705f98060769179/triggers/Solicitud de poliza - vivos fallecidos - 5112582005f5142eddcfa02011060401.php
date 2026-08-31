@@ -1,4 +1,5 @@
 <?php
+
 if (isset(@=grid_historia_familiar) and is_array(@=grid_historia_familiar)) {
 
    @=grid_vivo = array();
